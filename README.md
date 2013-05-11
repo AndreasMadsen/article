@@ -8,6 +8,48 @@
 npm install article
 ```
 
+## Mad science
+
+Usually you have some feed, there will give you the title and perhaps a
+short description of the article. However its rare that it contains the image
+and certainly never the full context. This module will scrape the raw article
+html of the page and find as minimum the `text` and the `image`.
+
+If everything turns out to be simple or I become a supergeniuse (both unlikely)
+then the outputted format will be something like:
+
+```javascript
+result = {
+  image: 'http://fish.test',
+  title: 'Fish are cool',
+  context: [
+    {type: 'h1', 'Fish are cool'},
+    {type: 'h4', 'Short introduction to why fish are awesome'},
+    {type: 'p', 'Long text concluding that fish are awesome because they are!'}
+  ]
+};
+```
+
+and I won't be dependend on any pre knowledge. And as minimum it will be able
+to find the image, the title and the context: 
+
+```javascript
+result = {
+  image: 'http://en.wikipedia.org/wiki/Fish/image.png',
+  title: 'Fish are cool'
+  context: 
+    'Short introduction to why fish are awesome\n' +
+    'Long text concluding that fish are awesome because they are!'
+};
+```
+
+and it may very well be dependent on some preknowlege from a feed.
+
+The current thought is make a simple prototype there will grap the `<title>`
+context and do a [Levenshtein distance](http://en.wikipedia.org/wiki/Levenshtein_distance)
+on that and some HTML fragments. Until it concludes some title, not containing
+the websites name (usually a part of the `<title>`).
+
 ## Example
 
 ```javascript
@@ -16,16 +58,20 @@ var source = 'http://en.wikipedia.org/wiki/Fish';
 request(source)
   // The image url will be resolved from this source url
   .pipe(article(source, function (err, result) {
-    // result = {
-    //  context: 'Fish are fish ...',
-    //  image: 'http://fish.test'
-    // };
+    // the greate result
   }));
 ```
 
 ## Stuff to read
 
-* 
+* http://mathiasbynens.be/notes/safari-reader
+* http://www.readability.com/
+* https://code.google.com/p/arc90labs-readability/source/browse/trunk/js/readability.js
+* http://en.wikipedia.org/wiki/Fuzzy_string_searching
+* http://joevennix.com/2011/05/09/Hacking-Safari-Reader.html
+* http://en.wikipedia.org/wiki/Levenshtein_distance
+* http://en.wikipedia.org/wiki/String_metric
+* http://html5doctor.com/microdata/
 
 ##License
 
