@@ -48,7 +48,7 @@ and it may very well be dependent on some preknowlege from a feed.
 The current thought is make a simple prototype there will grap the `<title>`
 context and do a [Levenshtein distance](http://en.wikipedia.org/wiki/Levenshtein_distance)
 on that and some HTML fragments. Until it concludes some title, not containing
-the websites name (usually a part of the `<title>`).
+the websites name (usually a part of the `<title>`) has been optained.
 
 ## Example
 
