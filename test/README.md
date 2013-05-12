@@ -6,7 +6,7 @@ The sources are:
 
 | # | Why | URL |
 |--:|------------:|:------------:|
-| 1 | Has no article image | http://www.nytimes.com/2013/05/10/health/prices-cut-for-hpv-cervical-cancer-vaccines-for-neediest.html?hp&_r=1& |
+| 1 | random article | http://www.nytimes.com/2013/05/10/health/prices-cut-for-hpv-cervical-cancer-vaccines-for-neediest.html?hp&_r=1& |
 | 2 | random article | http://www.nytimes.com/2013/05/14/science/marvels-and-a-few-mysteries-in-cicadas-17-years.html?hp |
 | 3 | random article | https://github.com/blog/1499-the-revolution-will-be-forked |
 | 4 | Not recognized by safari | http://net.tutsplus.com/articles/news/ecmascript-6-today/ |
