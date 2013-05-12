@@ -50,6 +50,10 @@ context and do a [Levenshtein distance](http://en.wikipedia.org/wiki/Levenshtein
 on that and some HTML fragments. Until it concludes some title, not containing
 the websites name (usually a part of the `<title>`) has been optained.
 
+## Follow and help at the wiki and issues
+
+https://github.com/AndreasMadsen/article/wiki
+
 ## Example
 
 ```javascript
@@ -61,17 +65,6 @@ request(source)
     // the greate result
   }));
 ```
-
-## Stuff to read
-
-* http://mathiasbynens.be/notes/safari-reader
-* http://www.readability.com/
-* https://code.google.com/p/arc90labs-readability/source/browse/trunk/js/readability.js
-* http://en.wikipedia.org/wiki/Fuzzy_string_searching
-* http://joevennix.com/2011/05/09/Hacking-Safari-Reader.html
-* http://en.wikipedia.org/wiki/Levenshtein_distance
-* http://en.wikipedia.org/wiki/String_metric
-* http://html5doctor.com/microdata/
 
 ##License
 
