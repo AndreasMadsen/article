@@ -1,19 +1,17 @@
 
 var path = require('path');
-var endpoint = require('endpoint');
 var startpoint = require('startpoint');
 var interpreted = require('interpreted');
-var article = require('../article.js');
+var article = require('../lib/article.js');
 
 interpreted({
-    source: path.resolve(__dirname, 'source'),
+    source: path.resolve(__dirname, 'sources'),
     expected: path.resolve(__dirname, 'expected'),
-
-    run: ['1'],
+  
+    update: true,
 
     test: function(name, content, callback) {
         startpoint(content)
-          .pipe(article('http://runner.test/'))
-          .pipe(endpoint({objectMode: true}, callback));
+          .pipe(article('http://runner.test/', callback));
     }
 });
