@@ -9,6 +9,8 @@ interpreted({
     source: path.resolve(__dirname, 'source'),
     expected: path.resolve(__dirname, 'expected'),
 
+    run: ['1'],
+
     test: function(name, content, callback) {
         startpoint(content)
           .pipe(article('http://runner.test/'))

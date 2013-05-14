@@ -3,7 +3,7 @@
   "description": "Analyze a stream of HTML and outsputs the article text and image",
   "version": "0.1.0",
   "author": "Andreas Madsen <amwebdk@gmail.com>",
-  "main": "./article.js",
+  "main": "./lib/article.js",
   "scripts": {
     "test": "tap test/runner.js"
   },
@@ -15,8 +15,14 @@
     "article",
     "reader"
   ],
+  "dependencies": {
+    "entities": "0.2.x",
+    "htmlparser2": "3.0.x",
+    "levenshtein-component": "0.0.x"
+  },
   "devDependencies": {
     "tap": "0.3.x",
+    "startpoint": "0.3.x",
     "interpreted": "0.3.x"
   },
   "license": "MIT",
