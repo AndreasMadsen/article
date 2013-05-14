@@ -17,6 +17,7 @@
   ],
   "dependencies": {
     "entities": "0.2.x",
+    "worddiff": "0.2.x",
     "htmlparser2": "3.0.x",
     "levenshtein-component": "0.0.x"
   },
