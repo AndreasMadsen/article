@@ -34,6 +34,7 @@ request(href, function (err, res, body) {
     if (datamap[i].key === key) {
       found = true;
       datamap[i].why = why;
+      break;
     }
   }
   if (found === false) {
