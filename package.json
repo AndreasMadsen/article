@@ -23,7 +23,11 @@
   },
   "devDependencies": {
     "tap": "0.3.x",
+    "async": "0.2.x",
+    "mappoint": "0.2.x",
+    "endpoint": "0.4.x",
     "startpoint": "0.3.x",
+    "feedparser": "https://github.com/AndreasMadsen/node-feedparser/tarball/857ea20d05943c715971bb09d955f7fca13fb829",
     "interpreted": "0.3.x"
   },
   "license": "MIT",
