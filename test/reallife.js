@@ -39,6 +39,7 @@ request(href, function (err, res, body) {
   }
   if (found === false) {
     datamap.push({
+      'labled': true,
       'key': key,
       'href': href,
       'why': why

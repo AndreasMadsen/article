@@ -1,280 +1,336 @@
 [
 	{
+    "labeled": true,
 		"key": "1bbc7f62e80e44afd533e896c0168c3b18f1e934530d05cb1f579ad3347d135c",
 		"href": "http://www.nytimes.com/2013/05/10/health/prices-cut-for-hpv-cervical-cancer-vaccines-for-neediest.html?hp&_r=1&",
 		"why": "random article"
 	},
 	{
+    "labeled": true,
 		"key": "749998378f1dcf37a9f24a5b3be83fee32f3bee78e165b33ad404138ee04df13",
 		"href": "http://www.nytimes.com/2013/05/14/science/marvels-and-a-few-mysteries-in-cicadas-17-years.html?hp",
 		"why": "random article"
 	},
 	{
+    "labeled": true,
 		"key": "b7660c4d40274010176c79271f7ed0c2d4612fa2a68efb92b30cfe68cc400e5e",
 		"href": "https://github.com/blog/1499-the-revolution-will-be-forked",
 		"why": "random article"
 	},
 	{
+    "labeled": true,
 		"key": "8c86b7885ae2345709801512e7f6ca73d00c39d53152aa01304ad6d217e7d2b7",
 		"href": "http://net.tutsplus.com/articles/news/ecmascript-6-today/",
 		"why": "Many images and not recognized by safari"
 	},
 	{
+    "labeled": true,
 		"key": "a9c82dad0fecf2e55874b18b7d81b9c7bee25805a99d22a5cc7464eee285d383",
 		"href": "http://www.2ality.com/2011/06/ecmascript.html",
 		"why": "random article"
 	},
 	{
+    "labeled": true,
 		"key": "ffca969d27266a5827a36880077783947778d444a953115acd262a161a0f29ca",
 		"href": "http://www.bbc.co.uk/news/world-us-canada-22461506",
 		"why": "random article"
 	},
 	{
+    "labeled": true,
 		"key": "c6bb934af3d288c69e9fac33501b8ff0470eb16ca618dca654cc709f2e6d8dc5",
 		"href": "http://blog.izs.me/post/49797044559/curiosity-and-the-practice",
 		"why": "random article"
 	},
 	{
+    "labeled": true,
 		"key": "ab7cc4c5e053d741c2af808e63bc5f4d2b49c1bc5da8b49d85d9bcae495c9ee1",
 		"href": "http://meta.stackoverflow.com/questions/73566/is-there-any-markdown-to-create-tables",
 		"why": "random article"
 	},
 	{
+    "labeled": true,
 		"key": "741c0d05b28c2ae04eaf4e580b556dc12a8af34e2298ad64fecd98ae090d0521",
 		"href": "http://en.wikipedia.org/wiki/Fish",
 		"why": "Many images and not recognized by safari"
 	},
 	{
+    "labeled": false,
 		"key": "06ed0a833361190536a4f61888354e07dccaa501bd9a1c0f1c545533bde1650b",
 		"href": "http://www.telegraph.co.uk/science/science-news/10056901/Womens-immune-systems-hold-the-secret-to-longer-life.html",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "222dbaa4c9e280311e87e8793dd57e945cb019a7fae1a2b2fd4c6049ea148995",
 		"href": "http://www.chicagotribune.com/news/local/suburbs/orland_park_homer_glen/community/chi-ugc-article-palos-medical-groups-dr-kanesha-bryant-prov-2-2013-05-15,0,3152151.story",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "09198e90b6a14acfef0d4044606b8fd5801648f98763bf967f181aabaf59804d",
 		"href": "http://www.reuters.com/article/2013/05/15/us-usa-healthcare-innovation-idUSBRE94E0P320130515",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "7bbd37120d8efcb9c6973be65de4ac7af667b5a0dc615724efd5fbc33160fc69",
 		"href": "http://abcnews.go.com/Health/wireStory/stem-cells-recovered-cloned-human-embryos-19184630",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "af85fcc561166d0c28caf2ed6765c36d604749e715d3dfa48f4b0b6d5dc2a2d4",
 		"href": "http://www.sfgate.com/health/article/Tiny-bit-of-formula-promotes-breast-feeding-4510136.php",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "c064d58e866d1582814bf623d471441ce9886a6e960041424bbd851facc3aa10",
 		"href": "http://health.usnews.com/health-news/news/articles/2013/05/15/cancer-patients-may-face-higher-bankruptcy-odds",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "5f8b89390d3fc01c6a80728ba2aee597fea1dbfc8399d61015956db71e5336c7",
 		"href": "http://www.usatoday.com/story/news/nation/2013/05/15/prostate-cancer-drug/2162723/",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "d95b90410bbe45545489d5e53ef197f408e9ac95987be7061116c3702666edb9",
 		"href": "http://www.reuters.com/article/2013/05/14/us-hysterectomy-heart-risk-idUSBRE94D14G20130514",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "0227809b88a4c7a53db0c418d1a6182343c0b22b9122148baaa93d0a58856931",
 		"href": "http://www.medpagetoday.com/PrimaryCare/Smoking/39154",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "0908784eff9bcf0e273284ed28d3bf75f636cb2886aa264d5fc068972cd9e5fb",
 		"href": "http://www.mmm-online.com/tarceva-diagnostic-brings-new-indication/article/293523/",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "f7b4b68c2ea48aac2f74fa0e7186a96166f72ff926760169dc7bb83c2dd087b0",
 		"href": "http://www.usatoday.com/story/sports/nhl/2013/05/15/raffi-torres-hearing-hit-on-jarret-stoll/2162363/",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "72e78dee157bdf3e8a9a9f07e54a98a3714ea2998e2c2e2a94c46dbe92176feb",
 		"href": "http://ftw.usatoday.com/2013/05/win-knicks-indiana-pacers-nba-playoffs-andrew-wiggins/",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "900d47edad434e1511f0167c1d31ac525253a37af785f09e00c19685cdb50c61",
 		"href": "http://aol.sportingnews.com/nfl/story/2013-05-15/rolando-mcclain-retires-ravens-raiders-linebacker-alabama",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "4fe5472ba89db38e20daef6025108310c52121fd382c06314d5b33d7f47c1e94",
 		"href": "http://online.wsj.com/article/APacceb5d346334f96a12ba7dbdcdc4003.html?mod=googlenews_wsj",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "c6c81270db52e2fd59107d815a4823526aa23f339b77376a31dd8ba4a770be37",
 		"href": "http://www.usatoday.com/story/sports/nhl/2013/05/15/yankee-stadium-nhl-games/2162867/",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "61adb9c208d9c67253b4413ef7ec2d010edae448b8c832bff2254125e4b51d5f",
 		"href": "http://www.cbssports.com/golf/story/22247285/report-2-more-marshals-say-woods-did-not-lie-about-garcia-dustup",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "ee6efdabfcca5663e00309b195208a299af4608381fd1ac8478a9e194cce4723",
 		"href": "http://www.mmajunkie.com/news/2013/05/ufc-159s-bryan-caraway-ecstatic-with-new-bonus-blasts-marijuana-usage-in-mma",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "73c175cdf9d5e065351ecf2220510088904adb77b49211cdd99e43e5870e06c2",
 		"href": "http://www.usatoday.com/story/sports/nascar/2013/05/15/danica-patrick-nascar-all-star-fan-vote/2162581/",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "b52d6a170c78bea8365c51c8e5ec8ed212162bd733f81a10b9acdb6f0fa55560",
 		"href": "http://online.wsj.com/article/SB10001424127887324767004578485133926979690.html?mod=googlenews_wsj",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "b2ca042c043a1ad0f0bdd912ec11984aaa1330d24f4b549852bfc748e496fe8a",
 		"href": "http://espn.go.com/boxing/story/_/id/9277146/floyd-mayweather-jr-top-paid-us-athlete-2013-sports-illustrated",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "b41b3c1a01fae3feb1eff41a369be869b7c6a0285012c9f38c8228ed89a8555e",
 		"href": "http://www.jpost.com/National-News/Clashes-in-W-Bank-and-Jlem-as-Palestinians-mark-Nakba-Day-313217",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "a7d87581adebd1ff57f151dd3ff46e718984fee0c1608b2263522358a39035b3",
 		"href": "http://www.ynetnews.com/articles/0,7340,L-4380324,00.html",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "090638153c72af750a39fb8dedebfddfa52f00b73ee034de4444f105d8daa80d",
 		"href": "http://www.cbc.ca/news/canada/north/story/2013/05/15/north-aglukkaq-first-inuk-arctic-council.html",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "d6e7c4ecbdc245293d00dbf866a8d550a6d1e78180d0e40beeff37d28b190ebf",
 		"href": "http://www.usatoday.com/story/news/nation/2013/05/15/boston-bombing-marathon-cia-spy-detained-terrorism/2161113/",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "fe32bd9876a32fd93d180c282959cc80bc5349f8b5eeae759eb5f5c801536847",
 		"href": "http://www.voanews.com/content/donors-pledge-42-billion-for-mali/1661520.html",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "46ab324348ca339dba58238e193f794c3309e52c018a8156ef9aedfedf0572e7",
 		"href": "http://www.bbc.co.uk/news/world-africa-22544056",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "b1a85f64c10aa51213f334fd7f640caab1a821b1f16154f4b374663426de1375",
 		"href": "http://www.reuters.com/article/2013/05/15/us-iraq-violance-idUSBRE94E0O520130515",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "7fc58a2d32d5b8d5fa9b918453a284acc71703ccfa0f0c89ec292b4245fd0521",
 		"href": "http://www.hindustantimes.com/News-Feed/Chunk-HT-UI-IndiaSectionPage-DelhiGangrape/Accused-stable-but-still-running-fever-say-docs/Article1-1060726.aspx",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "8c8b4a1ab2bce9eaff59b67b942162d29f28fd91113e9c0b1d0939dec66d1632",
 		"href": "http://stream.wsj.com/story/latest-headlines/SS-2-63399/SS-2-232411/",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "b415b9e79addcb85b582c5556dbdf2f23aeb1189f4e79aef2c2ff6440245d77c",
 		"href": "http://www.businessweek.com/articles/2013-05-15/google-i-o-our-short-version-of-a-very-long-keynote",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "62d42b8a3beac565164029123b6fa5fb76fb2793532b2d52943b65372518823b",
 		"href": "http://www.washingtonpost.com/business/technology/google-adds-music-streaming-player-matching-leaderboards-to-android-games/2013/05/15/89c5b41c-bd84-11e2-b537-ab47f0325f7c_story.html",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "74e8bc94abea7c60f022d8d3f672f80e59e3e126735fae0b5ee5914ff2fce48e",
 		"href": "http://www.dailytech.com/Google+Announces+Pure+Galaxy+Nexus+S4+for+649+Android+Updates/article31563c.htm",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "5fbfe3905c71925b1b3a875a3111073e5d0996d3f250a697398477d3642db321",
 		"href": "http://www.computerworld.com/s/article/9239239/Google_CEO_on_innovation_We_re_at_1_of_what_s_possible_",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "2dbf7cd4444617cc60f0e2d2c95b20a535979a32972f5005e2af577b37980e48",
 		"href": "http://www.pcworld.com/article/2038817/googles-vision-for-search-highlights-knowledge-graph-speech.html",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "5bc9df3a36efb57a22edf862cec6a28eb112e535559c194d7976fb664c922c13",
 		"href": "http://www.eweek.com/mobile/slideshows/blackberry-live-jammed-with-news-giddy-with-potential/",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "3733bd3d3a576606eb376bd274b8806c755607da4bb6e58cebd24876d4914d0b",
 		"href": "http://paidcontent.org/2013/05/15/publishers-to-testify-against-apple-in-price-fixing-trial/",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "ea854577e0e8b8577d679f05a0bec1ba19b7998a557d55cab0cb90a9d98883df",
 		"href": "http://techcrunch.com/2013/05/13/at-io-google-will-be-tracking-things-like-nose-level-and-air-quality-with-hundreds-of-arduino-based-sensors/",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "c3d7e515974f6773f15e663f3392e9ec5bb8ffe9e064c58a8f1a2eeeb2319a70",
 		"href": "http://www.informationweek.com/mobility/security/vmware-fights-android-byod-headaches/240154955",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "a7ffddd80ae1b2cca0a77a25e288902b81d92bc24803df1f79cb19ed10d93d19",
 		"href": "http://technology.iafrica.com/news/games/859225.html",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "40d4e50472a8f0d30d68613051be510ed098087679df7e0e564d6dd32152d679",
 		"href": "http://www.latimes.com/news/science/sciencenow/la-sci-sn-everest-climate-20130514,0,7957473.story",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "4063d3f9f752fac6552211fd87b8dad1494cc024d8fbd30ee8e1c92a7f21fe08",
 		"href": "http://www.designntrend.com/articles/4337/20130515/evolution-fossils-ape-monkey-split.htm",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "26c3b98f33bb6902f32535235fd7d32792df87779bdf1f86c3b21e15fbf3161d",
 		"href": "http://www.voanews.com/content/sun-unleashes-massive-solar-flares/1661774.html",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "e24a0387847b7e638c2ad92cd4452eb7ac56a3b4ce978272d5b243975d74baf1",
 		"href": "http://www.washingtonpost.com/national/health-science/worlds-fish-have-been-moving-to-cooler-waters-for-decades-study-finds/2013/05/15/730292e8-bcd7-11e2-9b09-1638acc3942e_story.html",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "45b6063ac2016db7b2fb1f995f0b54ee054fb561022e169c8fdbe321dcf672db",
 		"href": "http://cosmiclog.nbcnews.com/_news/2013/05/15/18278377-ciudad-blanca-found-scientists-share-images-of-lost-city-in-honduras?lite",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "d1f24dac5e97d7c977a1b6df94e2334a2fecdc384548433b800bfd080471fde2",
 		"href": "http://www.usatoday.com/story/tech/2013/05/15/camera-bugs-eye-view/2162757/",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "466ca1869a2af7629d936d5396fe144f6ef8c916515d8dafef6d0a790e9bccf8",
 		"href": "http://www.sciencerecorder.com/news/fish-hip-bone-may-connect-humans-to-ocean-new-sea-monster-may-rewrite-the-rules-of-evolution/",
 		"why": "google news scrape"
 	},
 	{
+    "labeled": false,
 		"key": "63c6d5256b8ce1098b5688eb5fafa747e9467692d099a3e9e42246e7af29748f",
 		"href": "http://www.designntrend.com/articles/4338/20130515/eso-captures-spectacle-fiery-ribbon-constellation-orion.htm",
 		"why": "google news scrape"

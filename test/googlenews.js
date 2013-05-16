@@ -32,6 +32,7 @@ function processFeed(href, done) {
 
       // create item
       done(null, {
+        'labled': false,
         'key': makeKey(href),
         'href': href,
         'why': 'google news scrape'
