@@ -9,14 +9,14 @@ var fs = require('fs');
 var datamap = require('./reallife/datamap.json');
 var unlabled = datamap.map(function (item, index) {
   return {
-    labled: item.labled,
+    labeled: item.labeled,
     href: item.href,
     key: item.key,
     why: item.why,
     index: index
   };
 }).filter(function (item) {
-  return !item.labled;
+  return !item.labeled;
 });
 
 // Startup
@@ -53,7 +53,7 @@ function labelInterface(item, done) {
 
       fs.writeFile(
         path.resolve(__dirname, 'reallife', 'datamap.json'),
-        JSON.stringify(datamap, null, '\n') + '\n',
+        JSON.stringify(datamap, null, '\t') + '\n',
         function (err) {
           if (err) return done(err);
 
@@ -61,7 +61,7 @@ function labelInterface(item, done) {
             path.resolve(__dirname, 'reallife', 'expected', item.key + '.json'),
             JSON.stringify({
               'title': ansewer
-            }, null, '\n') + '\n',
+            }, null, '\t') + '\n',
             done
           );
         }
