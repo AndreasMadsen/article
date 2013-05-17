@@ -16,6 +16,10 @@ interpreted({
     expected: path.resolve(__dirname, 'expected'),
   
     test: function(key, content, callback) {
+      if (key2url.hasOwnProperty(key) === false) {
+        return callback(new Error(key + ' is not in the datamap'));
+      }
+      
         startpoint(content)
           .pipe(article(key2url[key], callback));
     }
