@@ -6,7 +6,7 @@ var crypto = require('crypto');
 var request = require('request');
 var startpoint = require('startpoint');
 
-var datamap = require('./reallife/datamap.json');
+var datamap = require('./test/reallife/datamap.json');
 var article = require('../lib/article.js');
 
 if (process.argv.length < 4) {
@@ -52,18 +52,18 @@ request(href, function (err, res, body) {
     
     // Update main testfiles
     fs.writeFileSync(
-      path.resolve(__dirname, 'reallife', 'source', key + '.html'),
+      path.resolve(__dirname, '../test/reallife/source/', key + '.html'),
       body
     );
 
     fs.writeFileSync(
-      path.resolve(__dirname, 'reallife', 'expected', key + '.json'),
+      path.resolve(__dirname, '../test/reallife/expected/', key + '.json'),
       JSON.stringify(result, null, '\t') + '\n'
     );
     
     // Update datamap
     fs.writeFileSync(
-      path.resolve(__dirname, 'reallife', 'datamap.json'),
+      path.resolve(__dirname, '../test/reallife/datamap.json'),
       JSON.stringify(datamap, null, '\t') + '\n'
     );
     

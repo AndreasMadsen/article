@@ -9,7 +9,7 @@ var endpoint = require('endpoint');
 var mappoint = require('mappoint');
 var feedparser = require('feedparser');
 
-var datamap = require('./reallife/datamap.json');
+var datamap = require('./test/reallife/datamap.json');
 
 var key2url = {};
 for (var i = 0, l = datamap.length; i < l; i++) {
@@ -88,14 +88,14 @@ function processArticle(item, done) {
     async.parallel([
       function (done) {
         fs.writeFile(
-          path.resolve(__dirname, 'reallife', 'source', item.key + '.html'),
+          path.resolve(__dirname, '../test/reallife/source/', item.key + '.html'),
           body,
           done
         );
       },
       function (done) {
         fs.writeFile(
-          path.resolve(__dirname, 'reallife', 'expected', item.key + '.json'),
+          path.resolve(__dirname, '../test/reallife/expected/', item.key + '.json'),
           '{}\n',
           done
         );
@@ -123,7 +123,7 @@ async.eachSeries(feeds, processFeed, function (err) {
   console.log('writeing datamap ...');
   
   fs.writeFile(
-    path.resolve(__dirname, 'reallife', 'datamap.json'),
+    path.resolve(__dirname, '../test/reallife/datamap.json'),
     JSON.stringify(datamap, null, '\t') + '\n',
     function (err) {
       console.log('All done :)');

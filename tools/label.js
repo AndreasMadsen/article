@@ -6,7 +6,7 @@ var async = require('async');
 var path = require('path');
 var fs = require('fs');
 
-var datamap = require('./reallife/datamap.json');
+var datamap = require('./test/reallife/datamap.json');
 var unlabled = datamap.map(function (item, index) {
   return {
     labeled: item.labeled,
@@ -52,13 +52,13 @@ function labelInterface(item, done) {
       datamap[item.index].labeled = true;
 
       fs.writeFile(
-        path.resolve(__dirname, 'reallife', 'datamap.json'),
+        path.resolve(__dirname, '../test/reallife/datamap.json'),
         JSON.stringify(datamap, null, '\t') + '\n',
         function (err) {
           if (err) return done(err);
 
           fs.writeFile(
-            path.resolve(__dirname, 'reallife', 'expected', item.key + '.json'),
+            path.resolve(__dirname, '../test/reallife/expected/', item.key + '.json'),
             JSON.stringify({
               'title': ansewer
             }, null, '\t') + '\n',

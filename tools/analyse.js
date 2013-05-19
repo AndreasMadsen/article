@@ -3,7 +3,7 @@ var fs = require('fs');
 var path = require('path');
 var util = require('util');
 
-var datamap = require('./reallife/datamap.json');
+var datamap = require('./test/reallife/datamap.json');
 var article = require('../lib/article.js');
 
 if (process.argv.length < 3) {
@@ -69,13 +69,13 @@ function stringDiff(labalA, a, labalB, b) {
 }
 
 fs.readFile(
-  path.resolve(__dirname, 'reallife', 'expected', key + '.json'),
+  path.resolve(__dirname, '../test/reallife/expected/', key + '.json'),
   function (err, expected) {  
     if (err) throw err;
     expected = JSON.parse(expected);
 
     fs.createReadStream(
-      path.resolve(__dirname, 'reallife', 'source', key + '.html')
+      path.resolve(__dirname, '../test/reallife/source/', key + '.html')
     ).pipe(article(href, function (err, result) {
       if (err) throw err;
 
