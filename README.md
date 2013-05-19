@@ -15,7 +15,7 @@ short description of the article. However its rare that it contains the image
 and certainly never the full context. This module will scrape the raw article
 html of the page and find as minimum the `title`, `text` and the `image`.
 
-This is what has been implemented
+This is what has been implemented:
 
 * A good fase 1 heuristic for finding the title
 
@@ -31,7 +31,11 @@ var source = 'http://en.wikipedia.org/wiki/Fish';
 request(source)
   // The image url will be resolved from this source url
   .pipe(article(source, function (err, result) {
-    // the greate result
+    // result = {
+    //  title: String,
+    //  text: String,
+    //  image: String
+    // };
   }));
 ```
 
