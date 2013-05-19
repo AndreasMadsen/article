@@ -13,8 +13,11 @@ npm install article
 Usually you have some feed, there will give you the title and perhaps a
 short description of the article. However its rare that it contains the image
 and certainly never the full context. This module will scrape the raw article
-html of the page and find as minimum the `text` and the `image`.
+html of the page and find as minimum the `title`, `text` and the `image`.
 
+This is what has been implemented
+
+* A good fase 1 heuristic for finding the title
 
 ## Follow and help at the wiki and issues
 
