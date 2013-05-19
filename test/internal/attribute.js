@@ -1,6 +1,6 @@
 
 var test = require('tap').test;
-var attribute = require('../../lib/helpers.js').buildAttributeMatcher;
+var attribute = require('../../lib/helpers-dom.js').buildAttributeMatcher;
 
 test('simple attribute exists', function (t) {
   var fn = attribute({ exists: true });
