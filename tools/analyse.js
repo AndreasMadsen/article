@@ -3,7 +3,7 @@ var fs = require('fs');
 var path = require('path');
 var util = require('util');
 
-var datamap = require('./test/reallife/datamap.json');
+var datamap = require('../test/reallife/datamap.json');
 var article = require('../lib/article.js');
 
 if (process.argv.length < 3) {
