@@ -55,7 +55,7 @@ test('handlers emits in order', function (t) {
       validateTree(root, {
         type: 'root',
         position: 0,
-        density: 9.25,
+        density: 5,
 
         children: [
           {
@@ -63,7 +63,7 @@ test('handlers emits in order', function (t) {
             tagname: 'h1',
             attr: { id: '1' },
             position: 1,
-            density: 9,
+            density: 6.5,
 
             children: [
               {
@@ -98,7 +98,7 @@ test('handlers emits in order', function (t) {
             tagname: 'div',
             attr: { id: '3' },
             position: 5,
-            density: 19/3,
+            density: 4,
             
             children: [
               {
@@ -122,7 +122,7 @@ test('handlers emits in order', function (t) {
                 tagname: 'strong',
                 attr: { id: '5' },
                 position: 8,
-                density: 2.5,
+                density: 5,
                 
                 children: [
                   {
