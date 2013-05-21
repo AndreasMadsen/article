@@ -20,12 +20,25 @@ test('simple attribute match', function (t) {
   t.end();
 });
 
-test('simple multiply attribute match', function (t) {
+test('simple multiply attribute value match', function (t) {
   var fn = attribute({ multiply: ['one', 'two'] });
 
   t.equal(fn({ multiply: 'one' }), true);
   t.equal(fn({ multiply: 'two' }), true);
   t.equal(fn({ multiply: 'tree' }), false);
+  t.equal(fn({ }), false);  
+  t.end();
+});
+
+test('simple multiply attribute name match', function (t) {
+  var fn = attribute({
+    one: ['value'],
+    two: ['value']
+  });
+
+  t.equal(fn({ one: 'value' }), true);
+  t.equal(fn({ two: 'value' }), true);
+  t.equal(fn({ three: 'value' }), false);
   t.equal(fn({ }), false);  
   t.end();
 });
