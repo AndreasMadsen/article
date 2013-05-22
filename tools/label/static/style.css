@@ -1,0 +1,68 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 100%;
+}
+
+body {
+  margin: 2% 5% 0 5%; 
+  overflow: hidden;
+}
+
+h1 {
+  color: steelblue;
+  border-bottom: 2px solid steelblue;
+}
+
+input, textarea {
+  width: 100%;
+  border: 1px solid black;
+}
+
+textarea {
+  height: 30%;
+}
+
+#left {
+  float: left;
+  width: 37.5%;
+}
+
+#right {
+  float: right;
+  width: 57.5%;
+}
+
+#status {
+  border-left: 2px solid steelblue;
+  padding: 5px;
+  color: gray;
+}
+
+#buttons {
+  margin-top: 10px;
+}
+
+button {
+  width: 40%;
+  color: white;
+  background: steelblue;
+  border: none;
+  padding: 4%;
+  font-size: 12pt;
+}
+
+#save {
+  float: left;
+}
+#skip {
+  float: right;
+}
+
+iframe {
+  border: 2px solid steelblue;
+  width: 100%;
+  height: 80%;
+}
