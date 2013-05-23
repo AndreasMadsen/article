@@ -55,7 +55,7 @@ test('handlers emits in order', function (t) {
       validateTree(root, {
         type: 'root',
         position: 0,
-        density: 5,
+        density: 3.125,
 
         children: [
           {
@@ -136,6 +136,49 @@ test('handlers emits in order', function (t) {
               }
             ]
             // div element ends
+          },
+          {
+            type: 'element',
+            tagname: 'script',
+            attr: { },
+            position: 10,
+            density: 0,
+            
+            children: [
+              {
+                type: 'text',
+                position: 11,
+                density: 42,
+                text: '/* some crazy code we do not care about */',
+                children: null
+              }
+            ]
+          },
+          {
+            type: 'element',
+            tagname: 'style',
+            attr: { },
+            position: 12,
+            density: 0,
+            
+            children: [
+              {
+                type: 'text',
+                position: 13,
+                density: 42,
+                text: '/* some crazy code we do not care about */',
+                children: null
+              }
+            ]
+          },
+          {
+            type: 'element',
+            tagname: 'div',
+            attr: { },
+            position: 14,
+            density: 0,
+
+            children: []
           }
         ]
         // root node ends
@@ -152,6 +195,9 @@ test('handlers emits in order', function (t) {
       'Hallo\n' +
       '<br id="4">\n' +
       '<strong id="5">World</strong>\n' +
-    '</div>'
+    '</div>\n' +
+    '<script>/* some crazy code we do not care about */</script>\n' +
+    '<style>/* some crazy code we do not care about */</style>\n' +
+    '<div></div>'
   ).pipe(builder);
 });
