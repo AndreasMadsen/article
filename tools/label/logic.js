@@ -65,7 +65,6 @@ Logic.prototype._analyse = function (item, callback) {
 };
 
 Logic.prototype.open = function () {
-  console.log(' remote open');
   if (OPEN_FLAG === true) {
     this.send({ 'what': 'error', 'data': 'already open' });
   } else {
@@ -85,7 +84,7 @@ var HANDLERS = {
     this._requestLabel();
   },
 
-  label: function (item) {
+  save: function (item) {
     var self = this;
 
     this.send({ 'what': 'label-saving' });
@@ -127,7 +126,7 @@ var HANDLERS = {
 
       // Cleanup memory
       delete SOURCES[item.key];
-      UNLABLED.shift();
+      UNLABLED.splice(SKIPS, 1);
 
       self._requestLabel();
     });

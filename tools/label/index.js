@@ -33,7 +33,7 @@ wss.on('connection', function (ws) {
     handler.close();
   });
 
-  ws.once('message', function (msg) {
+  ws.on('message', function (msg) {
     handler.message(JSON.parse(msg));
   });
 });

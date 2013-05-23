@@ -1,5 +1,4 @@
 
-
 // Find all releveant elements
 var iframe = document.querySelector('iframe');
 
@@ -16,7 +15,6 @@ var buttonSkip = document.querySelector('#skip');
 var socket = new WebSocket("ws://" + window.location.hostname + ':' + 9000);
 
 socket.addEventListener("message", function (msg) {
-  console.log('message', msg);
   msg = JSON.parse(msg.data);
   
   HANDLERS[msg.what].call(null, msg.data);
@@ -82,7 +80,7 @@ buttonSave.addEventListener('click', function () {
   currentItem.title = labelTitle.value;
   currentItem.image = labelImage.value;
 
-  send({ 'what': 'skip', 'data': currentItem });
+  send({ 'what': 'save', 'data': currentItem });
 });
 
 buttonSkip.addEventListener('click', function () {
