@@ -1,0 +1,47 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 100%;
+}
+
+body {
+  margin: 2% 5% 0 5%; 
+}
+
+pre {
+  white-space: pre-line;
+}
+
+h1 {
+  color: steelblue;
+  border-bottom: 2px solid steelblue;
+}
+
+#status {
+  border-left: 2px solid steelblue;
+  padding: 5px;
+  color: gray;
+}
+
+a {
+  text-decoration: none;
+}
+
+#buttons {
+  margin-top: 10px;
+}
+
+button {
+  cursor: pointer;
+  width: 150px;
+  color: white;
+  background: steelblue;
+  border: none;
+  padding: 15px;
+  margin-left: 10px;
+  font-size: 12pt;
+  float: left;
+}
+

@@ -26,6 +26,7 @@
     "st": "0.1.x",
     "tap": "0.3.x",
     "async": "0.2.x",
+    "difflet": "0.2.x",
     "mappoint": "0.2.x",
     "endpoint": "0.4.x",
     "inspector": "0.3.x",

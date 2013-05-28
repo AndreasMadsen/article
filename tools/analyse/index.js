@@ -9,8 +9,8 @@ var Logic = require('./logic.js');
 var server = http.createServer();
 var wss = new WebSocketServer({server: server});
 
-server.listen(9000, '127.0.0.1', function () {
-  console.log('label server ready on http://localhost:9000');
+server.listen(9100, '127.0.0.1', function () {
+  console.log('analyse server ready on http://localhost:9100');
 });
 
 // Just serve static files
