@@ -18,6 +18,7 @@ html of the page and find as minimum the `title`, `text` and the `image`.
 This is what has been implemented:
 
 * A good fase 1 heuristic for finding the title
+* A work in progress fase 1 heuristic for the text
 
 ## Follow and help at the wiki and issues
 
