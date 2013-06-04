@@ -78,18 +78,34 @@ buttonRefresh.addEventListener('click', function () {
   send({ 'what': 'load', 'data': INDEX });
 });
 
-buttonLeft.addEventListener('click', function () {
+buttonLeft.addEventListener('click', leftClick);
+buttonRight.addEventListener('click', rightClick);
+
+window.addEventListener('keydown', function (evt) {
+  switch (evt.keyCode) {
+    case 37:
+      leftClick();
+      break;
+    case 39:
+      rightClick();
+      break;
+  }
+});
+
+function leftClick() {
+  if (INDEX === 0) return;
   if (canClick === false) return;
   canClick = true;
 
   status(false, 'Comparing ...');
   send({ 'what': 'load', 'data': INDEX - 1 });
-});
+}
 
-buttonRight.addEventListener('click', function () {
+function rightClick() {
+  if (INDEX === (TOTAL - 1)) return;
   if (canClick === false) return;
   canClick = true;
 
   status(false, 'Comparing ...');
   send({ 'what': 'load', 'data': INDEX + 1 });
-});
+}
