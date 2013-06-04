@@ -45,3 +45,6 @@ button {
   float: left;
 }
 
+#left, #right {
+  width: 20px;
+}

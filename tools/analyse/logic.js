@@ -4,15 +4,37 @@ var path = require('path');
 var async = require('async');
 var fork = require('child_process').fork;
 
-var KEY = process.argv[2];
-var ITEM = null;
-
 var datamap = require('../../test/reallife/datamap.json');
-datamap.forEach(function (item) {
-  if (item.key === KEY) {
-    ITEM = item;
+
+// Create a items list based on process.argv
+var ITEMS = (function () {
+  if (process.argv[2] === undefined) {
+    return datamap;
+  } else {
+    var argv = process.argv.slice(2);
+    var items = datamap.filter(function (item) {
+      var index = argv.indexOf(item.key);
+      if (index !== -1) {
+        argv.splice(index, 1);
+        return true;
+      }
+      return false;
+    });
+
+    if (argv.length !== 0) {
+      throw new Error('Could not find ' + JSON.stringify(argv));
+    }
+
+    return items;
   }
+})();
+
+ITEMS = ITEMS.map(function (item, index) {
+  item.index = index;
+  return item;
 });
+
+var LASTINDEX = 0;
 
 function Logic(ws) {
   this.ws = ws;
@@ -24,18 +46,23 @@ Logic.prototype.send = function (msg) {
 };
 
 Logic.prototype.open = function () {
-  this.send({'what': 'ready', 'data': ITEM.href});
-  this._sendResult();
+  this.send({
+    'what': 'ready',
+    'data': ITEMS.length
+  });
+
+  this._sendResult(LASTINDEX);
 };
 
 Logic.prototype.close = function () { };
 
-Logic.prototype._sendResult = function () {
+Logic.prototype._sendResult = function (index) {
+    LASTINDEX = index;
     var self = this;
 
     async.parallel({
       actual: function (done) {
-        var child = fork(path.resolve(__dirname, 'analyser'), [ITEM.key, KEY.href], {
+        var child = fork(path.resolve(__dirname, 'analyser'), [ITEMS[index].key, ITEMS[index].href], {
           stdio: ['ignore', process.stdout, process.stderr, 'ipc']
         });
 
@@ -51,7 +78,7 @@ Logic.prototype._sendResult = function () {
       },
       expected: function (done) {
         fs.readFile(
-          path.resolve(__dirname, '../../test/reallife/expected/' + ITEM.key + '.json'),
+          path.resolve(__dirname, '../../test/reallife/expected/' + ITEMS[index].key + '.json'),
           function (err, expected) {
             if (err) return done(err);
             else done(null, JSON.parse(expected));
@@ -61,13 +88,16 @@ Logic.prototype._sendResult = function () {
     }, function (err, compare) {
       if (err) return self.send({ 'what': 'error', 'data': err.message });
       
-      self.send({'what': 'compare', 'data': compare});
+      self.send({'what': 'compare', 'data': {
+        'item': ITEMS[index],
+        'compare': compare
+      }});
     });
 };
 
 var HANDLERS = {
-  refresh: function () {
-    this._sendResult();
+  load: function (index) {
+    this._sendResult(index);
   },
 };
 
