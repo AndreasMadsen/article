@@ -16,6 +16,7 @@
     "reader"
   ],
   "dependencies": {
+    "fusspos": "0.2.x",
     "entities": "0.2.x",
     "worddiff": "0.2.x",
     "wordmatch": "0.2.x",
