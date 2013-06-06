@@ -9,7 +9,7 @@ var endpoint = require('endpoint');
 var mappoint = require('mappoint');
 var feedparser = require('feedparser');
 
-var datamap = require('./test/reallife/datamap.json');
+var datamap = require('../test/reallife/datamap.json');
 
 var key2url = {};
 for (var i = 0, l = datamap.length; i < l; i++) {
@@ -32,7 +32,7 @@ function processFeed(href, done) {
 
       // create item
       done(null, {
-        'labled': false,
+        'labeled': false,
         'key': makeKey(href),
         'href': href,
         'why': 'google news scrape'
