@@ -292,5 +292,281 @@
 		"key": "63c6d5256b8ce1098b5688eb5fafa747e9467692d099a3e9e42246e7af29748f",
 		"href": "http://www.designntrend.com/articles/4338/20130515/eso-captures-spectacle-fiery-ribbon-constellation-orion.htm",
 		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "0a8c510c3691d8e68ccc749559680257a382fe792a3d4d8531fb285cd74c3492",
+		"href": "http://www.cbsnews.com/8301-204_162-57588012/hepatitis-a-victim-shocked-organic-berries-almost-led-to-liver-transplant/",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "864dda5a45ef2c84ea8419ef6e81bede7254b3660151d7b195dbfb406dfb0d6b",
+		"href": "http://www.bbc.co.uk/news/world-us-canada-22801655",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "176f3005704bdc918e9a46ffecc2d225ec3fa723a66da18d53a77264b92e05ac",
+		"href": "http://www.foxnews.com/health/2013/06/06/medical-breakthrough-for-multiple-sclerosis-sufferers/",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "e3643c169f1c19bdd0f297022d4bf4da8853a9f23e8b954da45a8def55d3fe48",
+		"href": "http://www.cbsnews.com/8301-505266_162-57587967/avandia-even-if-fda-reverses-restrictions-will-diabetes-drug-make-a-comeback/",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "56671acb60ba54b0c5c5bf3e428d1a679035a07c3721e71e871236ab6b9f08aa",
+		"href": "http://www.boston.com/lifestyle/health/mdmama/2013/06/quiz_check_your_sunscreen_smarts.html",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "0475e5eeadaaca857eea3f36d0eda01937fe672d48be7f98ba6bc7f25ecd63d0",
+		"href": "http://www.upr.org/post/court-says-some-morning-after-pills-must-be-available-otc-now",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "35f536ef8c8eba0616f2dc78e6653e1d7d68e3af927b09efad3dae7ce2080567",
+		"href": "http://latino.foxnews.com/latino/health/2013/06/06/man-with-micropenis-discovers-hes-actually-woman-at-age-66/",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "783f9f0fba31f9653f382a7076e92795cb622216ad6e5e58023e10e8b09e66e0",
+		"href": "http://www.latimes.com/news/science/la-sci-ptsd-gene-20130606,0,863415.story",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "50307222a307152e17c5262fc6983e8eb6ecd7a5d4c6505a7e9ab475bbe67eeb",
+		"href": "http://health.usnews.com/health-news/news/articles/2013/06/05/blacks-with-certain-gene-need-lower-doses-of-warfarin-study",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "5c83c2d71f97e2b5a979f197fbae6773dee6844e28889ae66ccb8d7458a9c5bb",
+		"href": "http://www.thedailybeast.com/articles/2013/06/06/did-backlash-prompt-komen-s-cancellations",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "e59c8117a6e0002ffe00121307cff1af9a7abefc09c926b974e7af29c9a99765",
+		"href": "http://mlb.mlb.com/news/article.jsp?ymd=20130606&content_id=49791276&vkey=news_mlb&c_id=mlb",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "6cdcd7944598ec47c64f1a329e17562956175a99391f459a3365b1e43212f8c8",
+		"href": "http://www.miamiherald.com/2013/06/05/3435012/penn-state-trustees-hope-sanctions.html",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "71cb773c42c94b75d41c059a27dd10b763443a71dbb6dd202402843de8a5e331",
+		"href": "http://www.sbnation.com/2013/6/6/4400982/san-antonio-spurs-nba-finals-2013",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "b65990adfd43e3be62c8bc66e7a6e3710da4387af5899b4eeb478e59c67ceba0",
+		"href": "http://espn.go.com/boston/nhl/story/_/id/9347873/2013-nhl-playoffs-tuukka-rask-bails-boston-bruins-game-3",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "6d30abed88489774017024b17cdb1928d9a2b45bb79767515383b8444e9601b2",
+		"href": "http://espn.go.com/tennis/french13/story/_/id/9340704/french-open-maria-sharapova-jelena-jankovic-ready-duel",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "bbe6bcd413682c74113b92fcd59f248badcce29347c3e3790c47e0e7647b45bd",
+		"href": "http://www.usatoday.com/story/sports/college/2013/06/05/embattled-ad-julie-hermann-anxious-to-start-at-rutgers/2394029/",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "ea94686e9d7db9a4f2f454bdbbd2cab38f20a9422f22601073c4720a46c7ab20",
+		"href": "http://www.sbnation.com/mlb/2013/6/6/4402078/biogenesis-scandal-alex-rodriguez-anthony-bosch-deal",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "16702eaff02251b57c07ed736da79f438c2d14f020811e2887fd7bcf43a5b150",
+		"href": "http://www.wbal.com/article/100317/3/See-Photos--Video-President-Obama-Honors-The-Ravens-At-The-White-House",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "69087cd3b7ca122ffbd35d6d38de33651fd5ab62d637b87d70599e05d299aa98",
+		"href": "http://www.newsday.com/sports/basketball/spurs-threesome-duncay-park-and-ginobili-quiet-but-effective-1.5418180",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "717fa45e0e3901be4039f2a6b26d4b50cf869a903dc8057e2fac1047fd033fdc",
+		"href": "http://www.businessweek.com/ap/2013-06-06/austria-says-syrian-rebels-captured-golan-crossing",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "4d2033317aa75a97889292ebc0cbee14fa0d2fb54a1e5648550571e9b3ef9e18",
+		"href": "http://www.guardian.co.uk/world/2013/jun/06/erdogan-defies-turkish-protesters-live",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "e9a4fbbca7b4829cc1b53d7650973aee23b9d4f285d5d120dc5537ac2a20ceae",
+		"href": "http://www.latimes.com/news/world/worldnow/la-fg-wn-britain-compensation-kenyans-20130606,0,9086.story",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "3583db09d8fbe6ee207f0ed06e46b0ca39d7170829469b0ba353b83f0da10be7",
+		"href": "http://www.guardian.co.uk/world/2013/jun/06/florida-tropical-storm-andrea",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "9e04cb267a9b128369a11c7f6e5486d43644955dee7f73cc004b9cf1693a11c1",
+		"href": "http://www.bbc.co.uk/news/world-asia-22795060",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "a22aae3a2932226a42d9adb9699c1298ec1b8ed9b67cb7657cc621453f34fbec",
+		"href": "http://www.upr.org/post/myanmars-aung-san-suu-kyi-walks-fine-line-her-new-role",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "173cb8504d91bed86832e087316c2b1febe3e7e76f478f5a401c9ae4fc4641fb",
+		"href": "http://www.thenews.com.pk/article-104071-Sandbags-and-raw-nerves-as-flood-peak-hits-Germany",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "f42f0abc07ef3e80cb1425b8f133445785565eb65f498ade61e75f1d867cd2db",
+		"href": "http://www.reuters.com/article/2013/06/06/us-pope-holiday-idUSBRE9550RG20130606",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "7e54e701ac39a9046d6eeb0ae75d2138733b66b30b5211e7f3245dd6dc3ca36c",
+		"href": "http://www.bbc.co.uk/news/world-asia-china-22795867",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "e92204e17d108eaf649148fa5878e5a9d9babced8b7996d6ffd5f1213ebbff9f",
+		"href": "http://www.theaustralian.com.au/news/world/seoul-says-yes-to-peace-talks-offer-from-north-korea/story-e6frg6so-1226658940838",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "8cbf3b144736ffc4adda5fe7105e7fd1413dcc1955110829d849a658aa722bea",
+		"href": "http://www.guardian.co.uk/technology/2013/jun/06/microsoft-fbi-cybercrime-citadel-botnet",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "f0ad1615c376d042a458dd4fc713b0d17124d74ae07becaab78bfb7a82dd14b4",
+		"href": "http://www.theregister.co.uk/2013/06/06/publishers_gave_amazon_ultimatum/",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "cb3ce2786db729aa887ab6fd0b2f377549c235f3fc26e6e252efd6c92319b418",
+		"href": "http://www.engadget.com/2013/06/06/any-do-announces-cal/?utm_medium=feed&utm_source=Feed_Classic&utm_campaign=Engadget",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "84a7e7d5f61c90050a326bb74ac3a57899fdba4b755bd50df01a053c262d354e",
+		"href": "http://www.phonedog.com/2013/06/06/lg-optimus-f3-officially-landing-at-sprint-on-june-14-with-4-inch-display-29-99-price-tag/",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "1d43b4816bdba5825165dc21558d9eafb9f650c67ba048411b04dc77a745dc39",
+		"href": "http://www.pcmag.com/article2/0,2817,2420045,00.asp",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "b02e15742db8bfa35d678294194980662f3f6534bbd7d1a8cda2ad35f4db83a6",
+		"href": "http://www.theregister.co.uk/2013/06/06/blackberry_q10_looks_to_carve_out_indian_niche/",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "5a012f66c2bf0c70a0744c7483478aaa0c1a2b5b5920a72223f3a090e39df8be",
+		"href": "http://www.zdnet.com/eight-changes-id-like-to-see-in-windows-8-1-but-probably-wont-7000016414/",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "0873e7508224014b9df7e0c599b2eb33ebb733af7bc23fb11114ad5cf0e1ecfd",
+		"href": "http://www.smh.com.au/environment/discovery-challenges-primate-evolution-theory-20130606-2nssi.html",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "dbca84517147fae696f9d9de284ea5d31386ca1891c9ed8ff8502c61b658287d",
+		"href": "http://www.foxnews.com/science/2013/06/06/curiosity-rover-leaving-mars-rat-behind/",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "22c0f41ae560968de5e6b0ef9ecffffeae3f409aa73d9b82853f65535116f68f",
+		"href": "http://www.jpl.nasa.gov/news/news.php?release=2013-186",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "fc5a55c65ef9b22d7309cdb4d9a6efe319baeda10190547b3e49dc9152e92f14",
+		"href": "http://theweek.com/article/index/245259/this-invisibility-cloak-creates-a-hole-in-time",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "cd8abf479bae4ca283b3d034c486e134f69a6753aacadad2de27dee1d1745a88",
+		"href": "http://thespacereporter.com/2013/06/young-star-suggests-our-sun-was-a-feisty-toddler-astronomers-say/",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "8172f708c00419226cbe0848dd3bcf153f076a6eda9802446790a926c26c97b3",
+		"href": "http://news.discovery.com/earth/weather-extreme-events/irish-monks-were-unwitting-climate-scientists-and-volcanologists-130606.htm",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "40957335ccdb58181d44b8597246b34ba44d070d729b4d7e008b72256b5efdd7",
+		"href": "http://www.wired.com/wiredscience/2013/06/deep-sea-debris/",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "7a426de207434e419a65eead0f4b46c8a479429d8429c36dc03b033d7e4891df",
+		"href": "http://www.space.com/21443-cats-paw-nebula-starburst.html",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "d57c1a6989d0075d551168500f36da6309c2f5eeac2ae57406694a2e41dfda33",
+		"href": "http://www.bbc.co.uk/news/science-environment-22764946",
+		"why": "google news scrape"
+	},
+	{
+		"labeled": true,
+		"key": "bf6c2f1cfb002f13675b39a62951eac42e7604409705e6c6a838285f6b6758ff",
+		"href": "http://www.guardian.co.uk/environment/2013/jun/06/americans-for-prosperity-carbon-tax",
+		"why": "google news scrape"
 	}
 ]
