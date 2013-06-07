@@ -35,7 +35,8 @@ function processFeed(href, done) {
         'labeled': false,
         'key': makeKey(href),
         'href': href,
-        'why': 'google news scrape'
+        'why': 'google news scrape',
+        'state': '0-0-0'
       });
     }))
     .pipe(endpoint({objectMode: true}, function (err, links) {

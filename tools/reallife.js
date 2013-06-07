@@ -39,10 +39,11 @@ request(href, function (err, res, body) {
   }
   if (found === false) {
     datamap.push({
-      'labled': true,
+      'labeled': true,
       'key': key,
       'href': href,
-      'why': why
+      'why': why,
+      'state': '0-0-0'
     });
   }
   
