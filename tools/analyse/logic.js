@@ -92,13 +92,38 @@ Logic.prototype._sendResult = function (index) {
         'item': ITEMS[index],
         'compare': compare
       }});
+
+      self._resume();
     });
+};
+
+Logic.prototype._resume = function () {
+  this.send({'what': 'resume'});
+};
+
+Logic.prototype._saveState = function (index, state) {
+  var self = this;
+
+  ITEMS[index].state = state;
+
+  fs.writeFile(
+    path.resolve(__dirname, '../../test/reallife/datamap.json'),
+    JSON.stringify(ITEMS, null, '\t') + '\n',
+    function (err) {
+      if (err) return self.send({ 'what': 'error', 'data': err.message });
+
+      self._resume();
+    }
+  );
 };
 
 var HANDLERS = {
   load: function (index) {
     this._sendResult(index);
   },
+  state: function (data) {
+    this._saveState(data.index, data.state);
+  }
 };
 
 Logic.prototype.message = function (msg) {

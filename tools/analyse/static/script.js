@@ -12,6 +12,10 @@ var buttonOpen = document.querySelector('#open');
 var buttonLeft = document.querySelector('#left');
 var buttonRight = document.querySelector('#right');
 
+var titleState = document.querySelector('#title-state');
+var textState = document.querySelector('#text-state');
+var imageState = document.querySelector('#image-state');
+
 // Create connection
 var socket = new WebSocket("ws://" + window.location.hostname + ':' + 9100);
 
@@ -30,12 +34,31 @@ function send(msg) {
   socket.send(JSON.stringify(msg));
 }
 
-var canClick = false;
 var dmp = new diff_match_patch();
     dmp.Diff_EditCost = 4;
 
 function diff(a, b) {
   return dmp.diff_prettyHtml( dmp.diff_main(a, b) );
+}
+
+
+var paused = false;
+function pause() {
+  if (paused) return;
+  paused = true;
+
+  titleState.disabled = true;
+  textState.disabled = true;
+  imageState.disabled = true;
+}
+
+function resume() {
+  if (!paused) return;
+  paused = false;
+
+  titleState.disabled = false;
+  textState.disabled = false;
+  imageState.disabled = false;
 }
 
 var TOTAL = 0;
@@ -51,7 +74,11 @@ var HANDLERS = {
     var item = data.item;
     var compare = data.compare;
     status(false, 'Compared result');
-    canClick = true;
+
+    var state = (item.state || '0-0-0').split('-').map(Number);
+    titleState.value = state[0];
+    textState.value = state[1];
+    imageState.value = state[2];
 
     identifier.innerHTML = item.key;
     buttonOpen.href = item.href;
@@ -68,11 +95,34 @@ var HANDLERS = {
   'error': function (message) {
     status(true, message);
   },
+  
+  'resume': function () {
+    status(false, 'Compared result');
+    resume();
+  }
 };
 
+titleState.addEventListener('change', updateState);
+textState.addEventListener('change', updateState);
+imageState.addEventListener('change', updateState);
+
+function updateState() {
+  if (paused) return;
+  pause();
+
+  status(false, 'Updateing state ...');
+  send({
+    'what': 'state',
+    'data': {
+      'index': INDEX,
+      'state': titleState.value + '-' + textState.value + '-' + imageState.value
+    }
+  });  
+}
+
 buttonRefresh.addEventListener('click', function () {
-  if (canClick === false) return;
-  canClick = true;
+  if (paused) return;
+  pause();
 
   status(false, 'Comparing ...');
   send({ 'what': 'load', 'data': INDEX });
@@ -94,8 +144,8 @@ window.addEventListener('keydown', function (evt) {
 
 function leftClick() {
   if (INDEX === 0) return;
-  if (canClick === false) return;
-  canClick = true;
+  if (paused) return;
+  pause();
 
   status(false, 'Comparing ...');
   send({ 'what': 'load', 'data': INDEX - 1 });
@@ -103,8 +153,8 @@ function leftClick() {
 
 function rightClick() {
   if (INDEX === (TOTAL - 1)) return;
-  if (canClick === false) return;
-  canClick = true;
+  if (paused) return;
+  pause();
 
   status(false, 'Comparing ...');
   send({ 'what': 'load', 'data': INDEX + 1 });

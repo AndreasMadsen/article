@@ -33,6 +33,20 @@ a {
   margin-top: 10px;
 }
 
+select {
+  width: 150px;
+  height: 20px;
+  font-size: 12px;  
+}
+
+label {
+  width: 60px;
+  height: 20px;
+  font-size: 14px;
+  display: inline-block;
+  text-align: right;
+}
+
 button {
   cursor: pointer;
   width: 150px;
