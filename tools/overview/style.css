@@ -1,0 +1,32 @@
+
+table {
+  width:100%;
+  border-collapse:collapse;
+}
+
+th, td {
+  margin: 0;
+  min-width: 8%;
+}
+
+tr {
+  width: 100%;
+}
+
+table thead th {
+  height: 20px;
+  background: steelblue;
+  color: white;
+}
+
+table tbody td {
+  font-size: 12px;
+  border-bottom: 1px solid gray;
+}
+
+table tfoot td {
+  font-size: 12px;
+  border-bottom: 1px solid white;
+  background: steelblue;
+  color: white;
+}
