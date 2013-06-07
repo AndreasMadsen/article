@@ -20,6 +20,14 @@ This is what has been implemented:
 * A good fase 1 heuristic for finding the title
 * A work in progress fase 1 heuristic for the text
 
+This is the current result (Fri Jun 07 2013)
+
+|       | Unknown | Wrong | Bad | Good | Perfect |
+|------:|:-------:|:-----:|:---:|:----:|:-------:|
+| Title | 0       | 4     | 0   | 0    | 137     |
+| Text  | 0       | 4     | 4   | 103  | 30      |
+| Image | 141     | 0     | 0   | 0    | 0       |
+
 ## Follow and help at the wiki and issues
 
 Wiki and blog: https://github.com/AndreasMadsen/article/wiki
