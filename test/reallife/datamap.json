@@ -415,12 +415,6 @@
 	},
 	{
 		"labeled": true,
-		"key": "4d2033317aa75a97889292ebc0cbee14fa0d2fb54a1e5648550571e9b3ef9e18",
-		"href": "http://www.guardian.co.uk/world/2013/jun/06/erdogan-defies-turkish-protesters-live",
-		"why": "google news scrape"
-	},
-	{
-		"labeled": true,
 		"key": "e9a4fbbca7b4829cc1b53d7650973aee23b9d4f285d5d120dc5537ac2a20ceae",
 		"href": "http://www.latimes.com/news/world/worldnow/la-fg-wn-britain-compensation-kenyans-20130606,0,9086.story",
 		"why": "google news scrape"
