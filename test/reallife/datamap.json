@@ -102,7 +102,7 @@
 		"key": "0908784eff9bcf0e273284ed28d3bf75f636cb2886aa264d5fc068972cd9e5fb",
 		"href": "http://www.mmm-online.com/tarceva-diagnostic-brings-new-indication/article/293523/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-4-0"
 	},
 	{
 		"labeled": true,
@@ -242,7 +242,7 @@
 		"key": "74e8bc94abea7c60f022d8d3f672f80e59e3e126735fae0b5ee5914ff2fce48e",
 		"href": "http://www.dailytech.com/Google+Announces+Pure+Galaxy+Nexus+S4+for+649+Android+Updates/article31563c.htm",
 		"why": "google news scrape",
-		"state": "4-1-0"
+		"state": "4-3-0"
 	},
 	{
 		"labeled": true,
@@ -431,7 +431,7 @@
 		"key": "71cb773c42c94b75d41c059a27dd10b763443a71dbb6dd202402843de8a5e331",
 		"href": "http://www.sbnation.com/2013/6/6/4400982/san-antonio-spurs-nba-finals-2013",
 		"why": "google news scrape",
-		"state": "4-2-0"
+		"state": "4-3-0"
 	},
 	{
 		"labeled": true,
@@ -585,7 +585,7 @@
 		"key": "5a012f66c2bf0c70a0744c7483478aaa0c1a2b5b5920a72223f3a090e39df8be",
 		"href": "http://www.zdnet.com/eight-changes-id-like-to-see-in-windows-8-1-but-probably-wont-7000016414/",
 		"why": "google news scrape",
-		"state": "4-1-0"
+		"state": "4-3-0"
 	},
 	{
 		"labeled": true,
@@ -970,7 +970,7 @@
 		"key": "488a0b7fa8bc2e0d799ac1dcb22620654777c66a9260983f369d842210f5d3d4",
 		"href": "http://www.dailymail.co.uk/news/article-2336183/Texas-banker-offers-1MILLION-prize-solve-math-problem-left-academics-baffled-decades.html?ito=feeds-newsxml",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-2-0"
 	},
 	{
 		"labeled": true,
@@ -984,6 +984,6 @@
 		"key": "3f6413c32bffc73b64cb1a2adb237cd19ffc75494c9172755f1a961ba32e75dd",
 		"href": "http://www.necn.com/06/07/13/UMass-to-receive-95M-life-sciences-grant/landing.html?&apID=b1ff00f96a424414ab3edfd17033519e",
 		"why": "google news scrape",
-		"state": "4-1-0"
+		"state": "4-3-0"
 	}
 ]
