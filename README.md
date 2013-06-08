@@ -15,10 +15,65 @@ short description of the article. However its rare that it contains the image
 and certainly never the full context. This module will scrape the raw article
 html of the page and find as minimum the `title`, `text` and the `image`.
 
-This is what has been implemented:
+### Definitions
 
-* A good fase 1 heuristic for finding the title
-* A work in progress fase 1 heuristic for the text
+##### Title
+> A single sentense or similar describing the article, it should not contain
+> the websites name or any other information there isn't relevant to the article
+
+##### Text
+> The raw unformated article context, it should not contain the title or comments
+> there too, also related article links and author information is unwanted.
+
+##### Image
+> The main image there is related to the article, if no image exists it should
+> be `null`. If there are multiply sugestions then the biggest image is the
+> wanted result. However no remote requests can be made to vertify any assumptions.
+
+#### Strategy
+
+There will be:
+
+* 1 `fase-0` algortime
+* 3 `fase-1` algortimes
+* 1 `fase-2` algortime
+
+The `fase-0` algoritme will detect and use microdata if present and give
+sugestions (there will be very few) from the microdata. The algoritme will find
+the  `title`, `text`, `image`. 
+
+The `fase-1` algoritmes will give unrealted sugestions on `title`, `text` and `image`.
+So each algoritme is responsible for one thing, at that only. These sugestions
+will be based on human developed heuristics.
+
+Its important to note that `fase-0` and `fase-1` will perform calculations
+in parallel as the HTML gets passed. But any final calculation in `fase-1` won't
+be performed if `fase-0` gives any result.
+
+The `fase-2` algoritme runs when `fase-0` and/or `fase-1` is done. It then looks
+at the `title`, `text` and `image` sugestions and their calculated likelihood and
+determents a new likelihood, based on some related assumtions between `title`,
+`text` and `image`. Such as that the `title` is likely to be near the `text` or
+that words from the `title` is likely to appear in the `text`.
+
+The final best result from `fase-2` is then used at the final object.
+
+### Status
+
+##### fase-0
+
+* Not implemented
+
+##### fase-1
+
+* An almost perfect heuristic for finding the title
+* A good heuristic for the text
+
+##### fase-2
+
+* Not implemented
+
+##### Score
 
 This is the current result (Sat Jun 08 2013)
 
