@@ -8,12 +8,39 @@
 npm install article
 ```
 
+
+## Example
+
+```javascript
+var source = 'http://en.wikipedia.org/wiki/Fish';
+
+request(source)
+  // The image url will be resolved from this source url
+  .pipe(article(source, function (err, result) {
+    // result = {
+    //  title: String,
+    //  text: String,
+    //  image: String
+    // };
+  }));
+```
+
 ## Mad science
 
 Usually you have some feed, there will give you the title and perhaps a
 short description of the article. However its rare that it contains the image
 and certainly never the full context. This module will scrape the raw article
 html of the page and find as minimum the `title`, `text` and the `image`.
+
+### Score
+
+This is the current result (Sat Jun 08 2013)
+
+|       | Unknown | Wrong | Bad | Good | Perfect |
+|------:|:-------:|:-----:|:---:|:----:|:-------:|
+| Title | 0       | 1     | 0   | 0    | 140     |
+| Text  | 0       | 1     | 4   | 105  | 30      |
+| Image | 141     | 0     | 0   | 0    | 0       |
 
 ### Definitions
 
@@ -73,35 +100,9 @@ The final best result from `fase-2` is then used at the final object.
 
 * Not implemented
 
-##### Score
-
-This is the current result (Sat Jun 08 2013)
-
-|       | Unknown | Wrong | Bad | Good | Perfect |
-|------:|:-------:|:-----:|:---:|:----:|:-------:|
-| Title | 0       | 1     | 0   | 0    | 140     |
-| Text  | 0       | 1     | 4   | 105  | 30      |
-| Image | 141     | 0     | 0   | 0    | 0       |
-
 ## Follow and help at the wiki and issues
 
 Wiki and blog: https://github.com/AndreasMadsen/article/wiki
-
-## Example
-
-```javascript
-var source = 'http://en.wikipedia.org/wiki/Fish';
-
-request(source)
-  // The image url will be resolved from this source url
-  .pipe(article(source, function (err, result) {
-    // result = {
-    //  title: String,
-    //  text: String,
-    //  image: String
-    // };
-  }));
-```
 
 ##License
 
