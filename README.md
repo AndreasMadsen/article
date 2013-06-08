@@ -8,7 +8,6 @@
 npm install article
 ```
 
-
 ## Example
 
 ```javascript
