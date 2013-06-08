@@ -108,9 +108,10 @@ Logic.prototype._resume = function () {
 
 Logic.prototype._saveState = function (index, state) {
   var self = this;
-
+  
   datamap[ ITEMS[index].mapIndex ].state = state;
-
+  ITEMS[index].state = state;
+  
   fs.writeFile(
     path.resolve(__dirname, '../../test/reallife/datamap.json'),
     JSON.stringify(datamap, null, '\t') + '\n',
