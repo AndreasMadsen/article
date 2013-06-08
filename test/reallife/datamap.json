@@ -4,7 +4,7 @@
 		"key": "1bbc7f62e80e44afd533e896c0168c3b18f1e934530d05cb1f579ad3347d135c",
 		"href": "http://www.nytimes.com/2013/05/10/health/prices-cut-for-hpv-cervical-cancer-vaccines-for-neediest.html?hp&_r=1&",
 		"why": "random article",
-		"state": "4-3-0"
+		"state": "1-3-0"
 	},
 	{
 		"labeled": true,
@@ -228,7 +228,7 @@
 		"key": "7fc58a2d32d5b8d5fa9b918453a284acc71703ccfa0f0c89ec292b4245fd0521",
 		"href": "http://www.hindustantimes.com/News-Feed/Chunk-HT-UI-IndiaSectionPage-DelhiGangrape/Accused-stable-but-still-running-fever-say-docs/Article1-1060726.aspx",
 		"why": "google news scrape",
-		"state": "1-3-0"
+		"state": "4-3-0"
 	},
 	{
 		"labeled": true,
@@ -242,7 +242,7 @@
 		"key": "74e8bc94abea7c60f022d8d3f672f80e59e3e126735fae0b5ee5914ff2fce48e",
 		"href": "http://www.dailytech.com/Google+Announces+Pure+Galaxy+Nexus+S4+for+649+Android+Updates/article31563c.htm",
 		"why": "google news scrape",
-		"state": "1-1-0"
+		"state": "4-1-0"
 	},
 	{
 		"labeled": true,
@@ -613,7 +613,7 @@
 		"key": "fc5a55c65ef9b22d7309cdb4d9a6efe319baeda10190547b3e49dc9152e92f14",
 		"href": "http://theweek.com/article/index/245259/this-invisibility-cloak-creates-a-hole-in-time",
 		"why": "google news scrape",
-		"state": "1-3-0"
+		"state": "4-3-0"
 	},
 	{
 		"labeled": true,
