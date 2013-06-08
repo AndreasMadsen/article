@@ -24,7 +24,7 @@ This is the current result (Fri Jun 07 2013)
 
 |       | Unknown | Wrong | Bad | Good | Perfect |
 |------:|:-------:|:-----:|:---:|:----:|:-------:|
-| Title | 0       | 4     | 0   | 0    | 137     |
+| Title | 0       | 1     | 0   | 0    | 140     |
 | Text  | 0       | 4     | 4   | 103  | 30      |
 | Image | 141     | 0     | 0   | 0    | 0       |
 
