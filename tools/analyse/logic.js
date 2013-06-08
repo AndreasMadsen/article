@@ -4,15 +4,24 @@ var path = require('path');
 var async = require('async');
 var fork = require('child_process').fork;
 
-var datamap = require('../../test/reallife/datamap.json');
+var datamapSource = fs.readFileSync(path.resolve(__dirname, '../../test/reallife/datamap.json'));
+var datamap = JSON.parse(datamapSource);
+
+datamap.forEach(function (item) {
+  delete item.index;
+});
 
 // Create a items list based on process.argv
 var ITEMS = (function () {
-  if (process.argv[2] === undefined) {
-    return datamap;
-  } else {
+  var items = JSON.parse(datamapSource);
+  items.forEach(function (item, mapIndex) {
+    item.mapIndex = mapIndex;
+  });
+
+  if (process.argv[2] !== undefined) {
     var argv = process.argv.slice(2);
-    var items = datamap.filter(function (item) {
+
+    items = items.filter(function (item) {
       var index = argv.indexOf(item.key);
       if (index !== -1) {
         argv.splice(index, 1);
@@ -24,9 +33,9 @@ var ITEMS = (function () {
     if (argv.length !== 0) {
       throw new Error('Could not find ' + JSON.stringify(argv));
     }
-
-    return items;
   }
+
+  return items;
 })();
 
 ITEMS = ITEMS.map(function (item, index) {
@@ -104,11 +113,11 @@ Logic.prototype._resume = function () {
 Logic.prototype._saveState = function (index, state) {
   var self = this;
 
-  ITEMS[index].state = state;
+  datamap[ ITEMS[index].mapIndex ].state = state;
 
   fs.writeFile(
     path.resolve(__dirname, '../../test/reallife/datamap.json'),
-    JSON.stringify(ITEMS, null, '\t') + '\n',
+    JSON.stringify(datamap, null, '\t') + '\n',
     function (err) {
       if (err) return self.send({ 'what': 'error', 'data': err.message });
 
