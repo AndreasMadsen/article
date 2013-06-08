@@ -7,10 +7,6 @@ var fork = require('child_process').fork;
 var datamapSource = fs.readFileSync(path.resolve(__dirname, '../../test/reallife/datamap.json'));
 var datamap = JSON.parse(datamapSource);
 
-datamap.forEach(function (item) {
-  delete item.index;
-});
-
 // Create a items list based on process.argv
 var ITEMS = (function () {
   var items = JSON.parse(datamapSource);
