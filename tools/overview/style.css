@@ -20,6 +20,7 @@ table thead th {
 }
 
 table tbody td {
+  border-left: 1px dotted gray;
   font-size: 12px;
   border-bottom: 1px solid gray;
 }
