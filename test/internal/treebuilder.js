@@ -209,7 +209,7 @@ test('handlers manages microdata', function (t) {
     t.equal(node.parent, parent);
 
     t.equal(node.type, expected.type);
-    t.equal(node.key, expected.hasOwnProperty('key') ? expected.key : null);
+    t.deepEqual(node.keys, expected.hasOwnProperty('keys') ? expected.keys : null);
     t.equal(node.value, expected.hasOwnProperty('value') ? expected.value : null);
     t.equal(node.scope, expected.hasOwnProperty('scope') ? expected.scope : null);
     
@@ -231,7 +231,7 @@ test('handlers manages microdata', function (t) {
         }
       }
     } else {
-      t.equal(node.scropes, null);
+      t.equal(node.scopes, null);
     }
 
     if (expected.hasOwnProperty('properties')) {
@@ -267,43 +267,43 @@ test('handlers manages microdata', function (t) {
           'http://data-vocabulary.org/Event': [{
             type: 'scope',
             scope: 'http://data-vocabulary.org/Event',
-            key: false,
+            keys: false,
 
             properties: {
               url: [{
                 type: 'item',
-                key: 'url',
+                keys: ['url'],
                 value: 'http://example.test'
               }],
               summary: [{
                 type: 'item',
-                key: 'summary',
+                keys: ['summary'],
                 value: 'Main summary'
               }],
               photo: [{
                 type: 'item',
-                key: 'photo',
+                keys: ['photo'],
                 value: '/picture.jpg'
               }],
               description: [{
                 type: 'item',
-                key: 'description',
+                keys: ['description'],
                 value: 'Crazy description'
               }],
               startDate: [{
                 type: 'item',
-                key: 'startDate',
+                keys: ['startDate'],
                 value: '2010-06-13'
               }],
               location: [{
                 type: 'scope',
                 scope: 'http://data-vocabulary.org/Organization',
-                key: 'location',
+                keys: ['location'],
 
                 properties: {
                   name: [{
                     type: 'item',
-                    key: 'name',
+                    keys: ['name'],
                     value: 'Here'
                   }]
                 }
@@ -313,12 +313,12 @@ test('handlers manages microdata', function (t) {
           'http://data-vocabulary.org/Organization': [{
             type: 'scope',
             scope: 'http://data-vocabulary.org/Organization',
-            key: 'location',
+            keys: ['location'],
 
             properties: {
               name: [{
                 type: 'item',
-                key: 'name',
+                keys: ['name'],
                 value: 'Here'
               }]
             }
