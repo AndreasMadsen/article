@@ -266,7 +266,6 @@ test('handlers manages microdata', function (t) {
         scropes: {
           'http://data-vocabulary.org/Event': [{
             type: 'scope',
-            parent: '__root__',
             scope: 'http://data-vocabulary.org/Event',
             key: false,
 
@@ -298,7 +297,6 @@ test('handlers manages microdata', function (t) {
               }],
               location: [{
                 type: 'scope',
-                parent: 'http://data-vocabulary.org/Event',
                 scope: 'http://data-vocabulary.org/Organization',
                 key: 'location',
 
@@ -315,8 +313,8 @@ test('handlers manages microdata', function (t) {
           'http://data-vocabulary.org/Organization': [{
             type: 'scope',
             scope: 'http://data-vocabulary.org/Organization',
-
             key: 'location',
+
             properties: {
               name: [{
                 type: 'item',
