@@ -215,18 +215,18 @@ test('handlers manages microdata', function (t) {
     
     var i, l, p, r;
     
-    if (expected.hasOwnProperty('scropes')) {
-      var scropes = Object.keys(node.scropes);
-      t.deepEqual(scropes, Object.keys(expected.scropes));
+    if (expected.hasOwnProperty('scopes')) {
+      var scopes = Object.keys(node.scopes);
+      t.deepEqual(scopes, Object.keys(expected.scopes));
 
-      for (i = 0, l = scropes.length; i < l; i++) {
-        t.equal(node.scropes[scropes[i]].length, expected.scropes[scropes[i]].length);
+      for (i = 0, l = scopes.length; i < l; i++) {
+        t.equal(node.scopes[scopes[i]].length, expected.scopes[scopes[i]].length);
 
-        for (p = 0, r = node.scropes[scropes[i]].length; p < r; p++) {
+        for (p = 0, r = node.scopes[scopes[i]].length; p < r; p++) {
           validateTree(
-            node.scropes[scropes[i]][p],
-            expected.scropes[scropes[i]][p],
-            node.scropes[scropes[i]][p].parent // skip parent test
+            node.scopes[scopes[i]][p],
+            expected.scopes[scopes[i]][p],
+            node.scopes[scopes[i]][p].parent // skip parent test
           );
         }
       }
@@ -263,7 +263,7 @@ test('handlers manages microdata', function (t) {
 
         properties: {},
 
-        scropes: {
+        scopes: {
           'http://data-vocabulary.org/Event': [{
             type: 'scope',
             scope: 'http://data-vocabulary.org/Event',
