@@ -7,7 +7,6 @@ test('simple attribute exists', function (t) {
 
   t.equal(fn({ exists: 'whatever' }), true);
   t.equal(fn({ }), false);
-
   t.end();
 });
 
@@ -40,5 +39,36 @@ test('simple multiply attribute name match', function (t) {
   t.equal(fn({ two: 'value' }), true);
   t.equal(fn({ three: 'value' }), false);
   t.equal(fn({ }), false);  
+  t.end();
+});
+
+test('regexp is supported too', function (t) {
+  var fn = attribute({
+    one: ['value'],
+    two: ['value'],
+    three: [/^value-[0-9]$/]
+  });
+
+  t.equal(fn({ one: 'value' }), true);
+  t.equal(fn({ two: 'value' }), true);
+  t.equal(fn({ three: 'value' }), false);
+  t.equal(fn({ three: 'value-0' }), true);
+  t.equal(fn({ three: 'value-1' }), true);
+  t.equal(fn({ }), false);
+  t.end();
+});
+
+test('regexp and string can be mixed', function (t) {
+  var fn = attribute({
+    one: ['value'],
+    two: ['value', /^value-[0-9]$/]
+  });
+
+  t.equal(fn({ one: 'value' }), true);
+  t.equal(fn({ two: 'value' }), true);
+  t.equal(fn({ two: 'value-0' }), true);
+  t.equal(fn({ two: 'value-1' }), true);
+  t.equal(fn({ two: 'value-10' }), false);
+  t.equal(fn({ }), false);
   t.end();
 });
