@@ -3,6 +3,7 @@
 var diffTitle = document.querySelector('#diff-title');
 var diffImage = document.querySelector('#diff-image');
 var diffText = document.querySelector('#diff-text');
+var imageTable = document.querySelector('#image-table');
 
 var identifier = document.querySelector('#identifier');
 var statusDiv = document.querySelector('#status');
@@ -41,7 +42,6 @@ function diff(a, b) {
   return dmp.diff_prettyHtml( dmp.diff_main(a, b) );
 }
 
-
 var paused = false;
 function pause() {
   if (paused) return;
@@ -59,6 +59,65 @@ function resume() {
   titleState.disabled = false;
   textState.disabled = false;
   imageState.disabled = false;
+}
+
+function imageDiff(actual, expected) {
+  var fragment = document.createDocumentFragment();
+
+  var imageView = document.createElement('tr');
+      imageView.setAttribute('id', 'image-view');
+  fragment.appendChild(imageView);
+
+  var imageSize = document.createElement('tr');
+      imageSize.setAttribute('id', 'image-size');
+  fragment.appendChild(imageSize);
+
+  function loadImage(src, className, col) {
+    col.size.setAttribute('class', className);
+    col.view.setAttribute('class', className);
+
+    if (src) {
+      var img = new Image();
+          img.src = src;
+
+      var sizeReader = new Image();
+          sizeReader.src = src;
+
+      col.size.innerHTML = 'loading ...';
+      sizeReader.addEventListener('load', function () {
+        col.size.innerHTML = sizeReader.width + ' &times; ' + sizeReader.height;
+      });
+      sizeReader.addEventListener('error', function () {
+        col.size.innerHTML = 'error';
+      });
+
+      col.view.appendChild(img);
+    } else {
+      col.size.innerHTML = 'none';
+    }
+  }
+
+  function createCollumn() {
+    var col = {
+      view: document.createElement('td'),
+      size: document.createElement('td')
+    };
+
+    imageView.appendChild(col.view);
+    imageSize.appendChild(col.size);
+
+    return col;
+  }
+
+  console.log(actual, expected, actual === expected);
+  if (actual === expected) {
+    loadImage(actual, 'img-diff-match', createCollumn());
+  } else {
+    loadImage(actual, 'img-diff-del', createCollumn());
+    loadImage(expected, 'img-diff-ins', createCollumn());    
+  }
+
+  return fragment;
 }
 
 var TOTAL = 0;
@@ -85,8 +144,12 @@ var HANDLERS = {
     INDEX = item.index;
 
     diffTitle.innerHTML = diff(compare.actual.title || '', compare.expected.title || '');
-    diffImage.innerHTML = diff(compare.actual.image || '', compare.expected.image || '');
     diffText.innerHTML = diff(compare.actual.text || '', compare.expected.text || '');
+
+    diffImage.innerHTML = diff(compare.actual.image || '', compare.expected.image || '');
+
+    imageTable.innerHTML = '';
+    imageTable.appendChild(imageDiff(compare.actual.image || null, compare.expected.image || null));
 
     buttonLeft.style.visibility = (INDEX !== 0) ? 'visible' : 'hidden';
     buttonRight.style.visibility = (INDEX !== (TOTAL - 1)) ? 'visible' : 'hidden';

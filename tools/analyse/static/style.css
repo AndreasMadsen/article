@@ -62,3 +62,34 @@ button {
 #left, #right {
   width: 20px;
 }
+
+#image-table {
+  border-collapse:collapse;
+}
+
+#image-view, #image-size {
+  text-align: center;
+}
+
+#image-view img {
+  height: 150px;
+}
+
+#image-view td {
+  border: 1px solid black;
+  border-bottom: none;
+  min-width: 150px;
+}
+
+#image-size td {
+  border: 1px solid black;
+  border-top: none;
+}
+
+.img-diff-del {
+  background:#ffe6e6;
+}
+
+.img-diff-ins {
+  background:#e6ffe6;
+}
