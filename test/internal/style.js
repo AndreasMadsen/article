@@ -20,3 +20,8 @@ test('test style parser with malformated attribute', function (t) {
   });
   t.end();
 });
+
+test('no style attribute', function (t) {
+  t.deepEqual(styleParser(undefined), { });
+  t.end();
+});
