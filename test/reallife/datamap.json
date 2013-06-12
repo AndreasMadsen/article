@@ -4,77 +4,77 @@
 		"key": "1bbc7f62e80e44afd533e896c0168c3b18f1e934530d05cb1f579ad3347d135c",
 		"href": "http://www.nytimes.com/2013/05/10/health/prices-cut-for-hpv-cervical-cancer-vaccines-for-neediest.html?hp&_r=1&",
 		"why": "random article",
-		"state": "4-3-0"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "749998378f1dcf37a9f24a5b3be83fee32f3bee78e165b33ad404138ee04df13",
 		"href": "http://www.nytimes.com/2013/05/14/science/marvels-and-a-few-mysteries-in-cicadas-17-years.html?hp",
 		"why": "random article",
-		"state": "4-3-0"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "b7660c4d40274010176c79271f7ed0c2d4612fa2a68efb92b30cfe68cc400e5e",
 		"href": "https://github.com/blog/1499-the-revolution-will-be-forked",
 		"why": "random article",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "a9c82dad0fecf2e55874b18b7d81b9c7bee25805a99d22a5cc7464eee285d383",
 		"href": "http://www.2ality.com/2011/06/ecmascript.html",
 		"why": "random article",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "ffca969d27266a5827a36880077783947778d444a953115acd262a161a0f29ca",
 		"href": "http://www.bbc.co.uk/news/world-us-canada-22461506",
 		"why": "random article",
-		"state": "4-3-0"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "c6bb934af3d288c69e9fac33501b8ff0470eb16ca618dca654cc709f2e6d8dc5",
 		"href": "http://blog.izs.me/post/49797044559/curiosity-and-the-practice",
 		"why": "random article",
-		"state": "4-4-0"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
 		"key": "06ed0a833361190536a4f61888354e07dccaa501bd9a1c0f1c545533bde1650b",
 		"href": "http://www.telegraph.co.uk/science/science-news/10056901/Womens-immune-systems-hold-the-secret-to-longer-life.html",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "222dbaa4c9e280311e87e8793dd57e945cb019a7fae1a2b2fd4c6049ea148995",
 		"href": "http://www.chicagotribune.com/news/local/suburbs/orland_park_homer_glen/community/chi-ugc-article-palos-medical-groups-dr-kanesha-bryant-prov-2-2013-05-15,0,3152151.story",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "09198e90b6a14acfef0d4044606b8fd5801648f98763bf967f181aabaf59804d",
 		"href": "http://www.reuters.com/article/2013/05/15/us-usa-healthcare-innovation-idUSBRE94E0P320130515",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "af85fcc561166d0c28caf2ed6765c36d604749e715d3dfa48f4b0b6d5dc2a2d4",
 		"href": "http://www.sfgate.com/health/article/Tiny-bit-of-formula-promotes-breast-feeding-4510136.php",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "c064d58e866d1582814bf623d471441ce9886a6e960041424bbd851facc3aa10",
 		"href": "http://health.usnews.com/health-news/news/articles/2013/05/15/cancer-patients-may-face-higher-bankruptcy-odds",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
@@ -95,175 +95,175 @@
 		"key": "0227809b88a4c7a53db0c418d1a6182343c0b22b9122148baaa93d0a58856931",
 		"href": "http://www.medpagetoday.com/PrimaryCare/Smoking/39154",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "0908784eff9bcf0e273284ed28d3bf75f636cb2886aa264d5fc068972cd9e5fb",
 		"href": "http://www.mmm-online.com/tarceva-diagnostic-brings-new-indication/article/293523/",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "f7b4b68c2ea48aac2f74fa0e7186a96166f72ff926760169dc7bb83c2dd087b0",
 		"href": "http://www.usatoday.com/story/sports/nhl/2013/05/15/raffi-torres-hearing-hit-on-jarret-stoll/2162363/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "72e78dee157bdf3e8a9a9f07e54a98a3714ea2998e2c2e2a94c46dbe92176feb",
 		"href": "http://ftw.usatoday.com/2013/05/win-knicks-indiana-pacers-nba-playoffs-andrew-wiggins/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "900d47edad434e1511f0167c1d31ac525253a37af785f09e00c19685cdb50c61",
 		"href": "http://aol.sportingnews.com/nfl/story/2013-05-15/rolando-mcclain-retires-ravens-raiders-linebacker-alabama",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "4fe5472ba89db38e20daef6025108310c52121fd382c06314d5b33d7f47c1e94",
 		"href": "http://online.wsj.com/article/APacceb5d346334f96a12ba7dbdcdc4003.html?mod=googlenews_wsj",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "c6c81270db52e2fd59107d815a4823526aa23f339b77376a31dd8ba4a770be37",
 		"href": "http://www.usatoday.com/story/sports/nhl/2013/05/15/yankee-stadium-nhl-games/2162867/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "61adb9c208d9c67253b4413ef7ec2d010edae448b8c832bff2254125e4b51d5f",
 		"href": "http://www.cbssports.com/golf/story/22247285/report-2-more-marshals-say-woods-did-not-lie-about-garcia-dustup",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "ee6efdabfcca5663e00309b195208a299af4608381fd1ac8478a9e194cce4723",
 		"href": "http://www.mmajunkie.com/news/2013/05/ufc-159s-bryan-caraway-ecstatic-with-new-bonus-blasts-marijuana-usage-in-mma",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "73c175cdf9d5e065351ecf2220510088904adb77b49211cdd99e43e5870e06c2",
 		"href": "http://www.usatoday.com/story/sports/nascar/2013/05/15/danica-patrick-nascar-all-star-fan-vote/2162581/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "b52d6a170c78bea8365c51c8e5ec8ed212162bd733f81a10b9acdb6f0fa55560",
 		"href": "http://online.wsj.com/article/SB10001424127887324767004578485133926979690.html?mod=googlenews_wsj",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "b2ca042c043a1ad0f0bdd912ec11984aaa1330d24f4b549852bfc748e496fe8a",
 		"href": "http://espn.go.com/boxing/story/_/id/9277146/floyd-mayweather-jr-top-paid-us-athlete-2013-sports-illustrated",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "b41b3c1a01fae3feb1eff41a369be869b7c6a0285012c9f38c8228ed89a8555e",
 		"href": "http://www.jpost.com/National-News/Clashes-in-W-Bank-and-Jlem-as-Palestinians-mark-Nakba-Day-313217",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "a7d87581adebd1ff57f151dd3ff46e718984fee0c1608b2263522358a39035b3",
 		"href": "http://www.ynetnews.com/articles/0,7340,L-4380324,00.html",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "090638153c72af750a39fb8dedebfddfa52f00b73ee034de4444f105d8daa80d",
 		"href": "http://www.cbc.ca/news/canada/north/story/2013/05/15/north-aglukkaq-first-inuk-arctic-council.html",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "d6e7c4ecbdc245293d00dbf866a8d550a6d1e78180d0e40beeff37d28b190ebf",
 		"href": "http://www.usatoday.com/story/news/nation/2013/05/15/boston-bombing-marathon-cia-spy-detained-terrorism/2161113/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "fe32bd9876a32fd93d180c282959cc80bc5349f8b5eeae759eb5f5c801536847",
 		"href": "http://www.voanews.com/content/donors-pledge-42-billion-for-mali/1661520.html",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
 		"key": "46ab324348ca339dba58238e193f794c3309e52c018a8156ef9aedfedf0572e7",
 		"href": "http://www.bbc.co.uk/news/world-africa-22544056",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "b1a85f64c10aa51213f334fd7f640caab1a821b1f16154f4b374663426de1375",
 		"href": "http://www.reuters.com/article/2013/05/15/us-iraq-violance-idUSBRE94E0O520130515",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "7fc58a2d32d5b8d5fa9b918453a284acc71703ccfa0f0c89ec292b4245fd0521",
 		"href": "http://www.hindustantimes.com/News-Feed/Chunk-HT-UI-IndiaSectionPage-DelhiGangrape/Accused-stable-but-still-running-fever-say-docs/Article1-1060726.aspx",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "b415b9e79addcb85b582c5556dbdf2f23aeb1189f4e79aef2c2ff6440245d77c",
 		"href": "http://www.businessweek.com/articles/2013-05-15/google-i-o-our-short-version-of-a-very-long-keynote",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "74e8bc94abea7c60f022d8d3f672f80e59e3e126735fae0b5ee5914ff2fce48e",
 		"href": "http://www.dailytech.com/Google+Announces+Pure+Galaxy+Nexus+S4+for+649+Android+Updates/article31563c.htm",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "5fbfe3905c71925b1b3a875a3111073e5d0996d3f250a697398477d3642db321",
 		"href": "http://www.computerworld.com/s/article/9239239/Google_CEO_on_innovation_We_re_at_1_of_what_s_possible_",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "2dbf7cd4444617cc60f0e2d2c95b20a535979a32972f5005e2af577b37980e48",
 		"href": "http://www.pcworld.com/article/2038817/googles-vision-for-search-highlights-knowledge-graph-speech.html",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-3"
 	},
 	{
 		"labeled": true,
 		"key": "5bc9df3a36efb57a22edf862cec6a28eb112e535559c194d7976fb664c922c13",
 		"href": "http://www.eweek.com/mobile/slideshows/blackberry-live-jammed-with-news-giddy-with-potential/",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
@@ -284,245 +284,245 @@
 		"key": "c3d7e515974f6773f15e663f3392e9ec5bb8ffe9e064c58a8f1a2eeeb2319a70",
 		"href": "http://www.informationweek.com/mobility/security/vmware-fights-android-byod-headaches/240154955",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "a7ffddd80ae1b2cca0a77a25e288902b81d92bc24803df1f79cb19ed10d93d19",
 		"href": "http://technology.iafrica.com/news/games/859225.html",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "40d4e50472a8f0d30d68613051be510ed098087679df7e0e564d6dd32152d679",
 		"href": "http://www.latimes.com/news/science/sciencenow/la-sci-sn-everest-climate-20130514,0,7957473.story",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "4063d3f9f752fac6552211fd87b8dad1494cc024d8fbd30ee8e1c92a7f21fe08",
 		"href": "http://www.designntrend.com/articles/4337/20130515/evolution-fossils-ape-monkey-split.htm",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "26c3b98f33bb6902f32535235fd7d32792df87779bdf1f86c3b21e15fbf3161d",
 		"href": "http://www.voanews.com/content/sun-unleashes-massive-solar-flares/1661774.html",
 		"why": "google news scrape",
-		"state": "4-2-0"
+		"state": "4-2-1"
 	},
 	{
 		"labeled": true,
 		"key": "e24a0387847b7e638c2ad92cd4452eb7ac56a3b4ce978272d5b243975d74baf1",
 		"href": "http://www.washingtonpost.com/national/health-science/worlds-fish-have-been-moving-to-cooler-waters-for-decades-study-finds/2013/05/15/730292e8-bcd7-11e2-9b09-1638acc3942e_story.html",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "45b6063ac2016db7b2fb1f995f0b54ee054fb561022e169c8fdbe321dcf672db",
 		"href": "http://cosmiclog.nbcnews.com/_news/2013/05/15/18278377-ciudad-blanca-found-scientists-share-images-of-lost-city-in-honduras?lite",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "d1f24dac5e97d7c977a1b6df94e2334a2fecdc384548433b800bfd080471fde2",
 		"href": "http://www.usatoday.com/story/tech/2013/05/15/camera-bugs-eye-view/2162757/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "63c6d5256b8ce1098b5688eb5fafa747e9467692d099a3e9e42246e7af29748f",
 		"href": "http://www.designntrend.com/articles/4338/20130515/eso-captures-spectacle-fiery-ribbon-constellation-orion.htm",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "0a8c510c3691d8e68ccc749559680257a382fe792a3d4d8531fb285cd74c3492",
 		"href": "http://www.cbsnews.com/8301-204_162-57588012/hepatitis-a-victim-shocked-organic-berries-almost-led-to-liver-transplant/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "864dda5a45ef2c84ea8419ef6e81bede7254b3660151d7b195dbfb406dfb0d6b",
 		"href": "http://www.bbc.co.uk/news/world-us-canada-22801655",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "176f3005704bdc918e9a46ffecc2d225ec3fa723a66da18d53a77264b92e05ac",
 		"href": "http://www.foxnews.com/health/2013/06/06/medical-breakthrough-for-multiple-sclerosis-sufferers/",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "e3643c169f1c19bdd0f297022d4bf4da8853a9f23e8b954da45a8def55d3fe48",
 		"href": "http://www.cbsnews.com/8301-505266_162-57587967/avandia-even-if-fda-reverses-restrictions-will-diabetes-drug-make-a-comeback/",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "56671acb60ba54b0c5c5bf3e428d1a679035a07c3721e71e871236ab6b9f08aa",
 		"href": "http://www.boston.com/lifestyle/health/mdmama/2013/06/quiz_check_your_sunscreen_smarts.html",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "0475e5eeadaaca857eea3f36d0eda01937fe672d48be7f98ba6bc7f25ecd63d0",
 		"href": "http://www.upr.org/post/court-says-some-morning-after-pills-must-be-available-otc-now",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "35f536ef8c8eba0616f2dc78e6653e1d7d68e3af927b09efad3dae7ce2080567",
 		"href": "http://latino.foxnews.com/latino/health/2013/06/06/man-with-micropenis-discovers-hes-actually-woman-at-age-66/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "783f9f0fba31f9653f382a7076e92795cb622216ad6e5e58023e10e8b09e66e0",
 		"href": "http://www.latimes.com/news/science/la-sci-ptsd-gene-20130606,0,863415.story",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "50307222a307152e17c5262fc6983e8eb6ecd7a5d4c6505a7e9ab475bbe67eeb",
 		"href": "http://health.usnews.com/health-news/news/articles/2013/06/05/blacks-with-certain-gene-need-lower-doses-of-warfarin-study",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "5c83c2d71f97e2b5a979f197fbae6773dee6844e28889ae66ccb8d7458a9c5bb",
 		"href": "http://www.thedailybeast.com/articles/2013/06/06/did-backlash-prompt-komen-s-cancellations",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "e59c8117a6e0002ffe00121307cff1af9a7abefc09c926b974e7af29c9a99765",
 		"href": "http://mlb.mlb.com/news/article.jsp?ymd=20130606&content_id=49791276&vkey=news_mlb&c_id=mlb",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "6cdcd7944598ec47c64f1a329e17562956175a99391f459a3365b1e43212f8c8",
 		"href": "http://www.miamiherald.com/2013/06/05/3435012/penn-state-trustees-hope-sanctions.html",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
 		"key": "71cb773c42c94b75d41c059a27dd10b763443a71dbb6dd202402843de8a5e331",
 		"href": "http://www.sbnation.com/2013/6/6/4400982/san-antonio-spurs-nba-finals-2013",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "b65990adfd43e3be62c8bc66e7a6e3710da4387af5899b4eeb478e59c67ceba0",
 		"href": "http://espn.go.com/boston/nhl/story/_/id/9347873/2013-nhl-playoffs-tuukka-rask-bails-boston-bruins-game-3",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "6d30abed88489774017024b17cdb1928d9a2b45bb79767515383b8444e9601b2",
 		"href": "http://espn.go.com/tennis/french13/story/_/id/9340704/french-open-maria-sharapova-jelena-jankovic-ready-duel",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "bbe6bcd413682c74113b92fcd59f248badcce29347c3e3790c47e0e7647b45bd",
 		"href": "http://www.usatoday.com/story/sports/college/2013/06/05/embattled-ad-julie-hermann-anxious-to-start-at-rutgers/2394029/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "ea94686e9d7db9a4f2f454bdbbd2cab38f20a9422f22601073c4720a46c7ab20",
 		"href": "http://www.sbnation.com/mlb/2013/6/6/4402078/biogenesis-scandal-alex-rodriguez-anthony-bosch-deal",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "16702eaff02251b57c07ed736da79f438c2d14f020811e2887fd7bcf43a5b150",
 		"href": "http://www.wbal.com/article/100317/3/See-Photos--Video-President-Obama-Honors-The-Ravens-At-The-White-House",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
 		"key": "69087cd3b7ca122ffbd35d6d38de33651fd5ab62d637b87d70599e05d299aa98",
 		"href": "http://www.newsday.com/sports/basketball/spurs-threesome-duncay-park-and-ginobili-quiet-but-effective-1.5418180",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "717fa45e0e3901be4039f2a6b26d4b50cf869a903dc8057e2fac1047fd033fdc",
 		"href": "http://www.businessweek.com/ap/2013-06-06/austria-says-syrian-rebels-captured-golan-crossing",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
 		"key": "e9a4fbbca7b4829cc1b53d7650973aee23b9d4f285d5d120dc5537ac2a20ceae",
 		"href": "http://www.latimes.com/news/world/worldnow/la-fg-wn-britain-compensation-kenyans-20130606,0,9086.story",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "3583db09d8fbe6ee207f0ed06e46b0ca39d7170829469b0ba353b83f0da10be7",
 		"href": "http://www.guardian.co.uk/world/2013/jun/06/florida-tropical-storm-andrea",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "9e04cb267a9b128369a11c7f6e5486d43644955dee7f73cc004b9cf1693a11c1",
 		"href": "http://www.bbc.co.uk/news/world-asia-22795060",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "a22aae3a2932226a42d9adb9699c1298ec1b8ed9b67cb7657cc621453f34fbec",
 		"href": "http://www.upr.org/post/myanmars-aung-san-suu-kyi-walks-fine-line-her-new-role",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "173cb8504d91bed86832e087316c2b1febe3e7e76f478f5a401c9ae4fc4641fb",
 		"href": "http://www.thenews.com.pk/article-104071-Sandbags-and-raw-nerves-as-flood-peak-hits-Germany",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "f42f0abc07ef3e80cb1425b8f133445785565eb65f498ade61e75f1d867cd2db",
 		"href": "http://www.reuters.com/article/2013/06/06/us-pope-holiday-idUSBRE9550RG20130606",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
