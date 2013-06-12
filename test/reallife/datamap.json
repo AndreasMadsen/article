@@ -81,14 +81,14 @@
 		"key": "5f8b89390d3fc01c6a80728ba2aee597fea1dbfc8399d61015956db71e5336c7",
 		"href": "http://www.usatoday.com/story/news/nation/2013/05/15/prostate-cancer-drug/2162723/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "d95b90410bbe45545489d5e53ef197f408e9ac95987be7061116c3702666edb9",
 		"href": "http://www.reuters.com/article/2013/05/14/us-hysterectomy-heart-risk-idUSBRE94D14G20130514",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
@@ -270,14 +270,14 @@
 		"key": "3733bd3d3a576606eb376bd274b8806c755607da4bb6e58cebd24876d4914d0b",
 		"href": "http://paidcontent.org/2013/05/15/publishers-to-testify-against-apple-in-price-fixing-trial/",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "ea854577e0e8b8577d679f05a0bec1ba19b7998a557d55cab0cb90a9d98883df",
 		"href": "http://techcrunch.com/2013/05/13/at-io-google-will-be-tracking-things-like-nose-level-and-air-quality-with-hundreds-of-arduino-based-sensors/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
@@ -529,461 +529,461 @@
 		"key": "7e54e701ac39a9046d6eeb0ae75d2138733b66b30b5211e7f3245dd6dc3ca36c",
 		"href": "http://www.bbc.co.uk/news/world-asia-china-22795867",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "e92204e17d108eaf649148fa5878e5a9d9babced8b7996d6ffd5f1213ebbff9f",
 		"href": "http://www.theaustralian.com.au/news/world/seoul-says-yes-to-peace-talks-offer-from-north-korea/story-e6frg6so-1226658940838",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "8cbf3b144736ffc4adda5fe7105e7fd1413dcc1955110829d849a658aa722bea",
 		"href": "http://www.guardian.co.uk/technology/2013/jun/06/microsoft-fbi-cybercrime-citadel-botnet",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "f0ad1615c376d042a458dd4fc713b0d17124d74ae07becaab78bfb7a82dd14b4",
 		"href": "http://www.theregister.co.uk/2013/06/06/publishers_gave_amazon_ultimatum/",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
 		"key": "cb3ce2786db729aa887ab6fd0b2f377549c235f3fc26e6e252efd6c92319b418",
 		"href": "http://www.engadget.com/2013/06/06/any-do-announces-cal/?utm_medium=feed&utm_source=Feed_Classic&utm_campaign=Engadget",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "84a7e7d5f61c90050a326bb74ac3a57899fdba4b755bd50df01a053c262d354e",
 		"href": "http://www.phonedog.com/2013/06/06/lg-optimus-f3-officially-landing-at-sprint-on-june-14-with-4-inch-display-29-99-price-tag/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "1d43b4816bdba5825165dc21558d9eafb9f650c67ba048411b04dc77a745dc39",
 		"href": "http://www.pcmag.com/article2/0,2817,2420045,00.asp",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "b02e15742db8bfa35d678294194980662f3f6534bbd7d1a8cda2ad35f4db83a6",
 		"href": "http://www.theregister.co.uk/2013/06/06/blackberry_q10_looks_to_carve_out_indian_niche/",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
 		"key": "5a012f66c2bf0c70a0744c7483478aaa0c1a2b5b5920a72223f3a090e39df8be",
 		"href": "http://www.zdnet.com/eight-changes-id-like-to-see-in-windows-8-1-but-probably-wont-7000016414/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "0873e7508224014b9df7e0c599b2eb33ebb733af7bc23fb11114ad5cf0e1ecfd",
 		"href": "http://www.smh.com.au/environment/discovery-challenges-primate-evolution-theory-20130606-2nssi.html",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "dbca84517147fae696f9d9de284ea5d31386ca1891c9ed8ff8502c61b658287d",
 		"href": "http://www.foxnews.com/science/2013/06/06/curiosity-rover-leaving-mars-rat-behind/",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
 		"key": "22c0f41ae560968de5e6b0ef9ecffffeae3f409aa73d9b82853f65535116f68f",
 		"href": "http://www.jpl.nasa.gov/news/news.php?release=2013-186",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
 		"key": "fc5a55c65ef9b22d7309cdb4d9a6efe319baeda10190547b3e49dc9152e92f14",
 		"href": "http://theweek.com/article/index/245259/this-invisibility-cloak-creates-a-hole-in-time",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "cd8abf479bae4ca283b3d034c486e134f69a6753aacadad2de27dee1d1745a88",
 		"href": "http://thespacereporter.com/2013/06/young-star-suggests-our-sun-was-a-feisty-toddler-astronomers-say/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "8172f708c00419226cbe0848dd3bcf153f076a6eda9802446790a926c26c97b3",
 		"href": "http://news.discovery.com/earth/weather-extreme-events/irish-monks-were-unwitting-climate-scientists-and-volcanologists-130606.htm",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "40957335ccdb58181d44b8597246b34ba44d070d729b4d7e008b72256b5efdd7",
 		"href": "http://www.wired.com/wiredscience/2013/06/deep-sea-debris/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "7a426de207434e419a65eead0f4b46c8a479429d8429c36dc03b033d7e4891df",
 		"href": "http://www.space.com/21443-cats-paw-nebula-starburst.html",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "d57c1a6989d0075d551168500f36da6309c2f5eeac2ae57406694a2e41dfda33",
 		"href": "http://www.bbc.co.uk/news/science-environment-22764946",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "bf6c2f1cfb002f13675b39a62951eac42e7604409705e6c6a838285f6b6758ff",
 		"href": "http://www.guardian.co.uk/environment/2013/jun/06/americans-for-prosperity-carbon-tax",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "7b7ffca82db8f721d6e5a8e4e65e60885af5eee4b9f28beb6b8363bb70c820f9",
 		"href": "http://www.washingtonpost.com/national/health-science/komen-cancels-3-day-walk-in-dc-six-other-cities-in-2014/2013/06/04/df9b50dc-cd4b-11e2-9f1a-1a7cdee20287_story.html",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "72ecfb3f60f4e8a6103916f2041ce9a55c4ef1e31477f9a8ffb7f4d3bba8c559",
 		"href": "http://www.medicalnewstoday.com/articles/261600.php",
 		"why": "google news scrape",
-		"state": "4-2-0"
+		"state": "4-2-4"
 	},
 	{
 		"labeled": true,
 		"key": "5f081a0a9d1a1ce3b0e53603ecd8bde78947841c8fd1ff3c36efa95ee84681f6",
 		"href": "http://diabetes.webmd.com/news/20130606/fda-mulls-lifting-tight-safety-limits-on-diabetes-drug-avandia",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "91a36e049f1333ca254331009fff8aba4b3568e05e52a806841678506b0f5010",
 		"href": "http://www.pentagonpost.com/health-experts-say-yoga-enhanced-mental-functions-better-than-physical-exercise/8348996",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "44f750fab67bb9f54f5b5cc90bc34d55cff06260a3e63245856a6e57fcda5906",
 		"href": "http://www.southcoasttoday.com/apps/pbcs.dll/article?AID=/20130606/LIFE07/306060307/-1/NEWSMAP",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "7e2d19ccbb3b4029dddf26557555278babdac18bb78a742052fd946001c28e4e",
 		"href": "http://www.medicalnewstoday.com/articles/261601.php",
 		"why": "google news scrape",
-		"state": "4-2-0"
+		"state": "4-2-1"
 	},
 	{
 		"labeled": true,
 		"key": "255604098d7512eebc3bbf496b92b8949b0cf2aa9b69d43c074c3b741ba83a8a",
 		"href": "http://abcnews.go.com/Health/woman-sues-costco-berry-farm-hepatitis/story?id=19331847",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "039c4b966d1f2a0c589ac0aad211fe65500ad1cb58c7f45b34251db7056803ec",
 		"href": "http://www.reuters.com/article/2013/06/07/us-nutrition-idUSBRE9560DL20130607",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "fff65493446424d4b8d49bd1027a851bdd685a75bd11a324897ebe836b3ebb85",
 		"href": "http://www.nytimes.com/2013/06/06/health/appeals-court-lifts-limit-on-emergency-contraceptive.html",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "230f4fea097481b37a5d4c022dfc77feddf99599d2bbcdc2ac1abf684200cad8",
 		"href": "http://www.washingtonpost.com/sports/nationals/a-year-after-passing-on-him-astros-draft-stanford-righty-mark-appel-with-no-1-pick/2013/06/06/a4f67578-cf0e-11e2-8573-3baeea6a2647_story.html",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "cad337499f52823462d2abcf1fb67d697c5bc59c5bc9f4e57a3fcbef2bc986ef",
 		"href": "http://www.cbssports.com/mlb/gametracker/recap/MLB_20130606_ATL@LAD/dodgers-5-braves-0",
 		"why": "google news scrape",
-		"state": "1-3-0"
+		"state": "1-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "417d345d03641d0119788a34448994b5162cae2e05a0065037a78625101121a9",
 		"href": "http://www.bbc.co.uk/sport/0/athletics/22810388",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "64bf40da8348d808ef103cc5529fd268fec46fbefa40b486d288d2a07871a527",
 		"href": "http://www.newsobserver.com/2013/06/07/2944852/linda-robertson-teams-contrasts.html",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
 		"key": "3b27831099c75b36d5978864ec89575c675c963e949cda52147a044bbfa77559",
 		"href": "http://www.nypost.com/p/sports/nets/newly_fired_karl_net_candidate_orHX3f4XPDOa7Frw1bZbMN",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "f84d9002fd50843a620e532b73ee91cd67a02f32e7d6c974c8cab25abfeda6c8",
 		"href": "http://www.newsobserver.com/2013/06/07/2945026/mickelson-now-needing-to-work.html",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "3737f33c1f2366581f2ee45ded2d94adc0e7d9e6ca00fc094eaecbfaa0daa8e9",
 		"href": "http://www.usatoday.com/story/sports/ncaab/2013/06/06/north-carolina-basketball-player-pj-hairston-arrested/2396683/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "ea80cfab838b25791b92aca7861c81a444dc8854a67298f3af81f95c53fa75bd",
 		"href": "http://www.startribune.com/sports/210522981.html",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-3"
 	},
 	{
 		"labeled": true,
 		"key": "b84ec657c46c12ba69262e94784ea87d237fdecef64ab82031e95469c510abe3",
 		"href": "http://www.the-review.com/ap%20sports/2013/06/07/mets-go-back-to-cali-draft-1b-dominic-smith",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "0339f4fe0403110a66c7db27cb4b3cf4d3e995dfb84931aeb831da7186d3932b",
 		"href": "http://www.dailybulletin.com/sports/ci_23407690.html",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "c34f3cea1bdcd61b261efe1e240c28119e51b511d948522a7b67f2dfb516b2af",
 		"href": "http://www.bloomberg.com/news/2013-06-06/turkish-protesters-attacked-in-erdogan-s-black-sea-hometown.html",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "e403c2aa7e9b26ccb91c8e84a45a95ba1f645020d81b1077574ee2c1d5d1c723",
 		"href": "http://www.bbc.co.uk/news/world-middle-east-22802569",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "5020d8de60d27540f02da75535adb8f922a62e3d49d6d84845d70f19b84cf096",
 		"href": "http://www.bbc.co.uk/news/world-europe-22811510",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "6a59bd96489c98226c72f0245bac98a4b09aa0516ebfe4982233a6c33d129691",
 		"href": "http://www.nytimes.com/2013/06/08/world/asia/south-and-north-korea-pave-way-for-direct-talks.html",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "a15540be9ec31af460246605295bd157435b43be726589e4e2ed9b3511859a77",
 		"href": "http://www.bbc.co.uk/news/world-22795420",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "44b21071ae6feede3c36d2ab032cd422eb0c6a0fdfe4da79531931ad93dd4940",
 		"href": "http://www.cbsnews.com/8301-250_162-57588163/amid-complex-relationship-obama-seeks-cooperation-with-china/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "6b095375a53dfc7994a032e2efac70f43a4fac9303d549256d88b8f7cecadd50",
 		"href": "http://www.thehindu.com/news/international/world/rebels-attack-air-base-in-northern-syria/article4791380.ece",
 		"why": "google news scrape",
-		"state": "4-1-0"
+		"state": "4-1-4"
 	},
 	{
 		"labeled": true,
 		"key": "a4dbbcc4b5ab24565e064f0a0f1059f3da69041ca39b19ece4757de691fd5b92",
 		"href": "http://www.nytimes.com/2013/06/08/world/asia/taliban-attack-base-guarded-by-georgians-in-afghanistan.html",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "2fd71e2969106342bab6862bb212ae16ba592b426dd4141da8a383b183aa3a37",
 		"href": "http://online.wsj.com/article/SB10001424127887324069104578528802002792968.html",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "c052ce8cb37bf4a18619b19a7db1ab74f12839f85764b19798d801bc2f277267",
 		"href": "http://www.guardian.co.uk/world/2013/jun/06/us-tech-giants-nsa-data",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "61d8052b19ed9885651ed1110ddcccc001f9ec2e3b7a77926d350762bcd02400",
 		"href": "http://www.computerworld.com/s/article/9239873/Why_iOS_is_the_future_of_Apple_and_how_we_got_here_?taxonomyId=123",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "19fe8f574b7420277862728929d83dd74d7aa9c742688ca4c386b75693547bd3",
 		"href": "http://www.theinquirer.net/inquirer/news/2273430/microsoft-confirms-always-on-xbox-one-requirements",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "83940e658ca7dcf165fdd1dbddf0dae4acf6306d313a68037165f8ca71eecd0d",
 		"href": "http://abcnews.go.com/Technology/apple-removes-gay-cure-app-store-google-resists/story?id=19331115",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "4b8debc51d3d9598ad4552cc7a591d200a6c7d545fed2454916bedbb0f666086",
 		"href": "http://www.latimes.com/business/technology/la-fi-tn-facebook-advertising-20130606,0,4916401.story",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "36325f8d21a22c77ef11b4039035b6d94f842a841904a483c472b54bb29a7445",
 		"href": "http://www.bloomberg.com/news/2013-06-06/apple-said-to-start-trade-in-program-to-boost-new-models.html",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "efdedc2181595d1f4e4bfcb70302866eb8f14fa6645650d90437d19a2eb3cf02",
 		"href": "http://www.zdnet.com/samsung-shares-plummet-over-galaxy-s4-profit-fears-7000016526/",
 		"why": "google news scrape",
-		"state": "4-4-0"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "da55d21b5482344a52d42390694601f0469a2588ebb6ed93b90c4b4b06fcdf24",
 		"href": "http://www.eweek.com/security/microsofts-botnet-takedown-campaign-10-reasons-it-keeps-doing-it/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "91c286205920ff2064e1328c3650e3789fbd3fa798c832b12cd5f65185e6e6d5",
 		"href": "http://www.reuters.com/article/2013/06/06/us-apple-ebooks-trial-idUSBRE95500U20130606",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "f4041ae33fa184f10de3b0fb3acc42e29ada0c3a3427ad22a26ebf0f31559330",
 		"href": "http://www.pcworld.com/article/2040917/box-launches-rev-sdk-and-invites-enterprise-app-developers-to-share-the-wealth.html",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "9e3c6d40690c1302613f203db178b23f9f18494d2653a1b547086a3973fff93c",
 		"href": "http://www.bbc.co.uk/news/science-environment-22780651",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "dedab30be4d82fdab5c4cdec17c6b4dc29552b51fe14fb000f6121347041e200",
 		"href": "http://www.bbc.co.uk/news/science-environment-22803592",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "d7bb9f5f1f536e0e906606819e6311282bfe2416d29bcc13121d234cef59134e",
 		"href": "http://www.bbc.co.uk/news/science-environment-22770646",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "e4110881d8aa93c8cc5537e5e4dac2f52bfc797c4fee39dd8db92ac8fddd464e",
 		"href": "http://www.motherjones.com/blue-marble/2013/06/stalagmites-are-new-tree-rings",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "ba7170b7b26a0bdae6793144f77bebbc27c2d94e2df84eef8c0cb6eea038c62f",
 		"href": "http://www.sciencerecorder.com/news/dust-catching-vortices-around-stars-may-explain-puzzle-of-how-planets-form-say-astronomers/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "1e62a223bca12adda6410b1789072a2ad755566bd4a6bc17d10dc95a51d74d65",
 		"href": "http://www.geek.com/news/competition-looks-for-nasas-next-vehicle-in-lego-1557718/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "488a0b7fa8bc2e0d799ac1dcb22620654777c66a9260983f369d842210f5d3d4",
 		"href": "http://www.dailymail.co.uk/news/article-2336183/Texas-banker-offers-1MILLION-prize-solve-math-problem-left-academics-baffled-decades.html?ito=feeds-newsxml",
 		"why": "google news scrape",
-		"state": "4-2-0"
+		"state": "4-2-4"
 	},
 	{
 		"labeled": true,
 		"key": "22c3886e7116464c04c2332c20a013a5837992e7bcdb1f6cacd7d475f9784273",
 		"href": "http://science.time.com/2013/06/07/what-open-air-nuclear-tests-tell-us-about-the-brain/",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "3f6413c32bffc73b64cb1a2adb237cd19ffc75494c9172755f1a961ba32e75dd",
 		"href": "http://www.necn.com/06/07/13/UMass-to-receive-95M-life-sciences-grant/landing.html?&apID=b1ff00f96a424414ab3edfd17033519e",
 		"why": "google news scrape",
-		"state": "4-3-0"
+		"state": "4-3-1"
 	}
 ]
