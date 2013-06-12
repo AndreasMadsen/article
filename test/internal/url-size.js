@@ -19,7 +19,13 @@ function actualSize(href) {
 
 test('width times height match', function (t) {
   t.deepEqual(actualSize('http://example.test/cat/100x200.jpg'), expectedSize(100, 200));
+  t.deepEqual(actualSize('http://example.test/cat/100*200.jpg'), expectedSize(100, 200));
   t.deepEqual(actualSize('http://example.test/cat/16x9.jpg'), expectedSize(null, null));
+  t.deepEqual(actualSize('http://example.test/cat/16*9.jpg'), expectedSize(null, null));
+  t.deepEqual(actualSize('http://example.test/cat/100x0.jpg'), expectedSize(100, 62));
+  t.deepEqual(actualSize('http://example.test/cat/100*0.jpg'), expectedSize(100, 62));
+  t.deepEqual(actualSize('http://example.test/cat/0x200.jpg'), expectedSize(324, 200));
+  t.deepEqual(actualSize('http://example.test/cat/0*200.jpg'), expectedSize(324, 200));
   t.end();
 });
 
