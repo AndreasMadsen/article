@@ -26,6 +26,10 @@ test('width times height match', function (t) {
   t.deepEqual(actualSize('http://example.test/cat/100*0.jpg'), expectedSize(100, 62));
   t.deepEqual(actualSize('http://example.test/cat/0x200.jpg'), expectedSize(324, 200));
   t.deepEqual(actualSize('http://example.test/cat/0*200.jpg'), expectedSize(324, 200));
+  t.deepEqual(actualSize('http://example.test/cat/100x200_1000x2000.jpg'), expectedSize(100, 200));
+  t.deepEqual(actualSize('http://example.test/cat/100x0_1000x0.jpg'), expectedSize(100, 62));
+  t.deepEqual(actualSize('http://example.test/cat/0x0_1000x0.jpg'), expectedSize(1000, 619));
+
   t.end();
 });
 
