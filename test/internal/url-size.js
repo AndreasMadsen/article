@@ -47,6 +47,11 @@ test('long width and hight query names', function (t) {
   t.end();
 });
 
+test('w as a width prefix', function (t) {
+  t.deepEqual(actualSize('http://example.test/picture_w100.jpg'), expectedSize(100, 62));
+  t.end();
+});
+
 test('Returns null size when there are no image', function (t) {
   t.deepEqual(actualSize('http://example.test'), expectedSize(null, null));
   t.end();
