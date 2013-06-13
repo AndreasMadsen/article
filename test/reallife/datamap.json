@@ -312,7 +312,7 @@
 		"key": "26c3b98f33bb6902f32535235fd7d32792df87779bdf1f86c3b21e15fbf3161d",
 		"href": "http://www.voanews.com/content/sun-unleashes-massive-solar-flares/1661774.html",
 		"why": "google news scrape",
-		"state": "4-2-1"
+		"state": "4-2-4"
 	},
 	{
 		"labeled": true,
@@ -963,7 +963,7 @@
 		"key": "1e62a223bca12adda6410b1789072a2ad755566bd4a6bc17d10dc95a51d74d65",
 		"href": "http://www.geek.com/news/competition-looks-for-nasas-next-vehicle-in-lego-1557718/",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
