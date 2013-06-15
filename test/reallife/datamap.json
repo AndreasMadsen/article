@@ -53,7 +53,7 @@
 		"key": "222dbaa4c9e280311e87e8793dd57e945cb019a7fae1a2b2fd4c6049ea148995",
 		"href": "http://www.chicagotribune.com/news/local/suburbs/orland_park_homer_glen/community/chi-ugc-article-palos-medical-groups-dr-kanesha-bryant-prov-2-2013-05-15,0,3152151.story",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -67,7 +67,7 @@
 		"key": "af85fcc561166d0c28caf2ed6765c36d604749e715d3dfa48f4b0b6d5dc2a2d4",
 		"href": "http://www.sfgate.com/health/article/Tiny-bit-of-formula-promotes-breast-feeding-4510136.php",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -109,21 +109,21 @@
 		"key": "f7b4b68c2ea48aac2f74fa0e7186a96166f72ff926760169dc7bb83c2dd087b0",
 		"href": "http://www.usatoday.com/story/sports/nhl/2013/05/15/raffi-torres-hearing-hit-on-jarret-stoll/2162363/",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "72e78dee157bdf3e8a9a9f07e54a98a3714ea2998e2c2e2a94c46dbe92176feb",
 		"href": "http://ftw.usatoday.com/2013/05/win-knicks-indiana-pacers-nba-playoffs-andrew-wiggins/",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "900d47edad434e1511f0167c1d31ac525253a37af785f09e00c19685cdb50c61",
 		"href": "http://aol.sportingnews.com/nfl/story/2013-05-15/rolando-mcclain-retires-ravens-raiders-linebacker-alabama",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -137,7 +137,7 @@
 		"key": "c6c81270db52e2fd59107d815a4823526aa23f339b77376a31dd8ba4a770be37",
 		"href": "http://www.usatoday.com/story/sports/nhl/2013/05/15/yankee-stadium-nhl-games/2162867/",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -151,21 +151,21 @@
 		"key": "ee6efdabfcca5663e00309b195208a299af4608381fd1ac8478a9e194cce4723",
 		"href": "http://www.mmajunkie.com/news/2013/05/ufc-159s-bryan-caraway-ecstatic-with-new-bonus-blasts-marijuana-usage-in-mma",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "73c175cdf9d5e065351ecf2220510088904adb77b49211cdd99e43e5870e06c2",
 		"href": "http://www.usatoday.com/story/sports/nascar/2013/05/15/danica-patrick-nascar-all-star-fan-vote/2162581/",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "b52d6a170c78bea8365c51c8e5ec8ed212162bd733f81a10b9acdb6f0fa55560",
 		"href": "http://online.wsj.com/article/SB10001424127887324767004578485133926979690.html?mod=googlenews_wsj",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -193,14 +193,14 @@
 		"key": "090638153c72af750a39fb8dedebfddfa52f00b73ee034de4444f105d8daa80d",
 		"href": "http://www.cbc.ca/news/canada/north/story/2013/05/15/north-aglukkaq-first-inuk-arctic-council.html",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "d6e7c4ecbdc245293d00dbf866a8d550a6d1e78180d0e40beeff37d28b190ebf",
 		"href": "http://www.usatoday.com/story/news/nation/2013/05/15/boston-bombing-marathon-cia-spy-detained-terrorism/2161113/",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -214,7 +214,7 @@
 		"key": "46ab324348ca339dba58238e193f794c3309e52c018a8156ef9aedfedf0572e7",
 		"href": "http://www.bbc.co.uk/news/world-africa-22544056",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -235,7 +235,7 @@
 		"key": "b415b9e79addcb85b582c5556dbdf2f23aeb1189f4e79aef2c2ff6440245d77c",
 		"href": "http://www.businessweek.com/articles/2013-05-15/google-i-o-our-short-version-of-a-very-long-keynote",
 		"why": "google news scrape",
-		"state": "4-4-4"
+		"state": "4-4-3"
 	},
 	{
 		"labeled": true,
@@ -298,7 +298,7 @@
 		"key": "40d4e50472a8f0d30d68613051be510ed098087679df7e0e564d6dd32152d679",
 		"href": "http://www.latimes.com/news/science/sciencenow/la-sci-sn-everest-climate-20130514,0,7957473.story",
 		"why": "google news scrape",
-		"state": "4-4-4"
+		"state": "4-4-3"
 	},
 	{
 		"labeled": true,
@@ -333,7 +333,7 @@
 		"key": "d1f24dac5e97d7c977a1b6df94e2334a2fecdc384548433b800bfd080471fde2",
 		"href": "http://www.usatoday.com/story/tech/2013/05/15/camera-bugs-eye-view/2162757/",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -354,7 +354,7 @@
 		"key": "864dda5a45ef2c84ea8419ef6e81bede7254b3660151d7b195dbfb406dfb0d6b",
 		"href": "http://www.bbc.co.uk/news/world-us-canada-22801655",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
@@ -375,28 +375,28 @@
 		"key": "56671acb60ba54b0c5c5bf3e428d1a679035a07c3721e71e871236ab6b9f08aa",
 		"href": "http://www.boston.com/lifestyle/health/mdmama/2013/06/quiz_check_your_sunscreen_smarts.html",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "0475e5eeadaaca857eea3f36d0eda01937fe672d48be7f98ba6bc7f25ecd63d0",
 		"href": "http://www.upr.org/post/court-says-some-morning-after-pills-must-be-available-otc-now",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "35f536ef8c8eba0616f2dc78e6653e1d7d68e3af927b09efad3dae7ce2080567",
 		"href": "http://latino.foxnews.com/latino/health/2013/06/06/man-with-micropenis-discovers-hes-actually-woman-at-age-66/",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "783f9f0fba31f9653f382a7076e92795cb622216ad6e5e58023e10e8b09e66e0",
 		"href": "http://www.latimes.com/news/science/la-sci-ptsd-gene-20130606,0,863415.story",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -410,7 +410,7 @@
 		"key": "5c83c2d71f97e2b5a979f197fbae6773dee6844e28889ae66ccb8d7458a9c5bb",
 		"href": "http://www.thedailybeast.com/articles/2013/06/06/did-backlash-prompt-komen-s-cancellations",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -424,7 +424,7 @@
 		"key": "6cdcd7944598ec47c64f1a329e17562956175a99391f459a3365b1e43212f8c8",
 		"href": "http://www.miamiherald.com/2013/06/05/3435012/penn-state-trustees-hope-sanctions.html",
 		"why": "google news scrape",
-		"state": "4-4-1"
+		"state": "4-4-3"
 	},
 	{
 		"labeled": true,
@@ -452,7 +452,7 @@
 		"key": "bbe6bcd413682c74113b92fcd59f248badcce29347c3e3790c47e0e7647b45bd",
 		"href": "http://www.usatoday.com/story/sports/college/2013/06/05/embattled-ad-julie-hermann-anxious-to-start-at-rutgers/2394029/",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -466,14 +466,14 @@
 		"key": "16702eaff02251b57c07ed736da79f438c2d14f020811e2887fd7bcf43a5b150",
 		"href": "http://www.wbal.com/article/100317/3/See-Photos--Video-President-Obama-Honors-The-Ravens-At-The-White-House",
 		"why": "google news scrape",
-		"state": "4-4-1"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "69087cd3b7ca122ffbd35d6d38de33651fd5ab62d637b87d70599e05d299aa98",
 		"href": "http://www.newsday.com/sports/basketball/spurs-threesome-duncay-park-and-ginobili-quiet-but-effective-1.5418180",
 		"why": "google news scrape",
-		"state": "4-4-4"
+		"state": "4-4-3"
 	},
 	{
 		"labeled": true,
@@ -487,7 +487,7 @@
 		"key": "e9a4fbbca7b4829cc1b53d7650973aee23b9d4f285d5d120dc5537ac2a20ceae",
 		"href": "http://www.latimes.com/news/world/worldnow/la-fg-wn-britain-compensation-kenyans-20130606,0,9086.story",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -501,7 +501,7 @@
 		"key": "9e04cb267a9b128369a11c7f6e5486d43644955dee7f73cc004b9cf1693a11c1",
 		"href": "http://www.bbc.co.uk/news/world-asia-22795060",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -592,28 +592,28 @@
 		"key": "0873e7508224014b9df7e0c599b2eb33ebb733af7bc23fb11114ad5cf0e1ecfd",
 		"href": "http://www.smh.com.au/environment/discovery-challenges-primate-evolution-theory-20130606-2nssi.html",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "dbca84517147fae696f9d9de284ea5d31386ca1891c9ed8ff8502c61b658287d",
 		"href": "http://www.foxnews.com/science/2013/06/06/curiosity-rover-leaving-mars-rat-behind/",
 		"why": "google news scrape",
-		"state": "4-4-1"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "22c0f41ae560968de5e6b0ef9ecffffeae3f409aa73d9b82853f65535116f68f",
 		"href": "http://www.jpl.nasa.gov/news/news.php?release=2013-186",
 		"why": "google news scrape",
-		"state": "4-4-1"
+		"state": "4-4-3"
 	},
 	{
 		"labeled": true,
 		"key": "fc5a55c65ef9b22d7309cdb4d9a6efe319baeda10190547b3e49dc9152e92f14",
 		"href": "http://theweek.com/article/index/245259/this-invisibility-cloak-creates-a-hole-in-time",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -634,21 +634,21 @@
 		"key": "40957335ccdb58181d44b8597246b34ba44d070d729b4d7e008b72256b5efdd7",
 		"href": "http://www.wired.com/wiredscience/2013/06/deep-sea-debris/",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "7a426de207434e419a65eead0f4b46c8a479429d8429c36dc03b033d7e4891df",
 		"href": "http://www.space.com/21443-cats-paw-nebula-starburst.html",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "d57c1a6989d0075d551168500f36da6309c2f5eeac2ae57406694a2e41dfda33",
 		"href": "http://www.bbc.co.uk/news/science-environment-22764946",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
@@ -739,7 +739,7 @@
 		"key": "417d345d03641d0119788a34448994b5162cae2e05a0065037a78625101121a9",
 		"href": "http://www.bbc.co.uk/sport/0/athletics/22810388",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -760,21 +760,21 @@
 		"key": "f84d9002fd50843a620e532b73ee91cd67a02f32e7d6c974c8cab25abfeda6c8",
 		"href": "http://www.newsobserver.com/2013/06/07/2945026/mickelson-now-needing-to-work.html",
 		"why": "google news scrape",
-		"state": "4-4-4"
+		"state": "4-4-3"
 	},
 	{
 		"labeled": true,
 		"key": "3737f33c1f2366581f2ee45ded2d94adc0e7d9e6ca00fc094eaecbfaa0daa8e9",
 		"href": "http://www.usatoday.com/story/sports/ncaab/2013/06/06/north-carolina-basketball-player-pj-hairston-arrested/2396683/",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "ea80cfab838b25791b92aca7861c81a444dc8854a67298f3af81f95c53fa75bd",
 		"href": "http://www.startribune.com/sports/210522981.html",
 		"why": "google news scrape",
-		"state": "4-4-3"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
@@ -795,21 +795,21 @@
 		"key": "c34f3cea1bdcd61b261efe1e240c28119e51b511d948522a7b67f2dfb516b2af",
 		"href": "http://www.bloomberg.com/news/2013-06-06/turkish-protesters-attacked-in-erdogan-s-black-sea-hometown.html",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "e403c2aa7e9b26ccb91c8e84a45a95ba1f645020d81b1077574ee2c1d5d1c723",
 		"href": "http://www.bbc.co.uk/news/world-middle-east-22802569",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "5020d8de60d27540f02da75535adb8f922a62e3d49d6d84845d70f19b84cf096",
 		"href": "http://www.bbc.co.uk/news/world-europe-22811510",
 		"why": "google news scrape",
-		"state": "4-3-3"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -823,7 +823,7 @@
 		"key": "a15540be9ec31af460246605295bd157435b43be726589e4e2ed9b3511859a77",
 		"href": "http://www.bbc.co.uk/news/world-22795420",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
@@ -858,7 +858,7 @@
 		"key": "c052ce8cb37bf4a18619b19a7db1ab74f12839f85764b19798d801bc2f277267",
 		"href": "http://www.guardian.co.uk/world/2013/jun/06/us-tech-giants-nsa-data",
 		"why": "google news scrape",
-		"state": "4-3-3"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -886,14 +886,14 @@
 		"key": "4b8debc51d3d9598ad4552cc7a591d200a6c7d545fed2454916bedbb0f666086",
 		"href": "http://www.latimes.com/business/technology/la-fi-tn-facebook-advertising-20130606,0,4916401.story",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "36325f8d21a22c77ef11b4039035b6d94f842a841904a483c472b54bb29a7445",
 		"href": "http://www.bloomberg.com/news/2013-06-06/apple-said-to-start-trade-in-program-to-boost-new-models.html",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -942,14 +942,14 @@
 		"key": "d7bb9f5f1f536e0e906606819e6311282bfe2416d29bcc13121d234cef59134e",
 		"href": "http://www.bbc.co.uk/news/science-environment-22770646",
 		"why": "google news scrape",
-		"state": "4-3-3"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
 		"key": "e4110881d8aa93c8cc5537e5e4dac2f52bfc797c4fee39dd8db92ac8fddd464e",
 		"href": "http://www.motherjones.com/blue-marble/2013/06/stalagmites-are-new-tree-rings",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -970,14 +970,14 @@
 		"key": "488a0b7fa8bc2e0d799ac1dcb22620654777c66a9260983f369d842210f5d3d4",
 		"href": "http://www.dailymail.co.uk/news/article-2336183/Texas-banker-offers-1MILLION-prize-solve-math-problem-left-academics-baffled-decades.html?ito=feeds-newsxml",
 		"why": "google news scrape",
-		"state": "4-2-4"
+		"state": "4-2-3"
 	},
 	{
 		"labeled": true,
 		"key": "22c3886e7116464c04c2332c20a013a5837992e7bcdb1f6cacd7d475f9784273",
 		"href": "http://science.time.com/2013/06/07/what-open-air-nuclear-tests-tell-us-about-the-brain/",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
