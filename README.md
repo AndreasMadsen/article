@@ -94,11 +94,12 @@ The final best result from `fase-2` is then used at the final object.
 
 * An almost perfect heuristic for finding the title
 * A good heuristic for the text
-* A work in progress heuristic for the image
+* An almost good heuristic for the image
 
 ##### fase-2
 
-* Not implemented
+* A work in progress combine feature for text and title
+* A work in progress image heuristic
 
 ## Follow and help at the wiki and issues
 
