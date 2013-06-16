@@ -33,7 +33,7 @@ html of the page and find as minimum the `title`, `text` and the `image`.
 
 ### Score
 
-This is the current result (Sat Jun 08 2013)
+This is the current result (Sun Jun 16 2013)
 
 |       | Unknown | Wrong | Bad | Good | Perfect |
 |------:|:-------:|:-----:|:---:|:----:|:-------:|
