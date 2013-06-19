@@ -92,7 +92,7 @@ The final best result from `fase-2` is then used at the final object.
 
 ##### fase-1
 
-* An almost perfect heuristic for finding the title
+* A _prove me wrong_ perfect heuristic for finding the title
 * A good heuristic for the text
 * An almost good heuristic for the image
 
