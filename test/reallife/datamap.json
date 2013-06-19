@@ -207,7 +207,7 @@
 		"key": "fe32bd9876a32fd93d180c282959cc80bc5349f8b5eeae759eb5f5c801536847",
 		"href": "http://www.voanews.com/content/donors-pledge-42-billion-for-mali/1661520.html",
 		"why": "google news scrape",
-		"state": "4-4-1"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
@@ -263,7 +263,7 @@
 		"key": "5bc9df3a36efb57a22edf862cec6a28eb112e535559c194d7976fb664c922c13",
 		"href": "http://www.eweek.com/mobile/slideshows/blackberry-live-jammed-with-news-giddy-with-potential/",
 		"why": "google news scrape",
-		"state": "4-2-1"
+		"state": "4-1-1"
 	},
 	{
 		"labeled": true,
@@ -312,7 +312,7 @@
 		"key": "26c3b98f33bb6902f32535235fd7d32792df87779bdf1f86c3b21e15fbf3161d",
 		"href": "http://www.voanews.com/content/sun-unleashes-massive-solar-flares/1661774.html",
 		"why": "google news scrape",
-		"state": "4-2-4"
+		"state": "4-1-4"
 	},
 	{
 		"labeled": true,
@@ -473,7 +473,7 @@
 		"key": "69087cd3b7ca122ffbd35d6d38de33651fd5ab62d637b87d70599e05d299aa98",
 		"href": "http://www.newsday.com/sports/basketball/spurs-threesome-duncay-park-and-ginobili-quiet-but-effective-1.5418180",
 		"why": "google news scrape",
-		"state": "4-4-3"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -536,7 +536,7 @@
 		"key": "e92204e17d108eaf649148fa5878e5a9d9babced8b7996d6ffd5f1213ebbff9f",
 		"href": "http://www.theaustralian.com.au/news/world/seoul-says-yes-to-peace-talks-offer-from-north-korea/story-e6frg6so-1226658940838",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
@@ -585,7 +585,7 @@
 		"key": "5a012f66c2bf0c70a0744c7483478aaa0c1a2b5b5920a72223f3a090e39df8be",
 		"href": "http://www.zdnet.com/eight-changes-id-like-to-see-in-windows-8-1-but-probably-wont-7000016414/",
 		"why": "google news scrape",
-		"state": "4-2-4"
+		"state": "4-1-4"
 	},
 	{
 		"labeled": true,
@@ -837,7 +837,7 @@
 		"key": "6b095375a53dfc7994a032e2efac70f43a4fac9303d549256d88b8f7cecadd50",
 		"href": "http://www.thehindu.com/news/international/world/rebels-attack-air-base-in-northern-syria/article4791380.ece",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-1-4"
 	},
 	{
 		"labeled": true,
@@ -949,7 +949,7 @@
 		"key": "e4110881d8aa93c8cc5537e5e4dac2f52bfc797c4fee39dd8db92ac8fddd464e",
 		"href": "http://www.motherjones.com/blue-marble/2013/06/stalagmites-are-new-tree-rings",
 		"why": "google news scrape",
-		"state": "4-2-3"
+		"state": "4-1-3"
 	},
 	{
 		"labeled": true,
