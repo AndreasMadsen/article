@@ -8,7 +8,8 @@ function expectedSize(width, height) {
   return {
     width: width,
     height: height,
-    area: width * height || null
+    area: width * height || null,
+    banner: 0
   };
 }
 

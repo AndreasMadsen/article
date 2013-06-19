@@ -18,7 +18,7 @@
 		"key": "b7660c4d40274010176c79271f7ed0c2d4612fa2a68efb92b30cfe68cc400e5e",
 		"href": "https://github.com/blog/1499-the-revolution-will-be-forked",
 		"why": "random article",
-		"state": "4-4-4"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -39,7 +39,7 @@
 		"key": "c6bb934af3d288c69e9fac33501b8ff0470eb16ca618dca654cc709f2e6d8dc5",
 		"href": "http://blog.izs.me/post/49797044559/curiosity-and-the-practice",
 		"why": "random article",
-		"state": "4-4-1"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
@@ -88,7 +88,7 @@
 		"key": "d95b90410bbe45545489d5e53ef197f408e9ac95987be7061116c3702666edb9",
 		"href": "http://www.reuters.com/article/2013/05/14/us-hysterectomy-heart-risk-idUSBRE94D14G20130514",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -221,7 +221,7 @@
 		"key": "b1a85f64c10aa51213f334fd7f640caab1a821b1f16154f4b374663426de1375",
 		"href": "http://www.reuters.com/article/2013/05/15/us-iraq-violance-idUSBRE94E0O520130515",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -263,7 +263,7 @@
 		"key": "5bc9df3a36efb57a22edf862cec6a28eb112e535559c194d7976fb664c922c13",
 		"href": "http://www.eweek.com/mobile/slideshows/blackberry-live-jammed-with-news-giddy-with-potential/",
 		"why": "google news scrape",
-		"state": "4-4-1"
+		"state": "4-2-1"
 	},
 	{
 		"labeled": true,
@@ -277,7 +277,7 @@
 		"key": "ea854577e0e8b8577d679f05a0bec1ba19b7998a557d55cab0cb90a9d98883df",
 		"href": "http://techcrunch.com/2013/05/13/at-io-google-will-be-tracking-things-like-nose-level-and-air-quality-with-hundreds-of-arduino-based-sensors/",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -515,7 +515,7 @@
 		"key": "173cb8504d91bed86832e087316c2b1febe3e7e76f478f5a401c9ae4fc4641fb",
 		"href": "http://www.thenews.com.pk/article-104071-Sandbags-and-raw-nerves-as-flood-peak-hits-Germany",
 		"why": "google news scrape",
-		"state": "4-4-4"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -585,7 +585,7 @@
 		"key": "5a012f66c2bf0c70a0744c7483478aaa0c1a2b5b5920a72223f3a090e39df8be",
 		"href": "http://www.zdnet.com/eight-changes-id-like-to-see-in-windows-8-1-but-probably-wont-7000016414/",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-2-4"
 	},
 	{
 		"labeled": true,
@@ -606,7 +606,7 @@
 		"key": "22c0f41ae560968de5e6b0ef9ecffffeae3f409aa73d9b82853f65535116f68f",
 		"href": "http://www.jpl.nasa.gov/news/news.php?release=2013-186",
 		"why": "google news scrape",
-		"state": "4-4-3"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -718,21 +718,21 @@
 		"key": "fff65493446424d4b8d49bd1027a851bdd685a75bd11a324897ebe836b3ebb85",
 		"href": "http://www.nytimes.com/2013/06/06/health/appeals-court-lifts-limit-on-emergency-contraceptive.html",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "230f4fea097481b37a5d4c022dfc77feddf99599d2bbcdc2ac1abf684200cad8",
 		"href": "http://www.washingtonpost.com/sports/nationals/a-year-after-passing-on-him-astros-draft-stanford-righty-mark-appel-with-no-1-pick/2013/06/06/a4f67578-cf0e-11e2-8573-3baeea6a2647_story.html",
 		"why": "google news scrape",
-		"state": "4-4-4"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "cad337499f52823462d2abcf1fb67d697c5bc59c5bc9f4e57a3fcbef2bc986ef",
 		"href": "http://www.cbssports.com/mlb/gametracker/recap/MLB_20130606_ATL@LAD/dodgers-5-braves-0",
 		"why": "google news scrape",
-		"state": "1-3-1"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
@@ -774,14 +774,14 @@
 		"key": "ea80cfab838b25791b92aca7861c81a444dc8854a67298f3af81f95c53fa75bd",
 		"href": "http://www.startribune.com/sports/210522981.html",
 		"why": "google news scrape",
-		"state": "4-4-4"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "b84ec657c46c12ba69262e94784ea87d237fdecef64ab82031e95469c510abe3",
 		"href": "http://www.the-review.com/ap%20sports/2013/06/07/mets-go-back-to-cali-draft-1b-dominic-smith",
 		"why": "google news scrape",
-		"state": "4-3-3"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
@@ -816,7 +816,7 @@
 		"key": "6a59bd96489c98226c72f0245bac98a4b09aa0516ebfe4982233a6c33d129691",
 		"href": "http://www.nytimes.com/2013/06/08/world/asia/south-and-north-korea-pave-way-for-direct-talks.html",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -837,14 +837,14 @@
 		"key": "6b095375a53dfc7994a032e2efac70f43a4fac9303d549256d88b8f7cecadd50",
 		"href": "http://www.thehindu.com/news/international/world/rebels-attack-air-base-in-northern-syria/article4791380.ece",
 		"why": "google news scrape",
-		"state": "4-1-4"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "a4dbbcc4b5ab24565e064f0a0f1059f3da69041ca39b19ece4757de691fd5b92",
 		"href": "http://www.nytimes.com/2013/06/08/world/asia/taliban-attack-base-guarded-by-georgians-in-afghanistan.html",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -914,7 +914,7 @@
 		"key": "91c286205920ff2064e1328c3650e3789fbd3fa798c832b12cd5f65185e6e6d5",
 		"href": "http://www.reuters.com/article/2013/06/06/us-apple-ebooks-trial-idUSBRE95500U20130606",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -949,7 +949,7 @@
 		"key": "e4110881d8aa93c8cc5537e5e4dac2f52bfc797c4fee39dd8db92ac8fddd464e",
 		"href": "http://www.motherjones.com/blue-marble/2013/06/stalagmites-are-new-tree-rings",
 		"why": "google news scrape",
-		"state": "4-3-3"
+		"state": "4-2-3"
 	},
 	{
 		"labeled": true,

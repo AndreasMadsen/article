@@ -33,13 +33,13 @@ html of the page and find as minimum the `title`, `text` and the `image`.
 
 ### Score
 
-This is the current result (Sat Jun 08 2013)
+This is the current result (Sun Jun 16 2013)
 
 |       | Unknown | Wrong | Bad | Good | Perfect |
 |------:|:-------:|:-----:|:---:|:----:|:-------:|
-| Title | 0       | 1     | 0   | 0    | 140     |
-| Text  | 0       | 1     | 4   | 105  | 31      |
-| Image | 0       | 33    | 0   | 43   | 65      |
+| Title | 0       | 0     | 0   | 0    | 141     |
+| Text  | 0       | 0     | 7   | 109  | 25      |
+| Image | 0       | 26    | 0   | 43   | 72      |
 
 ### Definitions
 
@@ -94,11 +94,12 @@ The final best result from `fase-2` is then used at the final object.
 
 * An almost perfect heuristic for finding the title
 * A good heuristic for the text
-* A work in progress heuristic for the image
+* An almost good heuristic for the image
 
 ##### fase-2
 
-* Not implemented
+* A work in progress combine feature for text and title
+* A work in progress image heuristic
 
 ## Follow and help at the wiki and issues
 
