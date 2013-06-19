@@ -585,7 +585,7 @@
 		"key": "5a012f66c2bf0c70a0744c7483478aaa0c1a2b5b5920a72223f3a090e39df8be",
 		"href": "http://www.zdnet.com/eight-changes-id-like-to-see-in-windows-8-1-but-probably-wont-7000016414/",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-2-4"
 	},
 	{
 		"labeled": true,
@@ -732,7 +732,7 @@
 		"key": "cad337499f52823462d2abcf1fb67d697c5bc59c5bc9f4e57a3fcbef2bc986ef",
 		"href": "http://www.cbssports.com/mlb/gametracker/recap/MLB_20130606_ATL@LAD/dodgers-5-braves-0",
 		"why": "google news scrape",
-		"state": "1-3-1"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
