@@ -207,7 +207,7 @@
 		"key": "fe32bd9876a32fd93d180c282959cc80bc5349f8b5eeae759eb5f5c801536847",
 		"href": "http://www.voanews.com/content/donors-pledge-42-billion-for-mali/1661520.html",
 		"why": "google news scrape",
-		"state": "4-4-1"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
@@ -263,7 +263,7 @@
 		"key": "5bc9df3a36efb57a22edf862cec6a28eb112e535559c194d7976fb664c922c13",
 		"href": "http://www.eweek.com/mobile/slideshows/blackberry-live-jammed-with-news-giddy-with-potential/",
 		"why": "google news scrape",
-		"state": "4-2-1"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
@@ -473,7 +473,7 @@
 		"key": "69087cd3b7ca122ffbd35d6d38de33651fd5ab62d637b87d70599e05d299aa98",
 		"href": "http://www.newsday.com/sports/basketball/spurs-threesome-duncay-park-and-ginobili-quiet-but-effective-1.5418180",
 		"why": "google news scrape",
-		"state": "4-4-3"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -536,7 +536,7 @@
 		"key": "e92204e17d108eaf649148fa5878e5a9d9babced8b7996d6ffd5f1213ebbff9f",
 		"href": "http://www.theaustralian.com.au/news/world/seoul-says-yes-to-peace-talks-offer-from-north-korea/story-e6frg6so-1226658940838",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
@@ -683,7 +683,7 @@
 		"key": "91a36e049f1333ca254331009fff8aba4b3568e05e52a806841678506b0f5010",
 		"href": "http://www.pentagonpost.com/health-experts-say-yoga-enhanced-mental-functions-better-than-physical-exercise/8348996",
 		"why": "google news scrape",
-		"state": "4-4-4"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -949,7 +949,7 @@
 		"key": "e4110881d8aa93c8cc5537e5e4dac2f52bfc797c4fee39dd8db92ac8fddd464e",
 		"href": "http://www.motherjones.com/blue-marble/2013/06/stalagmites-are-new-tree-rings",
 		"why": "google news scrape",
-		"state": "4-2-3"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -970,7 +970,7 @@
 		"key": "488a0b7fa8bc2e0d799ac1dcb22620654777c66a9260983f369d842210f5d3d4",
 		"href": "http://www.dailymail.co.uk/news/article-2336183/Texas-banker-offers-1MILLION-prize-solve-math-problem-left-academics-baffled-decades.html?ito=feeds-newsxml",
 		"why": "google news scrape",
-		"state": "4-2-3"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
