@@ -40,9 +40,15 @@ function treeMatch(t, actual, expected) {
 
 function printTree(node, indent) {
   indent = (indent || '') + '  ';
-
   if (node.type === 'element') {
     console.log(indent + '<' + node.tagname + '>');
+    for (var i = 0, l = node.children.length; i < l; i++) {
+      printTree(node.children[i], indent);
+    }
+  }
+  
+  else if (node.type === 'fragment') {
+    console.log(indent + '#fragment');
     for (var i = 0, l = node.children.length; i < l; i++) {
       printTree(node.children[i], indent);
     }
@@ -146,5 +152,30 @@ test('br tags won\'t be removed', function (t) {
       treeMatch(t, subtree.node, expected);
       t.end();
     });
+  });
+});
+
+test('fragments are used if it contains more than 2 inline element', function (t) {
+  TreeParser('<div><a>A</a><b>B</b><div>C</div><a>D</a></div>', function (err, source) {
+  
+    var subtree = new Subtree(source);
+
+    var containers = subtree.containerNodes();
+
+    t.equal(containers[0], source);
+
+    t.equal(containers[1].type, 'fragment');
+    t.equal(containers[1].children[0].children[0].text, 'A');
+    t.equal(containers[1].children[1].children[0].text, 'B');
+
+    t.equal(containers[2].type, 'element');
+    t.equal(containers[2].tagname, 'div');
+    t.equal(containers[2].children[0].text, 'C');
+
+    t.equal(containers[3].type, 'element');
+    t.equal(containers[3].tagname, 'a');
+    t.equal(containers[3].children[0].text, 'D');
+
+    t.end();
   });
 });
