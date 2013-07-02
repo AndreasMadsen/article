@@ -16,10 +16,12 @@
     "reader"
   ],
   "dependencies": {
+    "ttest": "0.2.x",
+    "summary": "0.2.x",
     "fusspos": "0.2.x",
     "entities": "0.2.x",
     "worddiff": "0.3.x",
-    "htmlparser2": "3.0.x",
+    "htmlparser2": "3.1.x",
     "levenshtein-component": "0.0.x"
   },
   "devDependencies": {
@@ -31,7 +33,7 @@
     "endpoint": "0.4.x",
     "inspector": "0.3.x",
     "startpoint": "0.3.x",
-    "feedparser": "https://github.com/AndreasMadsen/node-feedparser/tarball/857ea20d05943c715971bb09d955f7fca13fb829",
+    "feedparser": "0.16.x",
     "interpreted": "0.3.x"
   },
   "license": "MIT",
