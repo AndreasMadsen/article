@@ -46,7 +46,7 @@
 		"key": "06ed0a833361190536a4f61888354e07dccaa501bd9a1c0f1c545533bde1650b",
 		"href": "http://www.telegraph.co.uk/science/science-news/10056901/Womens-immune-systems-hold-the-secret-to-longer-life.html",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
@@ -207,7 +207,7 @@
 		"key": "fe32bd9876a32fd93d180c282959cc80bc5349f8b5eeae759eb5f5c801536847",
 		"href": "http://www.voanews.com/content/donors-pledge-42-billion-for-mali/1661520.html",
 		"why": "google news scrape",
-		"state": "4-1-1"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
@@ -445,7 +445,7 @@
 		"key": "6d30abed88489774017024b17cdb1928d9a2b45bb79767515383b8444e9601b2",
 		"href": "http://espn.go.com/tennis/french13/story/_/id/9340704/french-open-maria-sharapova-jelena-jankovic-ready-duel",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
@@ -585,7 +585,7 @@
 		"key": "5a012f66c2bf0c70a0744c7483478aaa0c1a2b5b5920a72223f3a090e39df8be",
 		"href": "http://www.zdnet.com/eight-changes-id-like-to-see-in-windows-8-1-but-probably-wont-7000016414/",
 		"why": "google news scrape",
-		"state": "4-1-4"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -683,14 +683,14 @@
 		"key": "91a36e049f1333ca254331009fff8aba4b3568e05e52a806841678506b0f5010",
 		"href": "http://www.pentagonpost.com/health-experts-say-yoga-enhanced-mental-functions-better-than-physical-exercise/8348996",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "44f750fab67bb9f54f5b5cc90bc34d55cff06260a3e63245856a6e57fcda5906",
 		"href": "http://www.southcoasttoday.com/apps/pbcs.dll/article?AID=/20130606/LIFE07/306060307/-1/NEWSMAP",
 		"why": "google news scrape",
-		"state": "4-1-4"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -718,7 +718,7 @@
 		"key": "fff65493446424d4b8d49bd1027a851bdd685a75bd11a324897ebe836b3ebb85",
 		"href": "http://www.nytimes.com/2013/06/06/health/appeals-court-lifts-limit-on-emergency-contraceptive.html",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
@@ -774,7 +774,7 @@
 		"key": "ea80cfab838b25791b92aca7861c81a444dc8854a67298f3af81f95c53fa75bd",
 		"href": "http://www.startribune.com/sports/210522981.html",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
@@ -830,14 +830,14 @@
 		"key": "44b21071ae6feede3c36d2ab032cd422eb0c6a0fdfe4da79531931ad93dd4940",
 		"href": "http://www.cbsnews.com/8301-250_162-57588163/amid-complex-relationship-obama-seeks-cooperation-with-china/",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
 		"key": "6b095375a53dfc7994a032e2efac70f43a4fac9303d549256d88b8f7cecadd50",
 		"href": "http://www.thehindu.com/news/international/world/rebels-attack-air-base-in-northern-syria/article4791380.ece",
 		"why": "google news scrape",
-		"state": "4-1-4"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
