@@ -33,12 +33,12 @@ html of the page and find as minimum the `title`, `text` and the `image`.
 
 ### Score
 
-This is the current result (Wed Jun 19 2013)
+This is the current result (Thu Jul 18 2013)
 
 |       | Unknown | Wrong | Bad | Good | Perfect |
 |------:|:-------:|:-----:|:---:|:----:|:-------:|
 | Title | 0       | 0     | 0   | 0    | 141     |
-| Text  | 0       | 0     | 4   | 114  | 23      |
+| Text  | 0       | 4     | 0   | 93   | 44      |
 | Image | 0       | 26    | 0   | 43   | 72      |
 
 ### Definitions
@@ -66,7 +66,7 @@ There will be:
 
 The `fase-0` algoritme will detect and use microdata if present and give
 sugestions (there will be very few) from the microdata. The algoritme will find
-the  `title`, `text`, `image`. 
+the  `title`, `text`, `image`.
 
 The `fase-1` algoritmes will give unrealted sugestions on `title`, `text` and `image`.
 So each algoritme is responsible for one thing, at that only. These sugestions
