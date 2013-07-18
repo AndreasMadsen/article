@@ -1,7 +1,7 @@
 {
   "name": "article",
   "description": "Analyze a stream of HTML and outsputs the article text and image",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "author": "Andreas Madsen <amwebdk@gmail.com>",
   "main": "./lib/article.js",
   "scripts": {
