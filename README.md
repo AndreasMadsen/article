@@ -98,8 +98,9 @@ The final best result from `fase-2` is then used at the final object.
 
 ##### fase-2
 
-* A work in progress combine feature for text and title
+* A combine feature for text and title
 * A work in progress image heuristic
+* A text reduce aloritme
 
 ## Follow and help at the wiki and issues
 
