@@ -33,13 +33,13 @@ html of the page and find as minimum the `title`, `text` and the `image`.
 
 ### Score
 
-This is the current result (Thu Jul 18 2013)
+This is the current result (Mon Jul 22 2013)
 
 |       | Unknown | Wrong | Bad | Good | Perfect |
 |------:|:-------:|:-----:|:---:|:----:|:-------:|
-| Title | 0       | 0     | 0   | 0    | 141     |
-| Text  | 0       | 0     | 0   | 89   | 52      |
-| Image | 0       | 26    | 0   | 43   | 72      |
+| Title | 0       | 0     | 0   | 0    | 260     |
+| Text  | 0       | 7     | 5   | 165  | 83      |
+| Image | 0       | 44    | 0   | 76   | 140     |
 
 ### Definitions
 
