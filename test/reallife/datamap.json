@@ -1082,14 +1082,14 @@
 		"key": "ef44f19d671ce4426daaf064254c701ad05f461279adcf2a73296d4afa8f426a",
 		"href": "http://www.usatoday.com/story/sports/ncaaf/2013/07/18/nick-saban-addresses-upcoming-season-at-sec-media-days/2552293/",
 		"why": "google news scrape",
-		"state": "4-1-3"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
 		"key": "f0fa53b0dd9ad6afbcf925bc1ba6cc1be13fd055861a9d980635bc92b4a5ec8f",
 		"href": "http://www.usatoday.com/story/sports/golf/2013/07/18/british-open-2013-phil-mickelson-round-1/2550683/",
 		"why": "google news scrape",
-		"state": "4-1-3"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -1376,7 +1376,7 @@
 		"key": "8d612a03fa42a2fb014b59534c46c9590da90fbeb91ac50938cdfa36dd274e23",
 		"href": "http://www.medicalnewstoday.com/articles/263621.php",
 		"why": "google news scrape",
-		"state": "4-2-4"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -1691,7 +1691,7 @@
 		"key": "078cdb456d1beb698aeed86e0f2161e442e9431c4580295f1ba4ece22741068c",
 		"href": "http://www.dailyworld.com/viewart/20130719/NEWS01/307190003/Horse-gets-encephalitis-West-Nile",
 		"why": "google news scrape",
-		"state": "4-2-4"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -1768,7 +1768,7 @@
 		"key": "952fa459dd93f830a0a3b20274230c1abcef8148bf7a69074de104de5545c556",
 		"href": "http://appleinsider.com/articles/13/07/18/vlc-returns-to-ios-runkeeper-gets-paid-trainer-options-uber-adds-fare-splitting",
 		"why": "google news scrape",
-		"state": "4-2-3"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
