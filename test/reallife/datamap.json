@@ -207,7 +207,7 @@
 		"key": "fe32bd9876a32fd93d180c282959cc80bc5349f8b5eeae759eb5f5c801536847",
 		"href": "http://www.voanews.com/content/donors-pledge-42-billion-for-mali/1661520.html",
 		"why": "google news scrape",
-		"state": "4-4-1"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
@@ -410,7 +410,7 @@
 		"key": "5c83c2d71f97e2b5a979f197fbae6773dee6844e28889ae66ccb8d7458a9c5bb",
 		"href": "http://www.thedailybeast.com/articles/2013/06/06/did-backlash-prompt-komen-s-cancellations",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
@@ -445,7 +445,7 @@
 		"key": "6d30abed88489774017024b17cdb1928d9a2b45bb79767515383b8444e9601b2",
 		"href": "http://espn.go.com/tennis/french13/story/_/id/9340704/french-open-maria-sharapova-jelena-jankovic-ready-duel",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
@@ -480,7 +480,7 @@
 		"key": "717fa45e0e3901be4039f2a6b26d4b50cf869a903dc8057e2fac1047fd033fdc",
 		"href": "http://www.businessweek.com/ap/2013-06-06/austria-says-syrian-rebels-captured-golan-crossing",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
@@ -830,7 +830,7 @@
 		"key": "44b21071ae6feede3c36d2ab032cd422eb0c6a0fdfe4da79531931ad93dd4940",
 		"href": "http://www.cbsnews.com/8301-250_162-57588163/amid-complex-relationship-obama-seeks-cooperation-with-china/",
 		"why": "google news scrape",
-		"state": "4-4-4"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -1355,7 +1355,7 @@
 		"key": "60bccec4069d54a6889bfcda785c0f3066a70cb5fadeea81f28d371681a2dee8",
 		"href": "http://swampland.time.com/2013/07/18/christian-right-fights-porn-in-the-dorm/",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
