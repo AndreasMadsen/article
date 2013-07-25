@@ -837,7 +837,7 @@
 		"key": "6b095375a53dfc7994a032e2efac70f43a4fac9303d549256d88b8f7cecadd50",
 		"href": "http://www.thehindu.com/news/international/world/rebels-attack-air-base-in-northern-syria/article4791380.ece",
 		"why": "google news scrape",
-		"state": "4-2-4"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
@@ -1691,14 +1691,14 @@
 		"key": "078cdb456d1beb698aeed86e0f2161e442e9431c4580295f1ba4ece22741068c",
 		"href": "http://www.dailyworld.com/viewart/20130719/NEWS01/307190003/Horse-gets-encephalitis-West-Nile",
 		"why": "google news scrape",
-		"state": "4-2-4"
+		"state": "4-2-1"
 	},
 	{
 		"labeled": true,
 		"key": "ccada6580a0b1d05408db6d59cca18c2707530139807ebf112de8f6615d32b90",
 		"href": "http://www.greatfallstribune.com/article/20130718/LIFESTYLE/307180055/American-Red-Cross-seeks-volunteers",
 		"why": "google news scrape",
-		"state": "4-1-1"
+		"state": "4-2-1"
 	},
 	{
 		"labeled": true,
