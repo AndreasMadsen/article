@@ -16,8 +16,8 @@
     "reader"
   ],
   "dependencies": {
-    "ttest": "0.2.x",
-    "summary": "0.2.x",
+    "ttest": "0.3.x",
+    "summary": "0.3.x",
     "fusspos": "0.2.x",
     "entities": "0.2.x",
     "worddiff": "0.3.x",
@@ -34,7 +34,8 @@
     "inspector": "0.3.x",
     "startpoint": "0.3.x",
     "feedparser": "0.16.x",
-    "interpreted": "0.3.x"
+    "interpreted": "0.3.x",
+    "text-table": "0.1.x"
   },
   "license": "MIT",
   "engines": {

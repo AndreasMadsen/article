@@ -21,7 +21,7 @@ __reach_config = {
   authors: ['For the Tribune'], // An array of the article author(s); (remember that they should be escaped, not HTML or URL encoded)
   channels: ['Lifestyle'], // An array of the article channel(s); (remember that they should be escaped, not HTML or URL encoded) (Main Category/Sub like file under)
   tags: ['life'], // An array of the article tag(s); (remember that they should be escaped, not HTML or URL encoded) (Section from SSTS)
-  landing_url: window.location.href // Optional parameter for the main page of slideshows, galleries, multipage articles, etc. 
+  landing_url: window.location.href // Optional parameter for the main page of slideshows, galleries, multipage articles, etc.
 };
 (function(){
   var s = document.createElement('script');
@@ -99,13 +99,13 @@ The American Red Cross is looking for volunteers to help prepare Cascade County 
 <script type="text/javascript" src="//www.greatfallstribune.com/odygel/lib/3rdparty/jquery/flxhr-1.0.6/deploy/flXHR.js?odyv=1.17.3052"></script>
 <script type="text/javascript" src="//www.greatfallstribune.com/odygel/lib/atypon/api.js?odyv=1.17.3052"></script>
 <script type="text/javascript" src="//www.greatfallstribune.com/odygel/lib/firefly/firefly.js?odyv=1.17.3052"></script>
-<script type="text/javascript"> 
+<script type="text/javascript">
 /*Subsite Redirect*/
-var _bodyTimer= new GEL.util.benchmark.Timer("Body Load").start(); 
-GEL.thepage.on("ready", function() { _bodyTimer.end() } ); 
+var _bodyTimer= new GEL.util.benchmark.Timer("Body Load").start();
+GEL.thepage.on("ready", function() { _bodyTimer.end() } );
 /* GO4 Faster PageInfo */
-		(function(){ 
-var _c= GEL.config, 
+		(function(){
+var _c= GEL.config,
     _i= GEL.thepage.pageinfo={
 	sitecode: "G1",
 	articlesitecode: "G1",
@@ -130,14 +130,14 @@ var _c= GEL.config,
 		enablecategory:  "on",
 		domainname: "greatfallstribune.mycapture.com"
 	},
-	url: { 
+	url: {
 		location: location.href,
 		hostname: "www.greatfallstribune.com",
 		domainname: "greatfallstribune.com",
 		domainroot: "greatfallstribune"
 	},
-	sn: { 
-		pluck: { 
+	sn: {
+		pluck: {
 			url: "http://www.greatfallstribune.com/article/20130718/LIFESTYLE/307180055/American-Red-Cross-seeks-volunteers",
 			id: "20130718.greatfallstribune.G1307180055.article.LIFESTYLE",
 			author:""
@@ -147,13 +147,13 @@ var _c= GEL.config,
 		commentdesign: "1",
 		articlerelated: ""
 	},
-	date: { 
+	date: {
 		isopuddate:"201307180500",
 		isomoddate:"201307182302",
 		rollover:"05:00",
 		timeoffset: "-06"
 	},
-	field:{ 
+	field:{
 		slug : "B937986315Z.1 | FAL 0719 Volunteer spotlight",
 		mogulus : "",
 		pagination : "1",
@@ -177,14 +177,14 @@ var _c= GEL.config,
 		unit5:"",
 		pageType:""
 	},
-	market: { 
-		name: "Great Falls Tribune", 
+	market: {
+		name: "Great Falls Tribune",
 		state: "Montana",
 		city: "Great Falls"
 	},
-	comscore: { 
+	comscore: {
 		comscoreenable: "on",
-		c1: "2", 
+		c1: "2",
 		c2: "6035223"
 	},
 	twitter: {
@@ -224,10 +224,10 @@ fireflyJQuery(function(){
 	if(typeof GEL.firefly == 'undefined') GEL.firefly = new GEL.ody_firefly(GEL.thepage.pageinfo.firefly);
 	GEL.firefly.preInit();
 });
-_i.date.moddate= _i.date.isomoddate.slice(0,8); 
+_i.date.moddate= _i.date.isomoddate.slice(0,8);
 _i.date.puddate=_i.date.isopuddate.slice(0,8);
 _i.sn.pluck.trackview=(function(){
-	var 
+	var
 		_y = _i.date.puddate.slice(0,4),
 		_m = parseInt(_i.date.puddate.slice(4,6)-1),
 		_d = _i.date.puddate.slice(6,8),
@@ -240,12 +240,12 @@ _i.sn.pluck.trackview=(function(){
 	else
 		return true;
 })();
-_c.cleanprint= { 
+_c.cleanprint= {
 enabled: "on",
 url: "http://cache-02.cleanprint.net/cpf/cleanprint?key=greattrib&name=www.greatfallstribune.com"
-}; 
+};
 (function(){
-	var 
+	var
 		_d = GEL.thepage.pageinfo.date,
 		_OFFSET = _d.timeoffset,
 		_a = _d.article = {},
@@ -296,13 +296,13 @@ url: "http://cache-02.cleanprint.net/cpf/cleanprint?key=greattrib&name=www.great
 	else
 		_a.timestamp = _d.modified;
 })();
-var cfg= GEL.namespace("config"); 
+var cfg= GEL.namespace("config");
 /*gdn_auto_refresh*/
 cfg.gdn_auto_refresh = true; /*I don;t think this is needed anymore*/
-})(); 
+})();
 (function(){
-	GEL.thepage.initializer.addInitRoutine({ 
-		name: "CommentCountFB", 
+	GEL.thepage.initializer.addInitRoutine({
+		name: "CommentCountFB",
 		namespace: "facebook",
 		callback: function () {
 		  function setCommentCountFromFacebook(response) {
@@ -316,9 +316,9 @@ cfg.gdn_auto_refresh = true; /*I don;t think this is needed anymore*/
 			}*/
 		  }
 		  FB.api('/' + GEL.thepage.pageinfo.canonicallinknotitle, setCommentCountFromFacebook);
-		}, 
+		},
 		priority: 301
-	}); 
+	});
 })();
 GEL.thepage.pageinfo.EnableGemsApi="off";
 GEL.thepage.pageinfo.noindex=false;
@@ -346,7 +346,7 @@ GEL.thepage.pageinfo.TrackSourceCodeValues={
 GEL.thepage.pageinfo.gps_source=(function(){
 	function getUrlVars(){
 		var vars = {};
-		var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, 
+		var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,
 		function(m,key,value) {
 			vars[key] = value;
 		});
@@ -358,22 +358,22 @@ GEL.thepage.pageinfo.gps_source=(function(){
 /*GO4 Faster Semantics*/
 /* Banner configuration and Initialization */
 (function(){
-var 
+var
 	_c= GEL.config,
 	_a = [],
-	_SI= GEL.namespace("thepage.pageinfo.semantics"), 
+	_SI= GEL.namespace("thepage.pageinfo.semantics"),
 	_ids= typeof _SI.uniqueids == 'object' ? _SI.uniqueids : [],
 	_keywords;
 for(var i=0, l= _ids.length,kw= _ids[i]; i < l ; kw= _ids[++i])
-	_a[_a.length]= "CW" + kw; 
-_c.KeyWords= _a.slice(); 
-_c.KeyValues= {cw: _ids.slice()}; 
+	_a[_a.length]= "CW" + kw;
+_c.KeyWords= _a.slice();
+_c.KeyValues= {cw: _ids.slice()};
 _c.AdPage='mt-greatfalls.greatfallstribune.com/life/events/article.htm';
 _c.AdServer= "gannett.gcion.com";
 _c.AdNetworkId=5111.1;
 _c.PlacementId=parseInt(896094, 10);
-_c.gcion_section_front = "article"; 
-_c.gdn_section_front = "article"; 
+_c.gcion_section_front = "article";
+_c.gdn_section_front = "article";
 _c.PDurl = 'search.greatfallstribune.com'; /*PDURL*/
 _c.PDskin = ''; /*PDSKIN*/
 /* Ad Server mode set for DFP  */
@@ -388,46 +388,46 @@ GEL.thepage.bannerData = {};
 }catch(e){
 	GEL.thepage.bannerData.error=e;
 }
-GEL.thepage.initializer.addInitRoutine({ 
-	name: "banners", 
-	namespace: "widget.AdBanner", 
-	callback: bannerFinder, 
+GEL.thepage.initializer.addInitRoutine({
+	name: "banners",
+	namespace: "widget.AdBanner",
+	callback: bannerFinder,
 	priority: 25
-}); 
-})(); 
+});
+})();
 /* This is for backward compatibility */
-window["OAS_AD"]= (function(){ 
-var _sMap= document.getElementsByTagName("SCRIPT"); 
+window["OAS_AD"]= (function(){
+var _sMap= document.getElementsByTagName("SCRIPT");
 return function OAS_AD(pos, opts) {
-	opts= opts || {}; 
-	opts.position= pos; 
-	var 
-		_me= _sMap[_sMap.length - 1], 
+	opts= opts || {};
+	opts.position= pos;
+	var
+		_me= _sMap[_sMap.length - 1],
 		_container= _container= GEL.ement("BANNER", opts);
-	_me.parentNode.insertBefore(_container.getElement(), _me); 
+	_me.parentNode.insertBefore(_container.getElement(), _me);
 }
-})(); 
+})();
 /****O4 Faster Omniture******/
 (function(){
-	var 
+	var
 		_PI= GEL.thepage.pageinfo
 	;
 	GEL.namespace('config.omniture', 'config.bus.properties', 'config.bus.providers');
-	GEL.config.bus.providers.sitecat= 20; 
+	GEL.config.bus.providers.sitecat= 20;
 	GEL.config.bus.providers.bt= 10;
-(function(){ 
-	var _CFG= GEL.namespace("config.comscore"); 
-	_CFG.domain= "greatfallstribune" || (function(){ 
-		var _a= window.location.host.split("."); 
+(function(){
+	var _CFG= GEL.namespace("config.comscore");
+	_CFG.domain= "greatfallstribune" || (function(){
+		var _a= window.location.host.split(".");
 		return _a[_a.length - 2];
-	})(); 
+	})();
 	_CFG.comscoreenable= "on";
 	_CFG.server= "b.scorecardresearch.com";
 	_CFG.scriptlib= "http://b.scorecardresearch.com/beacon.js";
 	_CFG.accountid= 6035223;
 	_CFG.c1= 2;
 	_CFG.c4= GEL.namespace("thepage.pageinfo").articleinturl || '';
-	_CFG.profile= ""; 
+	_CFG.profile= "";
 	GEL.config.bus.providers.comscore= 100;
 })();
 /* This is the SiteCatalyst specific configuration  */
@@ -442,19 +442,19 @@ return function OAS_AD(pos, opts) {
 		linkInternalFilters: "javascript:apartments,careerbuilder,cars,customcoupon,customwire.ap.org,eharmony,gannett,gbahn,highschoolsports,homefinder,homescape,infi,job,network,newsbank,newslibrary,mycapture,salary,topix,ur.gcion.com,usatoday,traffic,planetdiscover,metromix,mom",
 		linkLeaveQueryString: false,
 		linkTrackVars: "None",
-		usePlugins: true, 
+		usePlugins: true,
 		linkTrackEvents: "None",
 		eventTrackLoad: "",
 		TrackSourceCode: "1",
 		UseSAM: ""
 	}
-/* 
-   These are the initial properties for Page View Tracking 
-	The config.bus.properties object will be iterated over 
+/*
+   These are the initial properties for Page View Tracking
+	The config.bus.properties object will be iterated over
 	and called against the pageTracker object like
-		setAttribute(key, value); 
-	Remember that key translation to Omniture prop_ values 
-	is maintained within the OMniture JavaScript provider. 
+		setAttribute(key, value);
+	Remember that key translation to Omniture prop_ values
+	is maintained within the OMniture JavaScript provider.
 */
 	GEL.config.bus.properties= {
 		server: 'SAXO-GEL',
@@ -466,7 +466,7 @@ return function OAS_AD(pos, opts) {
 		custom5: '',
 		custom6: 'news',
 		custom7: "" || (function(){
-			var 
+			var
 				_cat = {
 					'': 'news_front' ,
 					'': 'entertainment_front',
@@ -477,28 +477,28 @@ return function OAS_AD(pos, opts) {
 				_pdefault = 'lifestyle',
 				_cid= _PI.categoryid
 			;
-			if(_cid in _cat) 
+			if(_cid in _cat)
 				return _cat[_PI.categoryid];
-			else 
+			else
 				return _pdefault;
 		})(),
 		custom8 : '',
 		topstories: (function(){
-			var 
+			var
 				_top = {
 					frontpage: (function(){
 						return '';
 					})(),
 					article: (function(){
 						if(GEL.thepage.pageinfo.articleinturl){
-							var 
+							var
 								_arturl=GEL.thepage.pageinfo.articleinturl.split("/"),
 								_top
 							;
 							_top = '/article/'+_arturl[2]+"/"+_arturl[3]+"/"+_arturl[4];
 							return _top;
 						}
-					})(),		
+					})(),
 					section: (function(){
 						return '';
 					})(),
@@ -515,14 +515,14 @@ return function OAS_AD(pos, opts) {
 		})(),
 		contenttype : 'article',
 		division: (function(){
-			var 
+			var
 				_p = GEL.env.url.qsv
 			;
 			if(_p.src)
 				return _p.src;
 		})(),
 		formname: (function(){
-			var 
+			var
 				_p = GEL.env.url.qsv
 			;
 			if(_p.src)
@@ -530,7 +530,7 @@ return function OAS_AD(pos, opts) {
 		})(),
 		location: document.location,
 		uri: (function(){
-			var 
+			var
 				_uri = {
 					frontpage: (function(){
 						var _uri = "/frontpage"
@@ -538,14 +538,14 @@ return function OAS_AD(pos, opts) {
 					})(),
 					article: (function(){
 						if(GEL.thepage.pageinfo.articleinturl){
-							var 
+							var
 								_arturl=GEL.thepage.pageinfo.articleinturl.split("/"),
 								_uri
 							;
 							_uri = '/article/'+_arturl[2]+"/"+_arturl[3]+"/"+_arturl[4];
 							return _uri;
 						}
-					})(),		
+					})(),
 					section: (function(){
 						var _uri = "/section/"+_PI.categoryid;
 						return _uri;
@@ -568,14 +568,14 @@ return function OAS_AD(pos, opts) {
 		useraction: (function(){
 			function getUrlVars(){
 				var vars = {};
-				var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, 
+				var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi,
 				function(m,key,value) {
 					vars[key] = value;
 				});
 				return vars;
 			};
 			var _uaction = getUrlVars()["odyssey"],
-				_p = GEL.env.url.qsv;	
+				_p = GEL.env.url.qsv;
 			if(_p.template!='printphoto')
 				return _uaction;
 		})(),
@@ -588,7 +588,7 @@ return function OAS_AD(pos, opts) {
 			}
 		})(),
 		ecommerceSource: (function(){
-			var 
+			var
 				_p = GEL.env.url.qsv
 			;
 			if(_p.source)
@@ -596,27 +596,27 @@ return function OAS_AD(pos, opts) {
 		})(),
 		semantics: (function(){
 			if(typeof(_PI.semantics)!='undefined' && typeof(_PI.semantics.uniqueids)!='undefined'){
-				var 
+				var
 					_c = _PI.semantics.uniqueids.join('+'),
 					_t = _PI.type,_u
 				;
-			_u = (_t=='frontpage') ? 'frontpage' : 
-					( (_t=='article') ? _PI.articleinturl.split('/').slice(1,5).join('/') : 
+			_u = (_t=='frontpage') ? 'frontpage' :
+					( (_t=='article') ? _PI.articleinturl.split('/').slice(1,5).join('/') :
 						( (_t=='section') ? _PI.type +'/'+_PI.categoryid : '' ) )
-			; 
+			;
 				if(_c)
 					return 'CW:'+'/'+_u+':'+_PI.ssts.section+':'+_c;
 			}
 		})()
 	}
 })();
-</script> 
+</script>
 <link rel="stylesheet" type="text/css" href="/odygci/firefly.css?odyv=1.17.3052">
 <script type="text/javascript">
 GEL.thepage.initializer.addInitRoutine({
 	name: "Firefly",
 	namespace: ['firefly'],
-	callback: initFirefly, 
+	callback: initFirefly,
 	priority: 1
 });
 function initFirefly(){
@@ -634,7 +634,7 @@ ssts= mt-greatfalls.greatfallstribune.com/life/events/article.htm<br><br>-->
 <script>
 	var responseFromINI = "";
 </script>
-	<script> 
+	<script>
 	responseFromINI = "mt-greatfalls.greatfallstribune.com/life/events/article.htm";
 	</script>
 <script>
@@ -651,7 +651,7 @@ for(var i=0; i<importFromINI.length; i++)
 		contentTopics = importFromINI[i].split(",");
 		break;
 	case 1:
-		contentType = importFromINI[i].split(",");	
+		contentType = importFromINI[i].split(",");
 		break;
 	case 2:
 		customContentCat = importFromINI[i];
@@ -661,7 +661,7 @@ for(var i=0; i<importFromINI.length; i++)
 		break;
 	}
 }
-</script> 
+</script>
 <!--
 category = category-LIFESTYLE<br>
 type = type-article<br>
@@ -775,14 +775,14 @@ function get_aamCookie(c_name) {
 <!-- Network id is 7103 -->
 <!--Fri, 19 Jul 2013 10:39:59 UTC :Response :  {"dfp": { "networkid": "7103" },"siteid": "mt-greatfalls-C1094", "inventory": [ "mt-greatfalls-C1094","","lifestyle","events",""], "pageType": ""}-->
 <!-- No ad scheduled for CustomAd. Slot will be suppressed -->
-<!-- 
+<!--
 @ody_adposCustomAd=noad
 @ody_adOPAtype= <br>
 -->
 <div>
 
 	<script type="text/javascript">
-  window['checkCookie']=(function(){ 
+  window['checkCookie']=(function(){
 var _={};
 for(
 	var
@@ -794,89 +794,89 @@ for(
 	a=i<l&&c[i].split("=")
 	;
 	i++
-)_[a[0]]= a[1]; 
+)_[a[0]]= a[1];
 return function (cookieName){return _[cookieName];}
 })();
-GEL.config.Interstitial= { 
+GEL.config.Interstitial= {
   placementid: parseInt("1273182"),
   controlurl: ""
-}; 
-(function(){ 
+};
+(function(){
 GEL.register("dateutil", { path: "dateutil/dateutil.js", optpath: GEL.env.gelpath.everypage, depends:[],requires:[]});
 if(checkCookie("pre_ad") == 'inter')
-	loadBannerLib(); 
+	loadBannerLib();
 else
-	GEL.thepage.initializer.add({ 
-		name: "qinter", 
-		namespace: ["widget.AdBanner", "dateutil"], 
-		priority: 20, 
+	GEL.thepage.initializer.add({
+		name: "qinter",
+		namespace: ["widget.AdBanner", "dateutil"],
+		priority: 20,
 		callback: interMgr
-	}); 
-function loadBannerLib(){ 
-	var 
+	});
+function loadBannerLib(){
+	var
 		_IMPORTER= GEL.util.importer
 		,_lib= _IMPORTER.require("widget.AdBanner")
 	;
-	_lib.addElement(_IMPORTER.require('dateutil')); 
-	_lib.setAttacher("inline"); 
-	_lib.attach(); 
+	_lib.addElement(_IMPORTER.require('dateutil'));
+	_lib.setAttacher("inline");
+	_lib.attach();
 }
-function interMgr(){ 
-	var _IC= GEL.config.Interstitial || {}; 
-        _IC.id= _IC.id || "inter"; 
-        _IC.controlurl= _IC.controlurl || 
-                (new (GEL.widget.AdBanner.Locator.getProvider())({ 
-                        attachTo: document.body, 
-                        keywords: ['inter'], 
-                        keyvalues: {}, 
+function interMgr(){
+	var _IC= GEL.config.Interstitial || {};
+        _IC.id= _IC.id || "inter";
+        _IC.controlurl= _IC.controlurl ||
+                (new (GEL.widget.AdBanner.Locator.getProvider())({
+                        attachTo: document.body,
+                        keywords: ['inter'],
+                        keyvalues: {},
                         placementid: 1272948,
                         position: "Interstitial",
-                        loadoninit: false 
-                })).getUrl(); 
-        GEL.thepage.bannerManager.add(_IC); 
+                        loadoninit: false
+                })).getUrl();
+        GEL.thepage.bannerManager.add(_IC);
 }
-})(); 
+})();
 </script>
-<div id="go4-interstitial" class="interstitial gel-hidden"> 
+<div id="go4-interstitial" class="interstitial gel-hidden">
 <center class="go4-custom">
  <div class="header-container"><div class="header-main"> <div class="header-wrap">
-  <div class="header-logo"><a href="#"></a></div> 
-  <a href="#" class="gel-hidden skip">Continue Reading&nbsp;&raquo;</a> 
+  <div class="header-logo"><a href="#"></a></div>
+  <a href="#" class="gel-hidden skip">Continue Reading&nbsp;&raquo;</a>
  </div></div></div>
- <div class="aggit">Advertisement</div> 
- <div class="ad"> 
+ <div class="aggit">Advertisement</div>
+ <div class="ad">
   <script type="text/javascript">
-    (function(){ 
+    (function(){
  	var _M= GEL.thepage.bannerManager,_O,_I;
 	if (checkCookie("pre_ad") != "inter"){
 		return;
 	}else
 	if (
-		typeof _M != 'object' 
-		|| typeof _M.get != "function" 
-		|| !(_O= _M.get("inter")) 
+		typeof _M != 'object'
+		|| typeof _M.get != "function"
+		|| !(_O= _M.get("inter"))
 	){
 		_M.disable();
-		return; 
+		return;
 	}
 	_M.disable(_O);
-	_O.config.mainselector= "DIV.ody-custom"; 
+	_O.config.mainselector= "DIV.ody-custom";
 	_O.config.css = "/odygci/interstitial/i.css";
-	_I= GEL.thepage.inter= 
-		new GEL.widget.AdBanner.Interstitial(_O.config); 
-	_I.show(); 
-})(); 
+	_I= GEL.thepage.inter=
+		new GEL.widget.AdBanner.Interstitial(_O.config);
+	_I.show();
+})();
   </script>
- </div> 
+ </div>
  <p class="redirect">
   You will be redirected to the page you want to view in&nbsp;<span id="ad_countdown"></span>&nbsp;seconds.
- </p> 
-</center> 
-</div> 
+ </p>
+</center>
+</div>
 
 	<div class="ody-custom">
 		<div id="modalouter" class="modal-outer-inactive"></div>
-		
+
 		<div class="main-container">
 			<!-- HEADER -->
 			<div id="fb-root"></div>
@@ -918,7 +918,7 @@ try {
 		<!-- ody_topnavigationmenu.pbo -->
 <!-- @ody_adposnavbar:  -->
 <div class="header-container">
-	<div class="header-classified"> 
+	<div class="header-classified">
 		<div class="header-wrap como">
 			<ul>
 				<li><a href="http://www.greatfallstribune.com/classifieds"><strong>CLASSIFIEDS:</strong></a></li>
@@ -955,7 +955,7 @@ try {
 		<div class="header-wrap">
 			<div class="header-logo">
 				<a name="top" href="http://www.greatfallstribune.com/" title="greatfallstribune.com Home" alt="greatfallstribune.com Home"></a>
-			</div>		
+			</div>
 			<div id="Nav">
 				<ul class="nav-tabs">
 					<li id="tab0" class="mega tab 0"><a href="/section/news01" class="first">News</a></li><li id="tab1" class="mega tab 1"><a  href="/obituaries">Obituaries</a></li><li id="tab2" class="mega tab 2"><a  href="/section/sports">Sports</a></li><li id="tab3" class="mega tab 3"><a  href="/section/business">Business</a></li><li id="tab4" class="mega tab 4"><a  href="/section/opinion">Viewpoints</a></li><li id="tab5" class="mega tab 5"><a  href="/section/entertainment">Hot Ticket</a></li><li id="tab6" class="mega tab 6 on"><a  href="/section/lifestyle">Life</a></li><li id="tab7" class="mega tab 7"><a class="special" href="/section/lifestyle05">Outdoors</a></li>
@@ -1249,9 +1249,9 @@ try {
 	</div>
 </div>
 </div>
-</div> 
+</div>
 			</div>
-		</div>	
+		</div>
 	</div>
 	<div class="header-featured">
 		<div class="header-wrap">
@@ -1292,18 +1292,18 @@ function submitFormAction() {
 	else if(checked_option === "OPTION4") new_url = "http://search.greatfallstribune.com/sp?skin=&aff=1109&keywords=";
 	new_url = new_url + "" + keywords;
 	window.location.href = new_url;
-	return false; 
-}	
+	return false;
+}
 function safeParam( key, def) { //get cleaned up keywords so they look pretty in the search box
-	    var defval = def|| ""; 
-	    var re = new RegExp( "[?&]" + key + "=([^&$]*)", "i" ); 
-	    var offset = location.search.search(re); 
+	    var defval = def|| "";
+	    var re = new RegExp( "[?&]" + key + "=([^&$]*)", "i" );
+	    var offset = location.search.search(re);
 	    if ( offset == -1 || RegExp.$1 == '') return defval;
 	    var keywords = RegExp.$1;
 	    keywords = keywords.replace(/\+/g," ");
 	    keywords = keywords.replace(/%26/g,"&");
 	    keywords = keywords.replace(/%\w{2}/g," ");
-	    return keywords; 
+	    return keywords;
 	}
 	function sanitizeKeywords() {
 		//clean up keywords for submit to avoid encoding
@@ -1313,7 +1313,7 @@ function safeParam( key, def) { //get cleaned up keywords so they look pretty in
 		temp = temp.replace(/%\w{2}/g, ""); //get rid of other encoding
 		temp = temp.replace(/&/g,"%26");
 		document.getElementById("searchbox").value = temp;
-	}	
+	}
 </script>
 <form method="get" id="pd-header-search" class="multi-search" action="javascript:submitFormAction();">
 	<div id="search-wrapper" class="clear">
@@ -1330,7 +1330,7 @@ function safeParam( key, def) { //get cleaned up keywords so they look pretty in
 	   		<div class="left">
 				<input class="submit" name="searchoption" type="radio" value="OPTION3" />&nbsp;&nbsp;Local Deals<br/>
 				<input class="submit" name="searchoption" type="radio" value="OPTION4" />&nbsp;&nbsp;FindItNow
-		    </div>       
+		    </div>
 		</div>
 	</div>
 </form>
@@ -1341,31 +1341,31 @@ function safeParam( key, def) { //get cleaned up keywords so they look pretty in
 	</div>
 </div>
 
-<script type="text/javascript"> 
-(function(){ 
+<script type="text/javascript">
+(function(){
 	var _id;
 	if((id=GEL.env.url.qsv.nav)){
-		var a= "mega,tab,on".split(","),n= GEL.ement("tab"+id); 
-		a.push(_id); 
+		var a= "mega,tab,on".split(","),n= GEL.ement("tab"+id);
+		a.push(_id);
 		for(var i=0,l=a.length;i < l; i++)
-			n.addClassName(a[i]); 
+			n.addClassName(a[i]);
 	}
-	GEL.thepage.initializer.addInitRoutine({ 
-		name: "Nav", 
+	GEL.thepage.initializer.addInitRoutine({
+		name: "Nav",
 		namespace: "widget.NavigationWidget",
-		callback: initNav, 
+		callback: initNav,
 		priority: 15
-	}); 
+	});
 })();
-</script> 
+</script>
 
-			
+
 			<!--LEADERBOARD-->
 				<div class="leaderboard-container-top">
 				<div><div>
 	<div class="ad_728x90">
 	<banner
-		 position=728x90_1 
+		 position=728x90_1
 	></banner>
 		<div class="advertisement">ADVERTISEMENT</div>
 	</div>
@@ -1373,7 +1373,7 @@ function safeParam( key, def) { //get cleaned up keywords so they look pretty in
 </div>
 			</div>
 
-			
+
 			<div class="ody-article">
 				<div id='modalinner' class="modal modal-inner-content">
 					<div id='ody-zoommodalcontent' class="photo"></div>
@@ -1387,7 +1387,7 @@ function safeParam( key, def) { //get cleaned up keywords so they look pretty in
 			</div>
 			<div class="content-container">
 				<div class="container">
-						 
+
 							<div class="ody-hgroup">
 	<!-- HEAD -->
 <h1>American Red Cross seeks volunteers</h1>
@@ -1396,7 +1396,7 @@ function safeParam( key, def) { //get cleaned up keywords so they look pretty in
 	<div>
 	<div class="ad_88x31">
 	<banner
-		 position=88x31_1 
+		 position=88x31_1
 	></banner>
 	</div>
 </div>
@@ -1404,12 +1404,12 @@ function safeParam( key, def) { //get cleaned up keywords so they look pretty in
 		<div class="ody-arttime">
 					Jul. 18, 2013
 			&nbsp;&nbsp;|&nbsp;&nbsp;</div>
-	<a class="ody-comicon ody-sprite" href="/comments/article/20130718/LIFESTYLE/307180055/American-Red-Cross-seeks-volunteers" title="Go to comments">	
-		<span id="gslCtl-article|comments|20130718.greatfallstribune.G1307180055.article.LIFESTYLE" class="gslArticleControlsByLine">		
-			<span class="gslCommentsLink">				
+	<a class="ody-comicon ody-sprite" href="/comments/article/20130718/LIFESTYLE/307180055/American-Red-Cross-seeks-volunteers" title="Go to comments">
+		<span id="gslCtl-article|comments|20130718.greatfallstribune.G1307180055.article.LIFESTYLE" class="gslArticleControlsByLine">
+			<span class="gslCommentsLink">
 				<span class="gslCommentsCount" id="gslCommentsCount-1">
 					<fb:comments-count style="display:inline-block" href=http://www.greatfallstribune.com/article/20130718/LIFESTYLE/307180055></fb:comments-count>
-				</span>				
+				</span>
 				<span class="gslCommentsLabel">Comments</span>
 				<script>
 					GEL.thepage.initializer.addInitRoutine({
@@ -1422,7 +1422,7 @@ function safeParam( key, def) { //get cleaned up keywords so they look pretty in
 						priority: 10
 					});
 				</script>
-			</span>	
+			</span>
 		</span>
 	</a>
 	</h6>
@@ -1513,22 +1513,22 @@ function safeParam( key, def) { //get cleaned up keywords so they look pretty in
 <div class="clear"></div>
 </div>
 <script type="text/javascript">
-(function(){ 
-GEL.thepage.initializer.addInitRoutine({ 
+(function(){
+GEL.thepage.initializer.addInitRoutine({
 	name: "sharelinks",
 	namespace: ['widget.ArticleTools','org.jQuery'],
 	callback: function(){initShareThis('top', false, '137930962930704', 'regular', true);},
 	priority: 31
 });
-GEL.thepage.initializer.addInitRoutine({ 
+GEL.thepage.initializer.addInitRoutine({
 	name: "fontsize",
 	namespace: "widget.ArticleTools",
-	callback: function(){initFontSize();}, 
+	callback: function(){initFontSize();},
 	priority: 99
 });
 })();
 function gplusone_share(r){
-	var action=(r.state=='on')?"like":"unlike";	
+	var action=(r.state=='on')?"like":"unlike";
 	var _vt = GEL.thepage.viewTracker;
 	_vt.providers.sitecat.trackLink("sharethis:google:"+action+":top");
 }
@@ -1542,7 +1542,7 @@ function gplusone_share(r){
 				For the Tribune
 		</h5>
 		</div>
-<br> 
+<br>
 						<ul class="ody-filed"><li class="ody-filed">Filed Under</li></ul>
 			<ul class="ody-sub-filed">
 					<li><a href="/section/LIFESTYLE">Lifestyle</a></li>
@@ -1574,12 +1574,12 @@ function gplusone_share(r){
 		<div>
 	<div class="ad_sponsoredlinks">
 	<banner
-		 position=sponsoredlinks 
-		 bannertype=addotcom 
-		 adserver=http://js.adsonar.com/js/adsonar.js 
-		 pageposition=left 
-		 placementid=1583711 
-		 pid=3092768 
+		 position=sponsoredlinks
+		 bannertype=addotcom
+		 adserver=http://js.adsonar.com/js/adsonar.js
+		 pageposition=left
+		 placementid=1583711
+		 pid=3092768
 	></banner>
 		<div class="advertisement">ADVERTISEMENT</div>
 	</div>
@@ -1587,34 +1587,34 @@ function gplusone_share(r){
 	</div>
 </div>
 		<div id="artpagination">
-			<!--<br>TOTAL ELEMENTS IN ARRAY: 12<br>TOTAL CHARACTERS IN ARRAY: 1429<br>TOTAL CHARACTERS IN PAGES: <br>LAST PAGE CONTAINS: 1429<br>--><script type="text/javascript">var artTotalChar=1429;</script><div class='c content-wrap'><div class='gel-content'><div id="GPage1" class="gel-pane gpagediv"><!--Saxotech Paragraph Count: 12<br>--><p><span class='pp'></span>The American Red Cross is looking for volunteers to help prepare Cascade County for natural disasters.</p><p><span class='pp'></span>Volunteers are invited to join the local disaster action team and help respond to disasters, large and small.<span class='aa'></span></p><p><span class='pp'></span>They will be on call to respond to house fires, open shelters for evacuees and feed emergency response teams.<span class='aa'></span></p><p><span class='pp'></span>Licensed nurses, doctors and EMTs can help with special volunteer positions to meet the health needs of people struck by disasters.<span class='aa'></span></p><p><span class='pp'></span>These volunteers would replace lost medications or equipment such as glasses, dentures and canes.<span class='aa'></span></p><p><span class='pp'></span>They also staff shelters and help disaster victims work with hospitals, pharmacies and insurance companies.<span class='aa'></span></p><p><span class='pp'></span>The American Red Cross also is looking for people who will teach people how to prepare for disasters and give presentations to the community about disaster planning.<span class='aa'></span></p><p><span class='pp'></span>Good public speaking skills and a passion for the Red Cross mission are important for this volunteer position.<span class='aa'></span></p><p><span class='pp'></span>Training will be provided to all volunteers.<span class='aa'></span></p><p><span class='pp'></span>To learn more about this volunteer opportunity go to United Way of Cascade County�s free volunteer website <a href="http://www.volunteergreatfalls.org" target="_blank">www.volunteergreatfalls.org</a>.<span class='aa'></span></p><p><span class='pp'></span>The American Red Cross is one of 47 local nonprofits posting volunteer needs on the website. Any local nonprofit is invited to register and post their volunteer opportunities on the site.<span class='aa'></span></p><p><span class='pp'></span>Volunteers can search the site based on their interests or schedule.<span class='aa'></span></p></div></div></div>
+			<!--<br>TOTAL ELEMENTS IN ARRAY: 12<br>TOTAL CHARACTERS IN ARRAY: 1429<br>TOTAL CHARACTERS IN PAGES: <br>LAST PAGE CONTAINS: 1429<br>--><script type="text/javascript">var artTotalChar=1429;</script><div class='c content-wrap'><div class='gel-content'><div id="GPage1" class="gel-pane gpagediv"><!--Saxotech Paragraph Count: 12<br>--><p><span class='pp'></span>The American Red Cross is looking for volunteers to help prepare Cascade County for natural disasters.</p><p><span class='pp'></span>Volunteers are invited to join the local disaster action team and help respond to disasters, large and small.<span class='aa'></span></p><p><span class='pp'></span>They will be on call to respond to house fires, open shelters for evacuees and feed emergency response teams.<span class='aa'></span></p><p><span class='pp'></span>Licensed nurses, doctors and EMTs can help with special volunteer positions to meet the health needs of people struck by disasters.<span class='aa'></span></p><p><span class='pp'></span>These volunteers would replace lost medications or equipment such as glasses, dentures and canes.<span class='aa'></span></p><p><span class='pp'></span>They also staff shelters and help disaster victims work with hospitals, pharmacies and insurance companies.<span class='aa'></span></p><p><span class='pp'></span>The American Red Cross also is looking for people who will teach people how to prepare for disasters and give presentations to the community about disaster planning.<span class='aa'></span></p><p><span class='pp'></span>Good public speaking skills and a passion for the Red Cross mission are important for this volunteer position.<span class='aa'></span></p><p><span class='pp'></span>Training will be provided to all volunteers.<span class='aa'></span></p><p><span class='pp'></span>To learn more about this volunteer opportunity go to United Way of Cascade County’s free volunteer website <a href="http://www.volunteergreatfalls.org" target="_blank">www.volunteergreatfalls.org</a>.<span class='aa'></span></p><p><span class='pp'></span>The American Red Cross is one of 47 local nonprofits posting volunteer needs on the website. Any local nonprofit is invited to register and post their volunteer opportunities on the site.<span class='aa'></span></p><p><span class='pp'></span>Volunteers can search the site based on their interests or schedule.<span class='aa'></span></p></div></div></div>
 			<!-- pagination on -->
-			<script type="text/javascript"> 
-				(function(){ 
+			<script type="text/javascript">
+				(function(){
 	GEL.register("widget.PaginationWidget", {
-		type: "script", 
+		type: "script",
 		depends: ["widget"],
 		requires: ["util.Selector"],
 		path: "widgets/pagination/paginationController.js"
 	});
-	GEL.thepage.initializer.addInitRoutine({ 
-		name: "pagination", 
-		callback: initPaginator, 
-		namespace: ["widget.GELTabs", "widget.AdBanner", "anim.YUIAnimator", "analytics","widget.PaginationWidget"], 
+	GEL.thepage.initializer.addInitRoutine({
+		name: "pagination",
+		callback: initPaginator,
+		namespace: ["widget.GELTabs", "widget.AdBanner", "anim.YUIAnimator", "analytics","widget.PaginationWidget"],
 		priority: 20
 	});
-	function initPaginator(){	
-		GEL.thepage.artpg= new 	
-			GEL.widget.GELTabs("artpagination", { 
+	function initPaginator(){
+		GEL.thepage.artpg= new
+			GEL.widget.GELTabs("artpagination", {
 				changeEvent: "click",
 				viewtrackevent: "paneChange",
-				wrap: false, 
+				wrap: false,
 				scrollAnchor: document.body,
 				autoRotate:false,
-				positionBanners: true, 
+				positionBanners: true,
 				activeIndex:0
 			});
-		var 
+		var
 			_bannerLocator= GEL.thepage.bannerLocator,
 			_a= _bannerLocator.findBanners(GEL.ement("remnantad")),
 			_l= _a.length
@@ -1622,12 +1622,12 @@ function gplusone_share(r){
 		for(var i=0;i<_l;i++){
 			_a[i].config.reload= false;
 		}
-		GEL.thepage.artpg.init();	 
-		GEL.thepage.artpgController = new 
+		GEL.thepage.artpg.init();
+		GEL.thepage.artpgController = new
 			GEL.widget.artPagination("artpagination");
 		GEL.thepage.artpgController.init();
 	}
-})(); 
+})();
 			</script>
 			<div class="sharelinks-bottomwrapper"><div class="toolswrapper bottom">
 <div class="toolsArticle facetwitt bottom gel-hidden" id="sharelinks-bottom" >
@@ -1713,22 +1713,22 @@ function gplusone_share(r){
 <div class="clear"></div>
 </div>
 <script type="text/javascript">
-(function(){ 
-GEL.thepage.initializer.addInitRoutine({ 
+(function(){
+GEL.thepage.initializer.addInitRoutine({
 	name: "sharelinks-bottom",
 	namespace: ['widget.ArticleTools','org.jQuery'],
 	callback: function(){initShareThis('bottom', true, '137930962930704', 'regular', true);},
 	priority: 31
 });
-GEL.thepage.initializer.addInitRoutine({ 
+GEL.thepage.initializer.addInitRoutine({
 	name: "fontsize",
 	namespace: "widget.ArticleTools",
-	callback: function(){initFontSize('bottom');}, 
+	callback: function(){initFontSize('bottom');},
 	priority: 99
 });
 })();
 function gplusone_sharebottom(r){
-	var action=(r.state=='on')?"like":"unlike";	
+	var action=(r.state=='on')?"like":"unlike";
 	var _vt = GEL.thepage.viewTracker;
 	_vt.providers.sitecat.trackLink("sharethis:google:"+action+":bottom");
 }
@@ -1749,7 +1749,7 @@ function gplusone_sharebottom(r){
 		GEL.thepage.initializer.addInitRoutine({
 			name: "Mycapturelink",
 			namespace: ["widget.ArticleTools","widget.modal"],
-			callback: initMyCaptureLink, 
+			callback: initMyCaptureLink,
 			priority: 150
 		});
 	})();
@@ -1762,9 +1762,9 @@ function gplusone_sharebottom(r){
 		&nbsp;|&nbsp;
 		<a href="/comments/article/20130718/LIFESTYLE/307180055/American-Red-Cross-seeks-volunteers"><strong>Share your thoughts &raquo;</strong></a>
 	</div>
-	<div id='taboola-story-leftcolumn' class="taboola-story-leftcolumn"></div> 
-	<script type="text/javascript"> 
-		window._taboola = window._taboola || []; 
+	<div id='taboola-story-leftcolumn' class="taboola-story-leftcolumn"></div>
+	<script type="text/javascript">
+		window._taboola = window._taboola || [];
 		_taboola.push({mode : 'story-leftcolumn', container : 'taboola-story-leftcolumn' });
 	</script>
 	<div class="ody-ob-taboola-wrapper">
@@ -1787,16 +1787,16 @@ function gplusone_sharebottom(r){
 			<!-- END OUTBRAIN CODE -->
 			<script type="text/javascript">
 			// needs to be loaded after Modernizr due to weird loading issue in WebKit (mostly Safari) [COMO-576]
-			GEL.thepage.initializer.addInitRoutine({ 
+			GEL.thepage.initializer.addInitRoutine({
 				name: "Outbrain",
 				namespace: ["outbrain"],
 				callback: function (){ /* don't care */ },
 				priority: 200
 			});
 			</script>
-			<div id='taboola-story-bannerad'></div> 
-			<script type="text/javascript"> 
-				window._taboola = window._taboola || []; 
+			<div id='taboola-story-bannerad'></div>
+			<script type="text/javascript">
+				window._taboola = window._taboola || [];
 				_taboola.push({mode : 'story-bannerad', container : 'taboola-story-bannerad' });
 			</script>
 			<script type="text/javascript" src="http://cdn.taboolasyndication.com/libtrc/gannett-greatfallstribune/loader.js"></script>
@@ -1832,7 +1832,7 @@ GEL.thepage.initializer.addInitRoutine({
 		</div>
 	</div>
 
-						 
+
 					<div class="ody-aside aside ggnoads">
 					<!-- ody_locations.pbo -->
 					<div id="companionad">
@@ -1840,7 +1840,7 @@ GEL.thepage.initializer.addInitRoutine({
 							<div>
 	<div class="ad_Flex">
 	<banner
-		 position=Flex_1 
+		 position=Flex_1
 	></banner>
 	</div>
 </div>
@@ -1851,7 +1851,7 @@ GEL.thepage.initializer.addInitRoutine({
 
 						</div>
 					</div>
-						
+
 						<div id="most-popular-wrapper" class="gel-tab tabs">
 	<ul class="gel-nav tab_menu clearfix">
 		<li class="tabber pos1 on">Most Popular</li>
@@ -1999,7 +1999,7 @@ try {
   _el = _lis[_lis.length - 1];
   _el.className+=" last";
 } catch (ex) {}
-})(); 
+})();
 </script>
 
 		</div>
@@ -2011,7 +2011,7 @@ try {
 			<h2>Most Viewed</h2>
 		</div>
 		<div class="clearfix mpsection">
-			<div id='taboola-article-column-c-new-no-google'></div> 
+			<div id='taboola-article-column-c-new-no-google'></div>
 		</div>
 		<div class="clearfix mpsection">
 			<div id='taboola-horizontalx2'></div>
@@ -2023,19 +2023,19 @@ try {
 	<div id='taboola-article-column-c-new-google' class='box trc_related_container'></div>
 <span class="shdbot"></span>
 <script type="text/javascript">
-	window._taboola = window._taboola || []; 
+	window._taboola = window._taboola || [];
 	_taboola.push({mode:'horizontalx2', container:'taboola-horizontalx2', target_type:'photo'});
 	_taboola.push({mode : 'article-column-c-new-no-google', container : 'taboola-article-column-c-new-no-google' });
 	_taboola.push({mode : 'article-column-c-new-google', container : 'taboola-article-column-c-new-google' });
-</script> 
-<script type="text/javascript"> 
-(function(){ 
-	GEL.thepage.initializer.addInitRoutine({ 
-		name: "rightrailtabs", 
-		callback: initRightRailTabs, 
-		namespace: ["widget.GELTabs", "remoting", "widget.TrackTabs"], 
+</script>
+<script type="text/javascript">
+(function(){
+	GEL.thepage.initializer.addInitRoutine({
+		name: "rightrailtabs",
+		callback: initRightRailTabs,
+		namespace: ["widget.GELTabs", "remoting", "widget.TrackTabs"],
 		priority: 150
-	}); 
+	});
 })();
 </script>
 
@@ -2043,25 +2043,25 @@ try {
 						<div>
 	<div class="ad_Flex">
 	<banner
-		 position=Flex_2 
+		 position=Flex_2
 	></banner>
 		<div class="advertisement">ADVERTISEMENT</div>
 	</div>
 </div>
 
-						
+
 						<!--Begin promos-->
 	<div id="sponsoredlinks_right_wrapper" >
 	<div class="sponsoredlinks-article">
 		<div>
 	<div class="ad_sponsoredlinks">
 	<banner
-		 position=sponsoredlinks 
-		 bannertype=addotcom 
-		 adserver=http://js.adsonar.com/js/adsonar.js 
-		 pageposition=right 
-		 placementid=1583711 
-		 pid=3092768 
+		 position=sponsoredlinks
+		 bannertype=addotcom
+		 adserver=http://js.adsonar.com/js/adsonar.js
+		 pageposition=right
+		 placementid=1583711
+		 pid=3092768
 	></banner>
 		<div class="advertisement">ADVERTISEMENT</div>
 	</div>
@@ -2069,10 +2069,10 @@ try {
 	</div>
 </div>
 <!-- Video autoplay script -->
-<script type="text/javascript">  
+<script type="text/javascript">
 //video auto-play, keep trying to click until successful. (mmccann)
-	fireflyJQuery(document).ready(function(){ 
-		vidclickinterval=setInterval(function(){   
+	fireflyJQuery(document).ready(function(){
+		vidclickinterval=setInterval(function(){
 			if($('#odyInitVideoImage').is(':visible')) {
 					fireflyJQuery("#odyInitVideoImage").click();
 			} else {
@@ -2082,10 +2082,10 @@ try {
 	});
 </script>
 
-						
+
 					</div>
 					<div class="clear"></div>
-				</div>				
+				</div>
 			</div>
 			<div id="emailmodalcontent" class="emailcontent firefly modal modal-inner-content">
  	<div class="ody-pa-box ody-su-box clearfix">
@@ -2109,12 +2109,12 @@ The American Red Cross is looking for volunteers to help prepare Cascade County 
 </div>
 </div>
 
-			<div class="ody-bottom-caro" id="conveyorbottom"> 
+			<div class="ody-bottom-caro" id="conveyorbottom">
 	<a title="Scroll left" class="button left prev carouselNXT"><span class="ody-caro-nxt"></span></a>
 	<div class=pane-container>
 		<div class="panes">
 			<div class="pane">
-				<div class="ody-caroSM">  
+				<div class="ody-caroSM">
 					<p class="ody-bottom-title">
 	<strong>Archives</strong>
 </p>
@@ -2131,7 +2131,7 @@ The American Red Cross is looking for volunteers to help prepare Cascade County 
 	</ul>
 	<p>See our <a href='http://pqasb.pqarchiver.com/greatfallstribune/advancedsearch.html'>paid archives</a> for news older than a week.</p>
 </div>
-				</div> 
+				</div>
 				<div class="ody-caroLG">
 					<p class="ody-bottom-title"><strong>Things To Do</strong></p>
 <!-- PDURL= http://search.greatfallstribune.com/client/widgets/odyssey/events.jsp?widget=1&cacheTime=5&featured=1 -->
@@ -2549,18 +2549,18 @@ The American Red Cross is looking for volunteers to help prepare Cascade County 
 				if(tabs[i].className.indexOf("day-hide") == -1) {
 					tabs[i].className += " day-hide" ;  //just append hiding class, other classes may need to remain
 				}
-				document.getElementById('day'+i).className="day-unselected"; 
+				document.getElementById('day'+i).className="day-unselected";
 			}
 			document.getElementById('event-list-' + tab).className = document.getElementById('event-list-' + tab).className.replace(/day-hide/,'');
-			document.getElementById('day'+tab).className="day-selected"; 
+			document.getElementById('day'+tab).className="day-selected";
 		}
 		showDateTab(0);
 	</script>
-<div class="pdsevendaymore">MORE 
+<div class="pdsevendaymore">MORE
 <a href="http://search.greatfallstribune.com/localevents">Events</a> | <a href="http://search.greatfallstribune.com/localevents/add_event/">Submit an Event</a>
 </div>
-				</div> 
-				<div class="ody-caroSM">  
+				</div>
+				<div class="ody-caroSM">
 					<div>
 	<p class="ody-bottom-title">
 		<strong>Report</strong>
@@ -2571,8 +2571,8 @@ The American Red Cross is looking for volunteers to help prepare Cascade County 
 	</div>
 	<p><b><a href="/specialreport">MORE REPORTS</a></b></p>
 </div>
-				</div> 
-				<div class="ody-caroMD">  
+				</div>
+				<div class="ody-caroMD">
 					<div>
 	<p class="ody-bottom-title">
 		<strong>MontanaCana</strong>
@@ -2583,7 +2583,7 @@ The American Red Cross is looking for volunteers to help prepare Cascade County 
 </style>
 <div class="bottom_caro_story" style="clear:left;">
   <ul>
-	<li> 
+	<li>
 	<span class="bottom_caro_story_image"><a href="http://www.facebook.com/MontanaCana"><img src="http://cmsimg.greatfallstribune.com/apps/pbcsi.dll/bilde?Avis=G1&Dato=99999999&Kategori=NEWS01&Lopenr=110211012&Ref=AR&MaxW=60&MaxH=60" alt="Browse MontanaCana" style="float:left;padding:0 7px 7px 0"></a></span>
 	<div style="font-size:13px;font-weight:bold;"><a href="http://www.facebook.com/MontanaCana">Browse MontanaCana</a></div>
 	<p style="margin-top:0px;">A collection historical articles about Montana and its culture.</p>
@@ -2594,7 +2594,7 @@ The American Red Cross is looking for volunteers to help prepare Cascade County 
 </style>
 <div class="bottom_caro_story" style="clear:left;">
   <ul>
-	<li> 
+	<li>
 	<span class="bottom_caro_story_image"><a href="http://www.greatfallstribune.com/multimedia/mtfallen/index.html"><img src="http://cmsimg.greatfallstribune.com/apps/pbcsi.dll/bilde?Avis=G1&Dato=99999999&Kategori=FRONTPAGE&Lopenr=100122026&Ref=AR&MaxW=60&MaxH=60" alt="Montana's Fallen Heroes" style="float:left;padding:0 7px 7px 0"></a></span>
 	<div style="font-size:13px;font-weight:bold;"><a href="http://www.greatfallstribune.com/multimedia/mtfallen/index.html">Montana's Fallen Heroes</a></div>
 	<p style="margin-top:0px;">Soldiers who have died in Iraq and Afghanistan.</p>
@@ -2605,7 +2605,7 @@ The American Red Cross is looking for volunteers to help prepare Cascade County 
 </style>
 <div class="bottom_caro_story" style="clear:left;">
   <ul>
-	<li> 
+	<li>
 	<span class="bottom_caro_story_image"><a href="http://www.greatfallstribune.com/multimedia/125newsmakers6/part6.html"><img src="http://cmsimg.greatfallstribune.com/apps/pbcsi.dll/bilde?Avis=G1&Dato=99999999&Kategori=FRONTPAGE&Lopenr=110211003&Ref=AR&MaxW=60&MaxH=60" alt="Montana's Top Newsmakers" style="float:left;padding:0 7px 7px 0"></a></span>
 	<div style="font-size:13px;font-weight:bold;"><a href="http://www.greatfallstribune.com/multimedia/125newsmakers6/part6.html">Montana's Top Newsmakers</a></div>
 	<p style="margin-top:0px;"></p>
@@ -2616,7 +2616,7 @@ The American Red Cross is looking for volunteers to help prepare Cascade County 
 </style>
 <div class="bottom_caro_story" style="clear:left;">
   <ul>
-	<li> 
+	<li>
 	<span class="bottom_caro_story_image"><a href="http://www.greatfallstribune.com/multimedia/bison/index.html"><img src="http://cmsimg.greatfallstribune.com/apps/pbcsi.dll/bilde?Avis=G1&Dato=99999999&Kategori=NEWS01&Lopenr=110211018&Ref=AR&MaxW=60&MaxH=60" alt="The Bison: American icon" style="float:left;padding:0 7px 7px 0"></a></span>
 	<div style="font-size:13px;font-weight:bold;"><a href="http://www.greatfallstribune.com/multimedia/bison/index.html">The Bison: American icon</a></div>
 	<p style="margin-top:0px;"></p>
@@ -2626,18 +2626,18 @@ The American Red Cross is looking for volunteers to help prepare Cascade County 
 	</div>
 	<p><b><a href="http://www.greatfallstribune.com/multimedia/Montanacana/">MORE MONTANACANA</a></b></p>
 </div>
-				</div> 
+				</div>
 			</div>
 			<div class="pane">
-				<div class="ody-caroSM">  
+				<div class="ody-caroSM">
 					<p class="ody-bottom-title">
 	<strong>Real Deals</strong>
 </p>
 <a href="/weeklyads"><img src="/odygci/p2/deals_default_140x100_carousel.jpg" /></a>
 <p>Flip, shop and save on specials from your favorite retailers in Great Falls, Montana</p>
 <strong><a href="/weeklyads">GET DEALS NOW</a> | <a href="/grocerycoupons">COUPONS</a></strong>
-				</div> 
-				<div class="ody-caroLG">  
+				</div>
+				<div class="ody-caroLG">
 					<p class="ody-bottom-title"><strong>Photo Galleries</strong></p>
 <div class="bottomcaro-mostpop">	<div class="bottomcaro_galleryblock">
 		<div class="bottomcaro_gallery_image"><a href="/apps/pbcs.dll/gallery?Avis=G1&Dato=20130718&Kategori=LIFESTYLE&Lopenr=307180026&Ref=PH" onclick="" class="image_link"><img alt="Lavina's Adams Hotel" src="http://cmsimg.greatfallstribune.com/apps/pbcsi.dll/bilde?Avis=G1&Dato=20130718&Kategori=LIFESTYLE&Lopenr=307180026&Ref=PH&NewTbl=1&Itemnr=1?MaxW=200&MaxH=200" class="autofocus_thumb"></a></div>
@@ -2658,9 +2658,9 @@ The American Red Cross is looking for volunteers to help prepare Cascade County 
 	</div>	<div class="bottomcaro_galleryblock">
 		<div class="bottomcaro_gallery_image"><a href="/apps/pbcs.dll/gallery?Avis=G1&Dato=20130704&Kategori=PHOTOGALLERIES&Lopenr=704009&Ref=PH" onclick="" class="image_link"><img alt="Fourth of July Parade 2013" src="http://cmsimg.greatfallstribune.com/apps/pbcsi.dll/bilde?Avis=G1&Dato=20130704&Kategori=PHOTOGALLERIES&Lopenr=704009&Ref=PH&NewTbl=1&Itemnr=1?MaxW=200&MaxH=200" class="autofocus_thumb"></a></div>
 	</div>
-</div>	
-				</div> 
-				<div class="ody-caroSM">  
+</div>
+				</div>
+				<div class="ody-caroSM">
 					<div>
 	<p class="ody-bottom-title">
 		<strong>Subscribe!</strong>
@@ -2668,8 +2668,8 @@ The American Red Cross is looking for volunteers to help prepare Cascade County 
 	<div style="height: 180px; overflow: hidden;"><a href="/subscribe"><img src="http://webmedia.newseum.org/newseum-multimedia/dfp/jpg19/med/MT_GFT.jpg" border=0/></a></div>
 	<p><a href="/subscribe">Sign up</a> for home delivery today</p>
 </div>
-				</div> 
-				<div class="ody-caroMD">  
+				</div>
+				<div class="ody-caroMD">
 					<p class="ody-bottom-title"><strong>Most Commented</strong></p>
 <div class="bottomcaro-mostpop">	<div id="ody-commented" class="pluckcommented">
 		<div style="line-height:15px;padding-bottom:5px;">
@@ -2709,24 +2709,24 @@ The American Red Cross is looking for volunteers to help prepare Cascade County 
 	<div class="gslDiscoverySeparator"></div>
 </div>
 	</div>
-</div>	
-				</div> 
+</div>
+				</div>
 			</div>
 		</div>
 	</div>
 </div>
-<script type="text/javascript"> 
-(function(){ 
-GEL.thepage.initializer.addInitRoutine({ 
-	name: "conveyorbottom", 
-	namespace: ["widget.GELTabs", "anim.YUIAnimator"], 
+<script type="text/javascript">
+(function(){
+GEL.thepage.initializer.addInitRoutine({
+	name: "conveyorbottom",
+	namespace: ["widget.GELTabs", "anim.YUIAnimator"],
 	priority: 150,
 	callback: initConveyorBottom
-}); 
-})(); 
+});
+})();
 </script>
 
-			
+
 			<div id="persistNotif" style="left:-420px;">
 	<div id="persistNotifContent">
 		<div class="firefly-numberLeftWrapper clearfix">
@@ -2749,11 +2749,11 @@ GEL.thepage.initializer.addInitRoutine({
 				<label for="fireflymodal_email">Email
 				<input type="email" name="email" placeholder="email@example.com" id="fireflymodal_email" required></label>
 				<div class="bottom-buttons  first-level">
-					<button type="submit" class="primary">Reset my password</button> 
+					<button type="submit" class="primary">Reset my password</button>
 					<button type="reset" class="cancel">Cancel</button>
 				</div>
 				<div class="bottom-buttons second-level">
-						<button type="reset" class="cancel subprim">OK</button> 
+						<button type="reset" class="cancel subprim">OK</button>
 						<button type="submit" class="primary-a">Resend Email</button>
 				</div>
 			</form>
@@ -2786,7 +2786,7 @@ GEL.thepage.initializer.addInitRoutine({
 					<label for="firefly-login-account" style="display: none;">Employee Account
 						<input type="text" name="account" title="Employee Account" id="firefly-login-account" maxlength="50" placeholder="DOMAIN\username" pattern="^[a-zA-Z]+\\[^&quot;\\\[\]:;|=,+*?&lt;&gt;]+$" required disabled>
 					</label>
-					<label for="firefly-login-password">Password 
+					<label for="firefly-login-password">Password
 						<input type="password" name="password" title="Password" id="firefly-login-password" maxlength="30" placeholder="Enter your password" required>
 					</label>
 					<div class="gnp forgot"><span class="verb">Forgot</span> your <a href="#firefly-password-reset" title="Reset password">password</a>?</div>
@@ -2797,7 +2797,7 @@ GEL.thepage.initializer.addInitRoutine({
 					<input type="hidden" name="redirectURL">
 				</form>
 			</div>
-			<div class="body separated contain-floats" > 
+			<div class="body separated contain-floats" >
 				<div class="separated-title"><span>or</span></div>
 				<a href="/facebookfaq" class="firefly-fblogin-learnmore" target="_blank">Learn more about Login with Facebook</a>
 				<button type="button" class="image" onclick="GEL.firefly.login_form_facebook_login(event)" id="firefly-login-login-with-facebook"><img src="/odygci/firefly/login-with-facebook.png" alt="Login with Facebook"></button>
@@ -2832,7 +2832,7 @@ GEL.thepage.initializer.addInitRoutine({
 					<label for="firefly-login-account-register" style="display: none;">Employee Account
 						<input type="text" name="account" title="Employee Account" id="firefly-login-account-register" maxlength="50" placeholder="DOMAIN\username" pattern="^[a-zA-Z]+\\[^&quot;\\\[\]:;|=,+*?&lt;&gt;]+$" required disabled>
 					</label>
-					<label for="firefly-login-password-register">Password 
+					<label for="firefly-login-password-register">Password
 						<input type="password" name="password" title="Password" id="firefly-login-password-register" maxlength="30" placeholder="Enter your password" required>
 					</label>
 					<div class="gnp forgot"><span class="verb">Forgot</span> your <a href="#firefly-password-reset" title="Reset password">password</a>?</div>
@@ -2843,7 +2843,7 @@ GEL.thepage.initializer.addInitRoutine({
 					<input type="hidden" name="redirectURL">
 				</form>
 			</div>
-			<div class="body separated contain-floats" > 
+			<div class="body separated contain-floats" >
 				<div class="separated-title"><span>or</span></div>
 				<a href="/facebookfaq" class="firefly-fblogin-learnmore" target="_blank">Learn more about Login with Facebook</a>
 				<button type="button" class="image" onclick="GEL.firefly.login_form_facebook_login(event)" id="firefly-login-login-with-facebook"><img src="/odygci/firefly/login-with-facebook.png" alt="Login with Facebook"></button>
@@ -3059,7 +3059,7 @@ try {
 						}
 						return utftext;
 					}
-				};		
+				};
 				// signup for Dealchicken automatically
 				function getCookie(c_name)
 				{
@@ -3081,7 +3081,7 @@ try {
 					}
 					else var expires = "";
 					document.cookie = name+"="+value+expires+"; path=/";
-				}	
+				}
 				function removeCookie(name)
 				{
 					createCookie(name,"",-1);
@@ -3105,8 +3105,8 @@ try {
 							var c_value = escape(_email + "," + fireflyJQuery("#firefly-register-zip").val());
 							createCookie("signupForDealChickenOnly", c_value);
 						}
-				  });				  
-				});						
+				  });
+				});
 			</script>
 			<div class="body separated contain-floats">
 				<div class="separated-title"><span>or</span></div>
@@ -3179,7 +3179,7 @@ try {
 			<h2 class="black">Flash is required to continue</h2>
 			<button type="button" class="close" title="Close"><img src="/odygci/firefly/close-x.png" alt="Close"></button>
 			<div class="body">
-				<div class="gnp">To continue using your current Web browser, Adobe Flash must be installed or upgraded:</div>				
+				<div class="gnp">To continue using your current Web browser, Adobe Flash must be installed or upgraded:</div>
 				<a class="button primary" href="http://get.adobe.com/flashplayer/">Download Adobe Flash Player</a>
 				<div class="gnp">Or you can download any of the following supported modern browsers:</div>
 			</div>
@@ -3198,7 +3198,7 @@ try {
 		<div>
 	<div class="ad_728x90">
 	<banner
-		 position=728x90_2 
+		 position=728x90_2
 	></banner>
 		<div class="advertisement">ADVERTISEMENT</div>
 	</div>
@@ -3264,7 +3264,7 @@ try {
 			<li><a class="footer-homegain" href="http://www.movingcompanyreviews.com/" target="_blank"></a></li>
 			<li><a class="footer-shop" href="http://www.shoplocal.com" target="_blank"></a></li>
 			<li><a class="footer-career" href="http://www.careerbuilder.com" target="_blank"></a></li>
-			<li><a class="footer-eharmony" href="http://www.eharmony.com" target="_blank"></a></li>			
+			<li><a class="footer-eharmony" href="http://www.eharmony.com" target="_blank"></a></li>
 		</ul>
 		<div class="clear"></div>
 	</div>
@@ -3284,19 +3284,19 @@ try {
 </div>
 <!--Site Catalyst macro -->
 <!--Sitecatalyst Macro Settings -->
-<script type="text/javascript"> 
- (function(){ 
-	var 
+<script type="text/javascript">
+ (function(){
+	var
 		_CFG= GEL.namespace("config.bus"),
-		_provider, 
+		_provider,
 		_pri
-	; 
-	(function(){ 
+	;
+	(function(){
 		var _cfg_bus = GEL.config.bus.properties;
 		GEL.thepage.initializer.addInitRoutine({
 			name: "cookie",
 			namespace: ['util.Cookie', 'firefly'],
-			callback: initOmniture, 
+			callback: initOmniture,
 			priority: 5
 		});
 		function initOmniture(){
@@ -3309,7 +3309,7 @@ try {
 					if(GEL.firefly.atyponAPI.data.user.userId) {
 						return GEL.firefly.atyponAPI.data.user.userId;
 					}
-				}	
+				}
 				catch(e) {
 					return 'unknown';
 				}
@@ -3336,8 +3336,8 @@ try {
 			// prop49, this is now actually user license type - https://gannett.jira.com/browse/COMO-991
 			_cfg_bus.userstate=(function() {
 				var _F = GEL.namespace("thepage.pageinfo").firefly;
-			   	if (_F){		
-					_F.getuserlicensetype = function(useshortname){					
+			   	if (_F){
+					_F.getuserlicensetype = function(useshortname){
 						function getshortstatusname(s){
 							var
 							  _seg= s.split('_')
@@ -3354,15 +3354,15 @@ try {
 							}
 							return t.join("_");
 						}
-						var 
+						var
 						retval,
 						ult_cookie = GEL.firefly.atyponAPI.cookie.get('userLicenseType');
 						if (ult_cookie){
 							retval = ult_cookie;
-						}else{									
+						}else{
 							if (GEL.firefly.atyponAPI.data && GEL.firefly.atyponAPI.data.user){
 								retval = GEL.firefly.atyponAPI.data.user.userLicenseType;
-							} 
+							}
 						}
 						if (!retval){
 							return 'empty';
@@ -3377,7 +3377,7 @@ try {
 				}
 				try {
 					if (GEL.firefly.atyponAPI.is('loggedIn')) {
-						return GEL.thepage.pageinfo.firefly.getuserlicensetype();	
+						return GEL.thepage.pageinfo.firefly.getuserlicensetype();
 					} else {
 						return 'unauthenticated';
 					}
@@ -3389,7 +3389,7 @@ try {
 		}
 		if(GEL.config.bus.properties.pageName)return;
 		GEL.config.bus.properties.pageName= (function(){
-			var 
+			var
 				_p='',_t,
 				_PI= GEL.thepage.pageinfo,
 				_cat= _PI.categoryname
@@ -3418,89 +3418,89 @@ try {
 						return 'tnGallery Title: Null';
 				})()
 			};
-			if(_PI.type in _sections) 
+			if(_PI.type in _sections)
 				_p =  _p + _sections[_PI.type];
 			else
 				_p =  _p + location.href;
 			return _p;
 		})();
-	})(); 
-	if(!_CFG.providers) return; 
+	})();
+	if(!_CFG.providers) return;
 	for(_provider in _CFG.providers) {
-		_pri= _CFG.providers[_provider]; 
-		GEL.thepage.initializer.addInitRoutine({ 
-			name: _provider, 
-			namespace: ["analytics", "util.Cookie", "remoting"], 
-			callback: (function(_p) { 
+		_pri= _CFG.providers[_provider];
+		GEL.thepage.initializer.addInitRoutine({
+			name: _provider,
+			namespace: ["analytics", "util.Cookie", "remoting"],
+			callback: (function(_p) {
 					return function(){
-						load(_p); 
+						load(_p);
 					}
-				})(_provider), 
+				})(_provider),
 			priority: _pri
-		}); 
+		});
 	}
-	function load(provider){ 
-		var _vt= GEL.thepage.viewTracker ||  
-			(function(){ 
-				var _o= GEL.thepage.viewTracker= 
-					new GEL.bus.PageTrack(); 
-				return _o; 
-			})();  
+	function load(provider){
+		var _vt= GEL.thepage.viewTracker ||
+			(function(){
+				var _o= GEL.thepage.viewTracker=
+					new GEL.bus.PageTrack();
+				return _o;
+			})();
 		/* WARNING: DO NOT TRY THIS AT HOME
 		 *
 		 * This is done on the individual provider ONLY for initialization
 		 * so that we can support initializing different provider
-		 * at different times.   
-		 * 
+		 * at different times.
+		 *
 		 */
-		var _provs= _vt.init(provider); 
+		var _provs= _vt.init(provider);
 		for(var i=0;i<_provs.length;i++)
-			_provs[i].trackView(); 
+			_provs[i].trackView();
 		if(GEL.thepage.viewTracker.providers && GEL.thepage.viewTracker.providers.bt && !window.DM_onSegsAvailable)
 			window.DM_onSegsAvailable = GEL.thepage.viewTracker.providers.bt.segmentsReceived;
 	}
-	/* 
-		Currently this must be done inline due to the fact that 
-		SiteCat's __constructor__ (of all things!) 
+	/*
+		Currently this must be done inline due to the fact that
+		SiteCat's __constructor__ (of all things!)
 		does this, which is not suppoted by DocumentOverwriter
 		{ ...
-			document.write("img src=..."); 
-			i= document.images[document.images.length-1]; 
+			document.write("img src=...");
+			i= document.images[document.images.length-1];
 		....}
-		Within the site cat code we instantiate s_gi(), assigning it to 
-		GEL.config.bus.omniture.s_code 
-		Newer versions of site cat's s_code use a more mature 
-		method of inserting the image.  Once this is implemented, 
-		the inline attachment of the s_code here can be removed 
+		Within the site cat code we instantiate s_gi(), assigning it to
+		GEL.config.bus.omniture.s_code
+		Newer versions of site cat's s_code use a more mature
+		method of inserting the image.  Once this is implemented,
+		the inline attachment of the s_code here can be removed
 	*/
-		var _s = GEL.ement("SCRIPT", { src: "/odygel/lib/vendor/omniture/sitecatalyst.js?odyv=1.17.3052" }); 
-	_s.setAttacher("inline"); 
-	_s.attach(); 
-		var _d = GEL.ement("SCRIPT", { src: "/odygel/lib/vendor/audiencemanager/dil.js?odyv=1.17.3052" }); 
-	_d.setAttacher("inline"); 
+		var _s = GEL.ement("SCRIPT", { src: "/odygel/lib/vendor/omniture/sitecatalyst.js?odyv=1.17.3052" });
+	_s.setAttacher("inline");
+	_s.attach();
+		var _d = GEL.ement("SCRIPT", { src: "/odygel/lib/vendor/audiencemanager/dil.js?odyv=1.17.3052" });
+	_d.setAttacher("inline");
 	_d.attach();
-})(); 
-</script> 
-<noscript> 
+})();
+</script>
+<noscript>
  <img src="http://gpaper131.112.2O7.net/b/ss/gpaper131,gntbcstglobal/1/H.3--NS/0"	height="1" width="1" border="0" alt="" />
-</noscript> 
+</noscript>
 <!--Semantics Agency Trading Desk-->
 <div id="adsdaq"></div>
 <script type="text/javascript">
 </script>
 	<script type="text/javascript">
 	(function(){
-		GEL.thepage.initializer.addInitRoutine({ 
-			name: "foulballRef", 
-			priority: 0, 
+		GEL.thepage.initializer.addInitRoutine({
+			name: "foulballRef",
+			priority: 0,
 			namespace: ['util.Cookie'],
 			callback: foulball
 		});
 			GEL.thepage.initializer.addInitRoutine({
 				name: "addAcquireSlot",
 				namespace: ['firefly'],
-				callback: bindFoulball, 
-				priority: 20000           
+				callback: bindFoulball,
+				priority: 20000
 			});
 		//so it will run last
 		function foulball(){
@@ -3512,7 +3512,7 @@ try {
 		function foulballFree(){
 			var _D= document, _W= window, _url, _ref, _temp;
 			_temp= _url= _W.location.href.toLowerCase().replace(/[?&]+([^=&]+)=([^&]*)/gi, "");
-			_url= _url.replace("viewart","article"); 
+			_url= _url.replace("viewart","article");
 			if(_temp == _url){return true;}
 			_ref= _D.referrer.toLowerCase().replace(/[?&]+([^=&]+)=([^&]*)/gi, "");
 			if(_ref == _url){
@@ -3529,7 +3529,7 @@ try {
 			//alert("Gel defined, getting slot");
 			GEL.firefly.acquireSlot();
 		});
-		} 
+		}
 		function bindFoulball()
 		{
 		var _D= document;
@@ -3538,24 +3538,24 @@ try {
 			{
 			//alert("foulballRef2");
 				getSlotFoulball();
-				//GEL.firefly.events.bind('topBarInitted', getSlotFoulball); 
+				//GEL.firefly.events.bind('topBarInitted', getSlotFoulball);
 				//alert("3");
-				//GEL.firefly.events.bind('ssoComplete', getSlotFoulball); 
+				//GEL.firefly.events.bind('ssoComplete', getSlotFoulball);
 			//alert("8");
-			} 
+			}
 		//	alert("9");
 		}
 		function foulballRef(){
 			var _D= document, _W= window.location.href.toLowerCase(), _check = GEL.env.cookies.emetanclick.checkReferrer(_D.referrer);
 			if(_check && (_W.indexOf("viewart") == -1 && _W.indexOf("viewint") == -1 && _W.indexOf("viewliv") == -1 && _W.indexOf("viewgal") == -1)){
 				GEL.env.cookies.emetanclick.increment();
-			} 
+			}
 		}
 	})();
 	</script>
 <script type="text/javascript">
-	setTimeout(function(){ GEL.thepage.initializer.init();}, 100); 
-</script> 
+	setTimeout(function(){ GEL.thepage.initializer.init();}, 100);
+</script>
 
 		</div> <!--end main container-->
 	</div><!-- end ody-custom -->

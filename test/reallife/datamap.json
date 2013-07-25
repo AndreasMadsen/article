@@ -53,7 +53,7 @@
 		"key": "222dbaa4c9e280311e87e8793dd57e945cb019a7fae1a2b2fd4c6049ea148995",
 		"href": "http://www.chicagotribune.com/news/local/suburbs/orland_park_homer_glen/community/chi-ugc-article-palos-medical-groups-dr-kanesha-bryant-prov-2-2013-05-15,0,3152151.story",
 		"why": "google news scrape",
-		"state": "4-4-3"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -263,7 +263,7 @@
 		"key": "5bc9df3a36efb57a22edf862cec6a28eb112e535559c194d7976fb664c922c13",
 		"href": "http://www.eweek.com/mobile/slideshows/blackberry-live-jammed-with-news-giddy-with-potential/",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
@@ -361,7 +361,7 @@
 		"key": "176f3005704bdc918e9a46ffecc2d225ec3fa723a66da18d53a77264b92e05ac",
 		"href": "http://www.foxnews.com/health/2013/06/06/medical-breakthrough-for-multiple-sclerosis-sufferers/",
 		"why": "google news scrape",
-		"state": "4-4-4"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -382,7 +382,7 @@
 		"key": "0475e5eeadaaca857eea3f36d0eda01937fe672d48be7f98ba6bc7f25ecd63d0",
 		"href": "http://www.upr.org/post/court-says-some-morning-after-pills-must-be-available-otc-now",
 		"why": "google news scrape",
-		"state": "4-4-4"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -445,7 +445,7 @@
 		"key": "6d30abed88489774017024b17cdb1928d9a2b45bb79767515383b8444e9601b2",
 		"href": "http://espn.go.com/tennis/french13/story/_/id/9340704/french-open-maria-sharapova-jelena-jankovic-ready-duel",
 		"why": "google news scrape",
-		"state": "4-4-4"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
@@ -480,7 +480,7 @@
 		"key": "717fa45e0e3901be4039f2a6b26d4b50cf869a903dc8057e2fac1047fd033fdc",
 		"href": "http://www.businessweek.com/ap/2013-06-06/austria-says-syrian-rebels-captured-golan-crossing",
 		"why": "google news scrape",
-		"state": "4-4-1"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
@@ -550,7 +550,7 @@
 		"key": "f0ad1615c376d042a458dd4fc713b0d17124d74ae07becaab78bfb7a82dd14b4",
 		"href": "http://www.theregister.co.uk/2013/06/06/publishers_gave_amazon_ultimatum/",
 		"why": "google news scrape",
-		"state": "4-4-1"
+		"state": "4-3-1"
 	},
 	{
 		"labeled": true,
@@ -1012,14 +1012,14 @@
 		"key": "dd1279b9d11f9fabf0677e9b12f5ffab9095a91f42ec5f0a4d4a053659bc85dc",
 		"href": "http://www.chicagotribune.com/news/local/suburbs/grayslake_gurnee_round_lake/community/chi-ugc-article-health-department-and-partners-launch-enroll-2013-07-17,0,6468712.story",
 		"why": "google news scrape",
-		"state": "4-4-4"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
 		"key": "9f2031ee45a11919452ca2efbc3498672324cda5f76314d7ea10913f63cf3545",
 		"href": "http://www.mysanantonio.com/news/science/article/Pot-testing-sprouts-with-onslaught-of-new-laws-4672739.php",
 		"why": "google news scrape",
-		"state": "4-4-3"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -1061,7 +1061,7 @@
 		"key": "8828e1dfcfe3176ac12fb37be6849fec8e60f27a5066fbed90ce5db3c899b2c8",
 		"href": "http://www.usatoday.com/story/sports/nhl/2013/07/18/kings-sign-dustin-brown-to-eight-year-deal/2552707/",
 		"why": "google news scrape",
-		"state": "4-1-3"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -1075,7 +1075,7 @@
 		"key": "e74605cf2f7788111f5e53fed1c8e13f29f764311f1c22e4eaa9ac9a414b8daa",
 		"href": "http://www.usatoday.com/story/sports/golf/2013/07/18/british-open-2013-tracking-tiger-woods-in-round-1/2550947/",
 		"why": "google news scrape",
-		"state": "4-1-3"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -1397,7 +1397,7 @@
 		"key": "15925c0d5cfc2d72411d63ba53616e60a4f80feddcae8b46ff2e03aafdbf50a8",
 		"href": "http://www.nytimes.com/2013/07/19/health/overweight-maybe-you-really-can-blame-your-metabolism.html?pagewanted=all",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-4-4"
 	},
 	{
 		"labeled": true,
@@ -1467,7 +1467,7 @@
 		"key": "464ce5c0838f041dd0d9137eadf95a403232aae2e1eceee9069fc5f292303efe",
 		"href": "http://www.hindustantimes.com/India-news/JAndK/Kashmir-tense-over-deaths-in-Ramban-BSF-firing-Amarnath-Yatra-halted/Article1-1094794.aspx",
 		"why": "google news scrape",
-		"state": "4-3-3"
+		"state": "4-4-3"
 	},
 	{
 		"labeled": true,
@@ -1572,7 +1572,7 @@
 		"key": "ebbc4066901d7ee7b35dcc4544c8403cbb8145b4733ab95f4d60f87986e385cf",
 		"href": "http://stream.wsj.com/story/latest-headlines/SS-2-63399/SS-2-280279/",
 		"why": "google news scrape",
-		"state": "4-4-3"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -1663,14 +1663,14 @@
 		"key": "5f8c9f60be2250f694094ee1ca5deb9df10479e29fc92ff07c77c4cb9d2c3f21",
 		"href": "http://www.rferl.org/content/egypt-muslim-brotherhood-pro-morsi-rallies/25050771.html",
 		"why": "google news scrape",
-		"state": "4-3-1"
+		"state": "4-4-1"
 	},
 	{
 		"labeled": true,
 		"key": "810434b96be714b2ce095abe0f2ae7768279426b957747d14a9ce75d88443e99",
 		"href": "http://stream.wsj.com/story/latest-headlines/SS-2-63399/SS-2-279900/",
 		"why": "google news scrape",
-		"state": "4-4-3"
+		"state": "4-3-3"
 	},
 	{
 		"labeled": true,
@@ -1691,14 +1691,14 @@
 		"key": "078cdb456d1beb698aeed86e0f2161e442e9431c4580295f1ba4ece22741068c",
 		"href": "http://www.dailyworld.com/viewart/20130719/NEWS01/307190003/Horse-gets-encephalitis-West-Nile",
 		"why": "google news scrape",
-		"state": "4-3-4"
+		"state": "4-2-1"
 	},
 	{
 		"labeled": true,
 		"key": "ccada6580a0b1d05408db6d59cca18c2707530139807ebf112de8f6615d32b90",
 		"href": "http://www.greatfallstribune.com/article/20130718/LIFESTYLE/307180055/American-Red-Cross-seeks-volunteers",
 		"why": "google news scrape",
-		"state": "4-1-1"
+		"state": "4-2-1"
 	},
 	{
 		"labeled": true,
@@ -1775,7 +1775,7 @@
 		"key": "dd1dcc6ce0d44098d961427ad5ede799f8878b57f13e5f79780c897745bf47ab",
 		"href": "http://www.cnn.com/2013/07/18/tech/innovation/saturn-cassini-image-wave/",
 		"why": "google news scrape",
-		"state": "4-1-4"
+		"state": "4-3-4"
 	},
 	{
 		"labeled": true,
