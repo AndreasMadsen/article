@@ -37,9 +37,9 @@ This is the current result (Mon Jul 29 2013)
 
 |       | Unknown | Wrong | Bad | Good | Perfect |
 |------:|:-------:|:-----:|:---:|:----:|:-------:|
-| Title | 0       | 0     | 0   | 0    | 260     |
-| Text  | 0       | 0     | 0   | 138  | 122      |
-| Image | 0       | 45    | 0   | 76   | 140     |
+| Title | 0       | 0     | 0   | 0    | 258     |
+| Text  | 0       | 0     | 0   | 138  | 120     |
+| Image | 0       | 29    | 0   | 62   | 167     |
 
 ### Definitions
 
