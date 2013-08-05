@@ -20,12 +20,12 @@ interpreted({
         return callback(new Error(key + ' is not in the datamap'));
       }
 
-        startpoint(content)
-          .pipe(article(key2url[key], function (err) {
-            // Since the result is rarely perfect just make sure no error
-            // occurred. The quality of the result can be judged by using
-            // the analyser tool.
-            callback(err, require('./expected/' + key + '.json'));
-          }));
+      startpoint(content)
+        .pipe(article(key2url[key], function (err) {
+          // Since the result is rarely perfect just make sure no error
+          // occurred. The quality of the result can be judged by using
+          // the analyser tool.
+          callback(err, require('./expected/' + key + '.json'));
+        }));
     }
 });
