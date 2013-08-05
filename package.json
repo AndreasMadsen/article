@@ -22,7 +22,7 @@
     "entities": "0.2.x",
     "worddiff": "0.3.x",
     "htmlparser2": "3.1.x",
-    "levenshtein-component": "0.0.x"
+    "editdistance": "0.2.x"
   },
   "devDependencies": {
     "st": "0.1.x",
