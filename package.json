@@ -19,23 +19,22 @@
     "ttest": "0.3.x",
     "summary": "0.3.x",
     "fusspos": "0.2.x",
-    "entities": "0.2.x",
+    "entities": "0.3.x",
     "worddiff": "0.3.x",
     "htmlparser2": "3.1.x",
     "editdistance": "0.2.x"
   },
   "devDependencies": {
     "st": "0.1.x",
-    "tap": "0.3.x",
+    "tap": "0.4.x",
     "async": "0.2.x",
     "difflet": "0.2.x",
     "mappoint": "0.2.x",
     "endpoint": "0.4.x",
-    "inspector": "0.3.x",
+    "text-table": "0.1.x",
     "startpoint": "0.3.x",
     "feedparser": "0.16.x",
-    "interpreted": "0.3.x",
-    "text-table": "0.1.x"
+    "interpreted": "0.3.x"
   },
   "license": "MIT",
   "engines": {
