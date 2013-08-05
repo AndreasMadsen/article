@@ -5,7 +5,7 @@
   "author": "Andreas Madsen <amwebdk@gmail.com>",
   "main": "./lib/article.js",
   "scripts": {
-    "test": "tap test/reallife/runner.js test/fiction/runner.js test/internal/*"
+    "test": "tap test/reallife/runner.js test/internal/*"
   },
   "repository" : {
     "type": "git",

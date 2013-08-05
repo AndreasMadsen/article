@@ -1,8 +1,6 @@
 
-var url = require('url');
 var test = require('tap').test;
-var ImageAlgoritme = require('../../lib/fase-1/image.js');
-var sizeFromUrl = ImageAlgoritme.prototype._sizeFromUrl;
+var ImageItem = require('../../lib/fase-1/image-item.js');
 
 function expectedSize(width, height) {
   return {
@@ -14,8 +12,7 @@ function expectedSize(width, height) {
 }
 
 function actualSize(href) {
-  var parsed = url.parse(href, true);
-  return sizeFromUrl(href, parsed);
+  return new ImageItem({}, href)._size;
 }
 
 test('width times height match', function (t) {

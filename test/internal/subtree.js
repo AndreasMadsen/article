@@ -38,27 +38,6 @@ function treeMatch(t, actual, expected) {
   }
 }
 
-function printTree(node, indent) {
-  indent = (indent || '') + '  ';
-  if (node.type === 'element') {
-    console.log(indent + '<' + node.tagname + '>');
-    for (var i = 0, l = node.children.length; i < l; i++) {
-      printTree(node.children[i], indent);
-    }
-  }
-  
-  else if (node.type === 'fragment') {
-    console.log(indent + '#fragment');
-    for (var i = 0, l = node.children.length; i < l; i++) {
-      printTree(node.children[i], indent);
-    }
-  }
-  
-  else if (node.type === 'text') {
-    console.log(indent + '#' + node.text);    
-  }
-}
-
 test('remove empty containers and concat text', function (t) {
   TreeParser('<div>A<span></span>B</div>', function (err, source) {
     t.equal(err, null);
@@ -69,23 +48,23 @@ test('remove empty containers and concat text', function (t) {
       var subtree = new Subtree(source);
           subtree.reduceTree();
 
-      treeMatch(t, subtree.node, expected);
+      treeMatch(t, subtree.top, expected);
       t.end();
     });
   });
 });
 
 test('keep text position', function (t) {
-  TreeParser('<div>A<span> space </span>B</div>', function (err, source) {
+  TreeParser('<div>A<unkown> space </unkown>B</div>', function (err, source) {
     t.equal(err, null);
 
-    TreeParser('<div>A<span> space </span>B</div>', function (err, expected) {
+    TreeParser('<div>A<unkown> space </unkown>B</div>', function (err, expected) {
       t.equal(err, null);
 
       var subtree = new Subtree(source);
           subtree.reduceTree();
 
-      treeMatch(t, subtree.node, expected);
+      treeMatch(t, subtree.top, expected);
       t.end();
     });
   });
@@ -101,7 +80,7 @@ test('replace unimportant block containers with br', function (t) {
       var subtree = new Subtree(source);
           subtree.reduceTree();
 
-      treeMatch(t, subtree.node, expected);
+      treeMatch(t, subtree.top, expected);
       t.end();
     });
   });
@@ -111,13 +90,14 @@ test('images aren\'t removed', function (t) {
   TreeParser('<div>A<img><div><img></div>B</div>', function (err, source) {
     t.equal(err, null);
 
-    TreeParser('<div>A<img><img>B</div>', function (err, expected) {
+    TreeParser('<div>A<img><div><img></div>B</div>', function (err, expected) {
       t.equal(err, null);
 
       var subtree = new Subtree(source);
           subtree.reduceTree();
 
-      treeMatch(t, subtree.node, expected);
+      console.log(subtree.print());
+      treeMatch(t, subtree.top, expected);
       t.end();
     });
   });
@@ -133,7 +113,7 @@ test('objects are images too', function (t) {
       var subtree = new Subtree(source);
           subtree.reduceTree();
 
-      treeMatch(t, subtree.node, expected);
+      treeMatch(t, subtree.top, expected);
       t.end();
     });
   });
@@ -149,33 +129,30 @@ test('br tags won\'t be removed', function (t) {
       var subtree = new Subtree(source);
           subtree.reduceTree();
 
-      treeMatch(t, subtree.node, expected);
+      treeMatch(t, subtree.top, expected);
       t.end();
     });
   });
 });
 
 test('fragments are used if it contains more than 2 inline element', function (t) {
-  TreeParser('<div><a>A</a><b>B</b><div>C</div><a>D</a></div>', function (err, source) {
-  
+  TreeParser('<div><a>A</a>B<div>C<span>D</span></div></div>', function (err, source) {
+
     var subtree = new Subtree(source);
 
     var containers = subtree.containerNodes();
 
-    t.equal(containers[0], source);
+    t.equal(containers[0].type, 'element');
+    t.equal(containers[0].getText(), 'A');
 
-    t.equal(containers[1].type, 'fragment');
-    t.equal(containers[1].children[0].children[0].text, 'A');
-    t.equal(containers[1].children[1].children[0].text, 'B');
+    t.equal(containers[1].type, 'text');
+    t.equal(containers[1].getText(), 'B');
 
     t.equal(containers[2].type, 'element');
-    t.equal(containers[2].tagname, 'div');
-    t.equal(containers[2].children[0].text, 'C');
-
-    t.equal(containers[3].type, 'element');
-    t.equal(containers[3].tagname, 'a');
-    t.equal(containers[3].children[0].text, 'D');
+    t.equal(containers[2].getText(), 'CD');
 
     t.end();
   });
 });
+/*
+*/
