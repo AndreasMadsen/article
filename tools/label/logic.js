@@ -54,7 +54,7 @@ Logic.prototype._requestLabel = function () {
 };
 
 Logic.prototype._analyse = function (item, callback) {
-  request(item.href, function (err, res, body) {
+  request({url: item.href, jar: true}, function (err, res, body) {
     if (err) return callback(err);
     if (res.statusCode !== 200) return callback(new Error('Status code was ' + res.statusCode));
     if (body.length === 0) return callback(new Error('No body was send'));
