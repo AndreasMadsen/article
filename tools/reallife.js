@@ -1,13 +1,10 @@
 
 var fs = require('fs');
 var path = require('path');
-var util = require('util');
 var crypto = require('crypto');
 var request = require('request');
-var startpoint = require('startpoint');
 
-var datamap = require('./test/reallife/datamap.json');
-var article = require('../lib/article.js');
+var datamap = require('../test/reallife/datamap.json');
 
 if (process.argv.length < 4) {
   return console.error('node reallife.js url why');
@@ -18,7 +15,7 @@ var why = process.argv[3];
 var key = crypto.createHash('sha256').update(new Buffer(href)).digest('hex');
 
 console.log('downloading ...');
-request(href, function (err, res, body) {
+request({url: href, jar: true}, function (err, res, body) {
   if (err) throw err;
 
   if (res.statusCode !== 200) {
@@ -29,59 +26,35 @@ request(href, function (err, res, body) {
     return console.error('No body was send');
   }
 
-  var found = false;
   for (var i = 0, l = datamap.length; i < l; i++) {
-    if (datamap[i].key === key) {
-      found = true;
-      datamap[i].why = why;
-      break;
-    }
+    if (datamap[i].key === key) throw new Error('this url already seams to exists');
   }
-  if (found === false) {
-    datamap.push({
-      'labeled': true,
-      'key': key,
-      'href': href,
-      'why': why,
-      'state': '0-0-0'
-    });
-  }
-  
-  console.log('analysing ...');
-  startpoint(body).pipe(article(href, function (err, result) {
-    if (err) throw err;
-    
-    // Update main testfiles
-    fs.writeFileSync(
-      path.resolve(__dirname, '../test/reallife/source/', key + '.html'),
-      body
-    );
 
-    fs.writeFileSync(
-      path.resolve(__dirname, '../test/reallife/expected/', key + '.json'),
-      JSON.stringify(result, null, '\t') + '\n'
-    );
-    
-    // Update datamap
-    fs.writeFileSync(
-      path.resolve(__dirname, '../test/reallife/datamap.json'),
-      JSON.stringify(datamap, null, '\t') + '\n'
-    );
-    
-    console.log('');
-    console.log('Please validate this:');
-    console.log('--------------------');
-    console.log(util.inspect(result, {
-      colors: true,
-      depth: Infinity
-    }));
-    console.log('--------------------');
-    console.log('');
-    
-    if (found) {
-      console.log('Test files where updated');
-    } else {
-      console.log('Test files where added');
-    }
-  }));
+  datamap.push({
+    'labeled': false,
+    'key': key,
+    'href': href,
+    'why': why,
+    'state': '0-0-0'
+  });
+
+  // Update main testfiles
+  fs.writeFileSync(
+    path.resolve(__dirname, '../test/reallife/source/', key + '.html'),
+    body
+  );
+  console.log('wrote source file');
+
+  fs.writeFileSync(
+    path.resolve(__dirname, '../test/reallife/expected/', key + '.json'),
+    '{}\n'
+  );
+  console.log('write empty expected file');
+
+  // Update datamap
+  fs.writeFileSync(
+    path.resolve(__dirname, '../test/reallife/datamap.json'),
+    JSON.stringify(datamap, null, '\t') + '\n'
+  );
+  console.log('appended to datamap');
 });

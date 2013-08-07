@@ -29,6 +29,7 @@
     "tap": "0.4.x",
     "async": "0.2.x",
     "difflet": "0.2.x",
+    "request": "2.25.x",
     "mappoint": "0.2.x",
     "endpoint": "0.4.x",
     "text-table": "0.1.x",
