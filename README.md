@@ -1,6 +1,11 @@
 #article
 
-> Analyze a stream of HTML and outsputs the article text and image
+> Analyze a stream of HTML and outsputs the article title, text, and image
+>
+> Usually you have some feed, there will give you the title and perhaps a
+> short description of the article. However its rare that it contains the image
+> and certainly never the full context. This module will scrape the raw article
+> html of the page and find as minimum the `title`, `text` and the `image`.
 
 ## Install
 
@@ -13,25 +18,31 @@ npm install article
 ```javascript
 var source = 'http://en.wikipedia.org/wiki/Fish';
 
-request(source)
-  // The image url will be resolved from this source url
-  .pipe(article(source, function (err, result) {
-    // result = {
-    //  title: String,
-    //  text: String,
-    //  image: String
-    // };
-  }));
+// The image url will be resolved from the `source` url
+request(source).pipe(article(source, function (err, result) {
+  if (err) throw err;
+
+  // result = {
+  //  title: String,
+  //  text: String,
+  //  image: String or null
+  // };
+}));
 ```
 
-## Mad science
+## Demo
 
-Usually you have some feed, there will give you the title and perhaps a
-short description of the article. However its rare that it contains the image
-and certainly never the full context. This module will scrape the raw article
-html of the page and find as minimum the `title`, `text` and the `image`.
+For a demo you can run the analyse server I use for reliability scoring:
 
-### Score
+```shell
+git clone https://github.com/AndreasMadsen/modulebox.git
+cd modulebox
+npm install
+node tools/analyse/
+open http://localhost:9100
+```
+
+## Reliability
 
 This is the current result (Mon Jul 29 2013)
 
@@ -41,70 +52,24 @@ This is the current result (Mon Jul 29 2013)
 | Text  | 0       | 0     | 0   | 138  | 120     |
 | Image | 0       | 29    | 0   | 62   | 167     |
 
-### Definitions
+#### Title
 
-##### Title
-> A single sentense or similar describing the article, it should not contain
-> the websites name or any other information there isn't relevant to the article
+The title can either be _wrong_ or _perfect_. Perfetct means that it is
+the actual article title without any newspaper name or similar redundant
+information.
 
-##### Text
-> The raw unformated article context, it should not contain the title or comments
-> there too, also related article links and author information is unwanted.
+#### Text
 
-##### Image
-> The main image there is related to the article, if no image exists it should
-> be `null`. If there are multiply sugestions then the biggest image is the
-> wanted result. However no remote requests can be made to vertify any assumptions.
+The text can be _wrong_, _bad_, _good_ and _perfect_. Wrong means that none
+of the text is related to the article. Good bad means that there are enogth
+noise to give seriouse troubble in a text analysis. Good is almost perfect
+expect for minor noise such as author information or social network button text.
 
-#### Strategy
+#### Image
 
-There will be:
-
-* 1 `fase-0` algortime
-* 3 `fase-1` algortimes
-* 1 `fase-2` algortime
-
-The `fase-0` algoritme will detect and use microdata if present and give
-sugestions (there will be very few) from the microdata. The algoritme will find
-the  `title`, `text`, `image`.
-
-The `fase-1` algoritmes will give unrealted sugestions on `title`, `text` and `image`.
-So each algoritme is responsible for one thing, at that only. These sugestions
-will be based on human developed heuristics.
-
-Its important to note that `fase-0` and `fase-1` will perform calculations
-in parallel as the HTML gets passed. But any final calculation in `fase-1` won't
-be performed if `fase-0` gives any result.
-
-The `fase-2` algoritme runs when `fase-0` and/or `fase-1` is done. It then looks
-at the `title`, `text` and `image` sugestions and their calculated likelihood and
-determents a new likelihood, based on some related assumtions between `title`,
-`text` and `image`. Such as that the `title` is likely to be near the `text` or
-that words from the `title` is likely to appear in the `text`.
-
-The final best result from `fase-2` is then used at the final object.
-
-### Status
-
-##### fase-0
-
-* Not implemented
-
-##### fase-1
-
-* A _prove me wrong_ perfect heuristic for finding the title
-* A good heuristic for the text
-* An almost good heuristic for the image
-
-##### fase-2
-
-* A combine feature for text and title
-* A work in progress image heuristic
-* A text reduce aloritme
-
-## Follow and help at the wiki and issues
-
-Wiki and blog: https://github.com/AndreasMadsen/article/wiki
+Image can be _wrong_, _good_ and _perfect_. Wrong is an image there is unrealted
+to the article or if no image could be found. Good is either not the main article
+or a lower resolution image than the expected perfect image.
 
 ##License
 
