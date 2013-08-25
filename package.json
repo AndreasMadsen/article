@@ -1,7 +1,7 @@
 {
   "name": "article",
-  "description": "Analyze a stream of HTML and outsputs the article text and image",
-  "version": "0.1.7",
+  "description": "Analyze a stream of HTML and outsputs the article title, text, and image",
+  "version": "1.0.0",
   "author": "Andreas Madsen <amwebdk@gmail.com>",
   "main": "./lib/article.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "fusspos": "0.2.x",
     "entities": "0.3.x",
     "worddiff": "0.3.x",
-    "htmlparser2": "3.1.x",
+    "htmlparser2": "3.2.x",
     "editdistance": "0.2.x"
   },
   "devDependencies": {
