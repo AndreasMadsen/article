@@ -44,9 +44,11 @@ open http://localhost:9100
 
 ## Reliability
 
-This is the current result (Mon Jul 29 2013), note this data is the
-same data I've used to build the heuristic algorithm. So there is
-a risk that the algorithm is overfitted.
+This is the current result (Mon Jul 29 2013).
+
+Note this data is the same data I've used to build the
+heuristic algorithm. So there is a risk that the algorithm
+is overfitted.
 
 |       | Unknown | Wrong | Bad | Good | Perfect |
 |------:|:-------:|:-----:|:---:|:----:|:-------:|
