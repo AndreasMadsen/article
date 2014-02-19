@@ -35,8 +35,8 @@ request(source).pipe(article(source, function (err, result) {
 For a demo you can run the analyse server I use for reliability scoring:
 
 ```shell
-git clone https://github.com/AndreasMadsen/modulebox.git
-cd modulebox
+git clone https://github.com/AndreasMadsen/article.git
+cd article
 npm install
 node tools/analyse/
 open http://localhost:9100
