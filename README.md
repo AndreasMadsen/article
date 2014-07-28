@@ -65,7 +65,7 @@ information.
 #### Text
 
 The text can be _wrong_, _bad_, _good_ and _perfect_. Wrong means that none
-of the text is related to the article. Good bad means that there are enogth
+of the text is related to the article. Bad means that there are enogth
 noise to give seriouse troubble in a text analysis. Good is almost perfect
 expect for minor noise such as author information or social network button text.
 
