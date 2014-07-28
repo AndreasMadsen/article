@@ -1,6 +1,6 @@
 #article
 
-> Analyze a stream of HTML and outsputs the article title, text, and image
+> Analyze a stream of HTML and outputs the article title, text, and image
 >
 > Usually you have some feed, there will give you the title and perhaps a
 > short description of the article. However its rare that it contains the image
