@@ -1,7 +1,7 @@
 {
   "name": "article",
   "description": "Analyze a stream of HTML and outsputs the article title, text, and image",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "author": "Andreas Madsen <amwebdk@gmail.com>",
   "main": "./lib/article.js",
   "scripts": {
@@ -19,28 +19,24 @@
     "ttest": "0.3.x",
     "summary": "0.3.x",
     "fusspos": "0.2.x",
-    "entities": "0.3.x",
+    "entities": "1.1.x",
     "worddiff": "0.3.x",
-    "htmlparser2": "3.4.x",
+    "htmlparser2": "3.8.x",
     "editdistance": "0.2.x"
   },
   "devDependencies": {
-    "ws": "0.6.5",
-    "st": "0.1.x",
-    "tap": "0.4.x",
-    "async": "0.2.x",
+    "ws": "0.7.x",
+    "st": "0.5.x",
+    "tap": "0.6.x",
+    "async": "0.9.x",
     "difflet": "0.2.x",
-    "request": "2.25.x",
+    "request": "2.23.x",
     "mappoint": "0.2.x",
     "endpoint": "0.4.x",
-    "text-table": "0.1.x",
+    "text-table": "0.2.x",
     "startpoint": "0.3.x",
-    "feedparser": "0.16.x",
-    "interpreted": "0.3.x"
+    "feedparser": "0.19.x",
+    "interpreted": "0.5.x"
   },
-  "license": "MIT",
-  "engines": {
-    "node": "0.10",
-    "npm": "1"
-  }
+  "license": "MIT"
 }
