@@ -58,7 +58,7 @@ is overfitted.
 
 #### Title
 
-The title can either be _wrong_ or _perfect_. Perfetct means that it is
+The title can either be _wrong_ or _perfect_. Perfect means that it is
 the actual article title without any newspaper name or similar redundant
 information.
 
